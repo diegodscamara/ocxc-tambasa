@@ -1,0 +1,13 @@
+.StorePickUpInformation__StoreAddress {
+  flex: 0 0 calc(100% * (12 / 12));
+  max-width: calc(100% * (12 / 12));
+}
+.StorePickUpInformation__PickUpAtAddress > span{
+  padding-right: 0.33rem;
+}
+.StorePickUpInformation__PickUpAtLabel {
+  font-weight: bold;
+}
+.StorePickUpInformation__PickUpAtDetails {
+  padding-top: 0.33rem;
+}

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="lv-LV">
+      <body>
+         <trans-unit id="ORDER_PLACED_SUBJECT">
+            <source>Your {0} Order Number {1}</source>
+            <target>Jūsu {0} pasūtījuma numurs {1}</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TITLE">
+            <source>Thank you for your order.</source>
+            <target>Paldies par pasūtījumu!</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE">
+            <source>Your order number is {0}, placed {1} at {2}.</source>
+            <target>Jūsu pasūtījuma numurs ir {0}, veikts {1} plkst. {2}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_START">
+            <source>Your order number is </source>
+            <target>Jūsu pasūtījuma numurs ir</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_END">
+            <source>, placed {0} at {1}.</source>
+            <target>, veikts {0} plkst. {1}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_ADDRESS_TITLE">
+            <source>Shipping Address</source>
+            <target>Nosūtīšanas adrese</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PAYMENT_METHODS_TITLE">
+            <source>Payment Methods</source>
+            <target>Maksāšanas veidi</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_METHODS_TITLE">
+            <source>Shipping Methods</source>
+            <target>Sūtīšanas veidi</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ITEM_TITLE">
+            <source>Item</source>
+            <target>Prece</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_QUANTITY_TITLE">
+            <source>Qty</source>
+            <target>Daudzums</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PRICE_TITLE">
+            <source>Price</source>
+            <target>Cena</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SUBTOTAL_TITLE">
+            <source>Subtotal</source>
+            <target>Starpsumma</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_DISCOUNT_TITLE">
+            <source>Discount</source>
+            <target>Atlaide</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TAX_TITLE">
+            <source>Tax</source>
+            <target>Nodoklis</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_TITLE">
+            <source>Shipping</source>
+            <target>Sūtīšana</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TOTAL_TITLE">
+            <source>Total</source>
+            <target>Kopā</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_THANKS_TEXT">
+            <source>Thanks again for shopping at {0}</source>
+            <target>Vēlreiz pateicamies par iepirkšanos {0}</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

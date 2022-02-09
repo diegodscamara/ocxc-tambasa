@@ -1,0 +1,27 @@
+@import url('../../styles.css');
+
+section.TmbResultsAndFiltersContainer {
+    padding: 1rem 1rem 0;
+}
+
+@media(max-width: 710px) {
+    section.TmbResultsAndFiltersContainer {
+        padding: 1rem 3rem 0;
+    }
+}
+
+@media(max-width: 650px) {
+    section.TmbResultsAndFiltersContainer {
+        flex-direction: column;
+        align-items: start;
+        padding: 0 1rem 0;
+    }
+
+    section.TmbResultsAndFiltersContainer section {
+        margin: 1rem;
+    }
+
+    .TmbResultsAndFiltersContainer section:first-child {
+        margin-top: 1rem;
+    }
+}

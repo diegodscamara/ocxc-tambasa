@@ -1,0 +1,40 @@
+.TmbImage {
+  display: block;
+  margin: 0;
+  min-width: 165px;
+}
+
+.TmbImage figure {
+  margin: 0;
+}
+
+.Image_RowDirection {
+  flex-direction: row;
+}
+
+.Image_ColumnDirection {
+  flex-direction: column;
+}
+
+.Image_Link {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Image_ImgContainer {
+  width: 100%;
+}
+
+.TmbImage .Image_Img {
+  max-width: 214px;
+}
+
+.Image_FigCaption {
+  text-align: center;
+  font-size: var(--cc-font-size-large);
+  color: var(--cc-color);
+  padding: 0.5rem;
+}

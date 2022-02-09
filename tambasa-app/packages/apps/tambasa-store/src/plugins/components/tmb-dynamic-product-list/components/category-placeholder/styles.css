@@ -1,0 +1,73 @@
+
+.CategoryPlaceholder {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.CategoryPlaceholder * {
+  margin-bottom: 0.3125rem;
+  background-color: var(--cc-pageloader-box-background);
+  height: 0; 
+}
+
+/** Styling Individual Placeholder Elements **/
+.CategoryPlaceholder__BreadCrumbs {
+  align-self: flex-start;
+  width: min(60%, 18.75rem);
+  margin-bottom: 2.1875rem;
+  padding-bottom: 1.5625rem;
+}
+
+.CategoryPlaceholder__SummaryInfo {
+  padding-bottom: 1.5625rem;
+  margin-bottom: 1.25rem;
+  width: 11.25rem;
+}
+
+.CategoryPlaceholder__ProductColumns, .CategoryPlaceholder__Product {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+
+.CategoryPlaceholder__Product {
+  flex-direction: column;
+  align-items: center;
+}
+
+.CategoryPlaceholder__ProductColumns > * {
+  flex: 1;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.CategoryPlaceholder__FacetedNav, .CategoryPlaceholder__SortResults {
+  padding-bottom: 2.1875rem;
+}
+
+.CategoryPlaceholder__Product > * {
+  margin: 0 0 0.3125rem 0;
+  padding-bottom: 2.1875rem;
+}
+
+.CategoryPlaceholder__Img {
+  padding-bottom: 12.1875rem;
+  width: min(90%, 11.5625rem);
+}
+
+.CategoryPlaceholder__Title {
+  padding-bottom: 1.25rem;
+  width: min(80%, 15.625rem);
+}
+
+.CategoryPlaceholder__Variants {
+  padding-bottom: 1.25rem;
+  width: min(90%, 13.125rem);
+}
+
+.CategoryPlaceholder__Price {
+  width: 5rem;
+}

@@ -1,0 +1,209 @@
+.ResponsiveContainer__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ResponsiveContainer__Section > section:empty{
+  display: none;
+}
+
+.custom-profile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--tmb-region-spacement-large);
+    font-family: var(--tmb-primary-font)
+}
+
+.submit-button-reset-password {
+    background-color: var(--tmb-light-primary-color);
+    width: 60%;
+}
+
+.custom-col-md-3 {
+    width: 25%;
+}
+
+.custom-col-md-9 {
+    width: 75%;
+    margin-top: 65px;
+}
+
+.widget_account_menu {
+    padding-left: 0;
+    padding-right: 3rem;
+}
+
+.widget_account_menu .account-menu {
+    margin-bottom: 50px;
+}
+
+.widget_account_menu .account-menu__list {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.widget_account_menu .account-menu__item {
+    padding-left: 15%;
+    font-family: var(--tmb-primary-font);
+    font-size: 13px;
+    line-height: 2.5;
+    font-weight: 300;
+    border-bottom: 1px solid #CBCBCB;
+    color: #333030;
+    cursor: pointer;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.widget_account_menu .account-menu__item:hover {
+    background-color: #d4d4d4;
+}
+
+.widget_account_menu .account-menu__title {
+    width: 100%;
+    font-family: var(--tmb-primary-font);
+    font-size: 30px;
+    margin: 0;
+    font-weight: 300;
+    color: #333030;
+    text-align: center;
+}
+
+.widget_account_menu .account-menu__item--active {
+    color: #333030;
+    background-color: var(--tmb-light-primary-color) !important;
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.widget_account_menu .account-menu__item--active p {
+    color: #fff !important;
+}
+
+.widget_account_menu .account-menu__item--logout {
+    background-color: var(--tmb-primary-color);
+    color: #fff;
+}
+
+.widget_account_menu .account-menu__item--logout .account-menu__text {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.widget_account_menu .account-menu__icon {
+    color: #1A1A1A;
+    font-size: 26px;
+}
+.widget_account_menu .account-menu__text {
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 0px;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.account-menu__table--head {
+    background-color: #F5F5F5;
+    padding-bottom: 25px;
+    padding-top: 60px;
+}
+
+.show{
+    display: block;
+    opacity:    1;
+    transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    -ms-transition: opacity 0.5s linear;
+}
+
+.hide{
+    display: none;
+    opacity:    0;
+}
+
+.account-menu__item--active-icon{
+    margin-top: -0.3rem;
+}
+
+@media (max-width: 1600px) {
+    .custom-profile-container {
+        padding: 0 200px;
+    }
+
+    .custom-lg-4{
+        width: 33.33333%;
+    }
+    .custom-lg-8{
+        width: 66.66666%;
+    }
+}
+
+@media (max-width: 1340px) {
+    .custom-profile-container {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .custom-profile-container {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .custom-profile-container {
+        flex-direction: column;
+    }
+
+    .custom-col-sm-12 {
+        width: 100% !important;
+    }
+
+    .widget_account_menu {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .widget_account_menu .account-menu__item {
+        font-size: 18px;
+        color: #1A1A1A;
+        border-bottom: 1px solid #B3B3B3;
+        font-weight: 300;
+    }
+
+    .widget_account_menu .account-menu__item--logout {
+        display: flex;
+        align-items: center;
+    }
+
+    .widget_account_menu .account-menu__text {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ResponsiveContainer__Section > section {
+      width: 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .custom-profile-container {
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .widget_account_menu .account-menu__text {
+        font-size: 13px;
+    }
+
+    .custom-col-md-9 {
+        margin-top: 0;
+    }
+}

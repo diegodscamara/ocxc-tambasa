@@ -1,0 +1,7 @@
+@import url('../../styles.css');
+
+@media (min-width: 1680px) {
+    section.TmbResultsAndFiltersContainer.TmbResultsAndFiltersContainer--Desktop {
+      padding-left: 300px;
+    }
+}

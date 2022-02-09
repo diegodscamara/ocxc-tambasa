@@ -1,0 +1,1 @@
+export const textEnterSearch = 'What are you looking for...'

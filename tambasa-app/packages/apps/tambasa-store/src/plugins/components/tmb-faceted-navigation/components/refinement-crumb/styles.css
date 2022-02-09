@@ -1,0 +1,31 @@
+.RefinementCrumb__Breadcrumb {
+  background-color: var(--cc-a-color);
+  border: 1px solid var(--cc-a-color-active);
+  border-radius: var(--cc-border-radius);
+  padding: .4rem .2rem 2rem .6rem;
+  margin: .3rem .5rem .3rem 0;
+  color: var(--cc-button-color);
+  height: 24px;
+  display: inline-flex;
+  max-width: 90%;
+}
+
+.RefinementCrumb__BreadcrumbLabel {
+  font-weight: 400;
+  line-height: 1.5em;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;  
+}
+
+.RefinementCrumb__RemoveButton {
+  color: var(--cc-button-color);
+  background: none;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  padding: .3rem 0 0 0;
+  margin-left: .7rem;
+}

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="pt-BR">
+      <body>
+         <trans-unit id="PASSWORD_RESET_SUBJECT">
+            <source>Password reset </source>
+            <target>Recuperação de senha </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SUBJECT">
+            <source>{0} Account Registration</source>
+            <target>{0} Registro da Conta</target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_SALUTATION">
+            <source>Dear {0},</source>
+            <target>Prezado(a) {0},</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_RESET_MESSAGE">
+            <source>Please access the link below to set your new password: </source>
+            <target>Por favor acesse o link abaixo para configurar sua nova senha: </target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINK">
+            <source>Generate new password </source>
+            <target>Gerar nova senha </target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_ALTERNATIVE">
+            <source>or copy the following link: </source>
+            <target>ou copie o link a seguir: </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_EXIST_LINE">
+            <source>Account already exists for this email address: </source>
+            <target>Já existe uma conta com este endereço de e-mail: </target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

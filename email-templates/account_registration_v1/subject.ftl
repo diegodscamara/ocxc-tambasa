@@ -1,0 +1,1 @@
+${getString("ACCOUNT_REG_SUBJECT", data.sitename)}

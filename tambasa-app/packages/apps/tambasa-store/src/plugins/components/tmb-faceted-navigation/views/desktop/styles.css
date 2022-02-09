@@ -1,0 +1,99 @@
+.TmbFacetedNavigationDesktop {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid var(--tmb-light-grey-2);
+  margin-top: 1rem;
+}
+
+.TmbFacetedNavigationDesktop__Toggle {
+  display: none;
+}
+
+.TmbFacetedNavigationDesktop__Modal {
+  background-color: var(--cc-background-color);
+  color: var(--cc-color);
+  display: block;
+  height: 100%;
+  min-width: 265px;
+  right: 0;
+  outline: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  position: fixed;
+  transform: translateX(100%);
+  white-space: normal;
+  width: 90%;
+  top: 0;
+  z-index: var(--cc-modal-z-index);
+  visibility: hidden;
+}
+
+.TmbFacetedNavigationDesktop__Toggle:checked ~ .FacetedNavigationMobile__Modal {
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, .4);
+  transform: translate(0, 0);
+  transition: transform var(--cc-transition);
+  visibility: visible;
+}
+
+.TmbFacetedNavigationDesktop__Backdrop {
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity var(--cc-transition);
+  width: 100%;
+  z-index: var(--cc-modal-backdrop-z-index);
+}
+
+.TmbFacetedNavigationDesktop__Toggle:checked ~ .FacetedNavigationMobile__Backdrop {
+  background-color: var(--cc-modal-backdrop);
+  opacity: 1;
+  display: block;
+}
+
+.TmbFacetedNavigationDesktop__Content {
+  display: block;
+  font-family: var(--tmb-primary-font);
+  text-align: left;
+  padding: 1rem;
+}
+
+.TmbFacetedNavigationDesktop__ResetLink,
+.TmbFacetedNavigationDesktop__ResetLink:hover,
+.TmbFacetedNavigationDesktop__ResetLink:active {
+  display: block;
+  text-decoration: underline;
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  padding-bottom: .5rem;
+}
+
+.TmbFacetedNavigationDesktop__ResetLink:hover,
+.TmbFacetedNavigationDesktop__ResetLink:active {
+  color: var(--cc-color);
+}
+
+.RefinementMenu__SelectedRefinement,
+.RefinementMenu__Refinement {
+  display: block;
+}
+
+.TmbFacetedNavigationDesktop .RefinementMenu__Refinements {
+  max-height: 210px;
+  flex-direction: column;
+  overflow-y: auto;
+  flex-basis: 100%;
+}
+
+.Navigation__Divider {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--cc-border-color);
+}
+
+span.TmbFacetedNavigationDesktop__Content > div:first-child hr {
+  display: none;
+}

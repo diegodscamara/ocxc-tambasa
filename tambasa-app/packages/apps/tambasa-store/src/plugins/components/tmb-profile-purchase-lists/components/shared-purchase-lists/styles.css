@@ -1,0 +1,69 @@
+.SharedPurchaseLists__SortFilter {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+
+.SharedPurchaseLists__SortFilter .Dropdown:last-child {
+  margin: auto 0;
+}
+
+.SharedPurchaseLists__SortFilter .Dropdown .Dropdown__Icon {
+  margin-right: 0.5rem;
+}
+
+.SharedPurchaseLists__SortFilter .ProfilePurchaseList__Filter .Dropdown__Icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SharedPurchaseLists__SortFilter .ProfilePurchaseList__Filter .Dropdown__Icon .Icon {
+  margin: 0;
+}
+
+.SharedPurchaseLists__SortFilter
+  .ProfilePurchaseList__Filter
+  .Dropdown__Icon
+  .Icon.SharedPurchaseLists__SelectSlidersIcon {
+  width: 1rem;
+  margin: 0.2rem 0.5rem;
+  color: var(--cc-icon-color);
+}
+
+.SharedPurchaseLists__SortFilter .ProfilePurchaseList__Filter select {
+  padding-left: 2rem;
+}
+
+.PurchaseLists__FetchingDataText,
+.PurchaseLists__SearchText {
+  margin: 0.5rem 0;
+}
+
+.PurchaseLists__SearchText {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .SharedPurchaseLists__FilterOptions {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .SharedPurchaseLists__SortFilter .Dropdown {
+    width: auto;
+    flex: 1 1 auto;
+    margin: auto 1rem auto 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .SharedPurchaseLists__FilterOptions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SharedPurchaseLists__SortFilter .Dropdown {
+    flex: 1 1 50%;
+    margin: auto 1rem auto 0;
+  }
+}

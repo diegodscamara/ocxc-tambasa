@@ -1,0 +1,16 @@
+.ProfileAddCreditCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 3rem;
+}
+
+.ProfileAddCreditCard h1 {
+  font-weight: 500;
+  margin: 0.7rem 0;
+ }
+
+.ProfileAddCreditCard__ActionResponse {
+  margin-bottom: 1rem;
+}

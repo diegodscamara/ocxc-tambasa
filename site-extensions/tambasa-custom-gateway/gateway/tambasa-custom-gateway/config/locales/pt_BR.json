@@ -1,0 +1,14 @@
+{
+  "resources" : {
+    "title": "Gateway Personalizado",
+    "description": "Configurações do Gateway",
+    "agentInstanceLabel": "Configuração do Agent",
+    "previewInstanceLabel": "Configuração do Preview",
+    "storefrontInstanceLabel": "Configuração do Storefront",
+    "paymentMethodTypes": "Métodos de Pagamento do Gateway",
+    "paymentMethodsLabel": "Métodos de Pagamento",
+    "paymentMethodsHelpText": "Selecione os métodos de pagamento",
+    "cardLabel": "Cartão de Crédito",
+    "invoiceLabel": "Boleto"
+  }
+}

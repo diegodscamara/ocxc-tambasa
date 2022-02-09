@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="ja-JP">
+      <body>
+         <trans-unit id="ACCOUNT_REG_SUBJECT">
+            <source>{0} Account Registration Confirmation</source>
+            <target>{0}アカウント登録確認</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_1">
+            <source>Welcome to {0}!</source>
+            <target>{0}へようこそ!</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_2">
+            <source>We appreciate your interest and look forward to you shopping with us in the future.</source>
+            <target>関心をお寄せいただいたことに感謝し、今後当店でご購入いただけることを心待ちにしております。</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_3">
+            <source>Your account details are as follows: </source>
+            <target>アカウント詳細は次のとおりです: </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_4">
+            <source>Username</source>
+            <target>ユーザー名</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_5">
+            <source>ProfileId</source>
+            <target>ProfileId</target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_1">
+            <source>Please navigate to this page where you can reset your password: </source>
+            <target>このページへナビゲートしてパスワードをリセットしてください: </target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_2">
+            <source>The next time you log in to your {0} account, you will be asked to create a password of your own choosing.</source>
+            <target>次回{0}アカウントにログインすると、自分で選択したパスワードを作成するよう促されます。</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SALUTATION">
+            <source>Dear {0},</source>
+            <target>{0}様、</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SENT_SIGNATURE_TEXT">
+            <source>This is an automatically generated e-mail. Please do not reply.</source>
+            <target>これは自動生成されたEメールです。返信しないでください。</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonJs",
+    "outDir": "../",
+    "rootDir": "./",
+    "removeComments": true,
+    "strict": true,
+    "baseUrl": "./",
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+  },
+  "include": ["src/*/*.ts", "server.ts", "routes.ts", "main.ts"],
+  "exclude": ["./tests", "src/deploy"]
+}

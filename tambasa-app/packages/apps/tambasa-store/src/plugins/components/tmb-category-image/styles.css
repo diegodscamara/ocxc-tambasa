@@ -1,0 +1,48 @@
+.TmbCategoryImage__Container {
+  position: relative;
+  width: 100%;
+  height: 205px;
+  font-family: var(--tmb-primary-font);
+  color: #fff;
+}
+
+.TmbCategoryImage__Container__Image {
+  width: 100%;
+  height: 100%;
+}
+
+.TmbCategoryImage__Container__Overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(var(--tmb-primary-color-rgb), .8);
+}
+
+.TmbCategoryImage__Container .DynamicBreadcrumbs *,
+.TmbCategoryImage__Container__Overlay___Title {
+  text-transform: uppercase;
+}
+
+.TmbCategoryImage__Container .DynamicBreadcrumbs * {
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.TmbCategoryImage__Container .DynamicBreadcrumbs a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.TmbCategoryImage__Container__Overlay___Title {
+  font-weight: 800;
+  font-size: 45px;
+}

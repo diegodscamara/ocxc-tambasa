@@ -1,0 +1,7 @@
+.TmbProductResultSKU__Text {
+  font-family: var(--tmb-primary-font);
+  font-weight: 600;
+  font-size: 10px;
+  color: var(--tmb-lighter-color);
+  margin-top: 6px;
+}

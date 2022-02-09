@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://example.com/app-name/schemas/actions/payment-type-selector/input.json",
+  "title": "Payment Type Selector",
+  "description": "Used to select payment types on checkout page.",
+  "type": "object",
+  "properties": {
+    "repositoryId": {
+      "type": "string",
+      "description": "The id of the payment type."
+    }
+  },
+  "required": [
+    "payment"
+  ],
+  "example": {
+    "payment": "creditCartType"
+  }
+}

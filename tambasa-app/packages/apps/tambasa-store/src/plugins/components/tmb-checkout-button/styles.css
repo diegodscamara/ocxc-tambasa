@@ -1,0 +1,54 @@
+.TmbCheckoutButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--tmb-success-1);
+  color: #fff;
+  width: 100%;
+  max-height: 66px;
+}
+
+.TmbCheckoutButton .TmbCheckoutButton__Label {
+  font-family: var(--tmb-primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.38px;
+}
+
+button.TmbCheckoutButton:hover {
+  cursor: pointer;
+}
+button.TmbCheckoutButton:hover,
+button.TmbCheckoutButton:active,
+button.TmbCheckoutButton:focus {
+  background-color: var(--tmb-success-1);
+  color: #fff;
+  outline: none;
+}
+
+@media (max-width: 900px) {
+  .TmbCheckoutButton {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    bottom: -1rem;
+    margin-left: 5%;
+    padding: 1rem 0;
+  }
+
+  .TmbCheckoutButton .TmbCheckoutButton__Icon {
+    font-size: 1.7rem;
+    margin-right: 10px;
+  }
+
+  .TmbCheckoutButton .TmbCheckoutButton__Label {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+  .TmbCheckoutButton .TmbCheckoutButton__Label {
+    font-size: .75rem;
+  }
+}

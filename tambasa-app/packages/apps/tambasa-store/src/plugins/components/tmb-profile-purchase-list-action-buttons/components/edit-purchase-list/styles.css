@@ -1,0 +1,51 @@
+.EditPurchaseList__HeaderText {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.EditPurchaseList__InputElement,
+.EditPurchaseList__AllFieldsRequiredText {
+  margin-bottom: 0.5rem;
+}
+
+.EditPurchaseList__AllFieldsRequiredText {
+  font-size: var(--cc-font-size-small);
+}
+
+#purchaseListName,
+#purchaseListDescription {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .EditPurchaseList__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .EditPurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem 0 0.75rem 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .EditPurchaseList__Buttons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .EditPurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem;
+  }
+
+  .EditPurchaseList__Buttons .EditPurchaseList__SubmitButton {
+    margin-right: 0;
+  }
+
+  .EditPurchaseList__Buttons .EditPurchaseList__CancelButton {
+    margin-left: 0;
+  }
+}

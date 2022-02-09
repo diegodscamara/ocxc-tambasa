@@ -1,0 +1,18 @@
+.SharePurchaseList__EmailConfig {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.SharePurchaseList__EmailElement {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.SharePurchaseList__DropdownElement {
+  width: auto;
+}
+
+.SharePurchaseList__Email {
+  width: 100%;
+}

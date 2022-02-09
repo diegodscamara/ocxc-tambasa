@@ -1,0 +1,10 @@
+@import '../theme.css';
+
+:root {
+    --tmb-primary-color: #01682b;
+    --tmb-light-primary-color: #008836;
+	--tmb-lighter-color: #00bd4b;
+    
+    --tmb-primary-color-rgb: 1, 104, 43;
+    --tmb-logo-url: url("/file/general/logo-armarinho.png");
+}

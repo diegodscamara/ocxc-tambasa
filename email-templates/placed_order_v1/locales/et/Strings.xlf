@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="et-EE">
+      <body>
+         <trans-unit id="ORDER_PLACED_SUBJECT">
+            <source>Your {0} Order Number {1}</source>
+            <target>Teie {0} tellimuse number {1}</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TITLE">
+            <source>Thank you for your order.</source>
+            <target>Täname teid tellimuse eest.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE">
+            <source>Your order number is {0}, placed {1} at {2}.</source>
+            <target>Teie tellimuse number on {0} ja see esitati {1} kell {2}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_START">
+            <source>Your order number is </source>
+            <target>Teie tellimuse number on </target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_END">
+            <source>, placed {0} at {1}.</source>
+            <target>, mis esitati {0} kell{1}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_ADDRESS_TITLE">
+            <source>Shipping Address</source>
+            <target>Saatmisaadress</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PAYMENT_METHODS_TITLE">
+            <source>Payment Methods</source>
+            <target>Makseviisid</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_METHODS_TITLE">
+            <source>Shipping Methods</source>
+            <target>Saatmisviisid</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ITEM_TITLE">
+            <source>Item</source>
+            <target>Kaup</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_QUANTITY_TITLE">
+            <source>Qty</source>
+            <target>Kogus</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PRICE_TITLE">
+            <source>Price</source>
+            <target>Hind</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SUBTOTAL_TITLE">
+            <source>Subtotal</source>
+            <target>Vahesumma</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_DISCOUNT_TITLE">
+            <source>Discount</source>
+            <target>Allahindlus</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TAX_TITLE">
+            <source>Tax</source>
+            <target>Maks</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_TITLE">
+            <source>Shipping</source>
+            <target>Saatmine</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TOTAL_TITLE">
+            <source>Total</source>
+            <target>Kokku</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_THANKS_TEXT">
+            <source>Thanks again for shopping at {0}</source>
+            <target>Aitäh, et valisite ostude tegemiseks e-poe {0}!</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

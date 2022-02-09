@@ -1,0 +1,46 @@
+.TmbExternalPricing * {
+  font-family: var(--tmb-primary-font);
+}
+
+.TmbExternalPricing {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid #d8d8d8;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.TmbExternalPricing__Title {
+  position: absolute;
+  top: -.5rem;
+  background-color: #f5f5f5;
+  margin: 0 10px;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.TmbExternalPricing__Help {
+  font-size: .75rem;
+  text-align: center;
+}
+
+.TmbExternalPricing .Dropdown {
+  font-size: .75rem;
+}
+
+.TmbExternalPricing .Dropdown .Dropdown__Select select {
+  padding-left: 1rem;
+  border-radius: 0;
+}
+
+.TmbExternalPricing .Dropdown .Dropdown__Select .Dropdown__Icon {
+  margin-right: .8rem;
+}
+
+.TmbExternalPricing select:focus,
+.TmbExternalPricing select:focus-visible {
+  box-shadow: none;
+  outline: none;
+}

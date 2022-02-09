@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="sr-RS">
+      <body>
+         <trans-unit id="ACCOUNT_REG_SUBJECT">
+            <source>{0} Account Registration Confirmation</source>
+            <target>Потврда о регистрацији {0} налога</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_1">
+            <source>Welcome to {0}!</source>
+            <target>Добро дошли у {0}!</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_2">
+            <source>We appreciate your interest and look forward to you shopping with us in the future.</source>
+            <target>Хвала вам на интересовању, унапред се радујемо куповинама које ћете обавити код нас.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_3">
+            <source>Your account details are as follows: </source>
+            <target>Детаљи о вашем налогу су следећи: </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_4">
+            <source>Username</source>
+            <target>Корисничко име</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_5">
+            <source>ProfileId</source>
+            <target>ProfileId</target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_1">
+            <source>Please navigate to this page where you can reset your password: </source>
+            <target>Пређите на ову страницу на којој можете да ресетујете лозинку: </target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_2">
+            <source>The next time you log in to your {0} account, you will be asked to create a password of your own choosing.</source>
+            <target>Када се наредни пут пријавите на налог {0}, биће вам затражено да креирате лозинку по свом избору.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SALUTATION">
+            <source>Dear {0},</source>
+            <target>Поштовани {0},</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SENT_SIGNATURE_TEXT">
+            <source>This is an automatically generated e-mail. Please do not reply.</source>
+            <target>Ова е-порука је аутоматски генерисана. Немојте одговарати на њу.</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

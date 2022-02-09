@@ -1,0 +1,32 @@
+.TmbPromotionsDisplay .Alert{
+  font-family: var(--tmb-primary-font);
+  font-size: .75rem;
+  padding: .5rem 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.TmbPromotionsDisplay__boldText {
+  font-weight: bold;
+}
+
+button.TmbPromotionsDisplay__RemoveLink, button.TmbPromotionsDisplay__RemoveLink:hover {
+  font-size: var(--cc-font-size-small);
+  color: var(--cc-color);
+  text-decoration: underline;
+  display: inline-block;
+  width: unset;
+  background-color: unset;
+  padding: unset;
+}
+
+.PromotionCodeEntry__ErrorMessage {
+  color: var(--cc-validation-error-color);
+  font-size: var(--cc-font-size-xsmall);
+  font-weight: 500;
+}
+
+.PromotionCodeEntry__ErrorMessage .Icon {
+  height: 1.3rem;
+  padding-top: 0.5rem;
+  color: var(--cc-error-message-icon-color);
+}

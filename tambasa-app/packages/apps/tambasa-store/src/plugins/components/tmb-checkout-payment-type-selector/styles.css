@@ -1,0 +1,36 @@
+.TmbCheckoutPaymentTypeSelector__PaymentGroup {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--tmb-primary-font);
+}
+
+.TmbCheckoutPaymentTypeSelector__PaymentGroup input[type='radio']:checked {
+    background-color: var(--tmb-light-primary-color);
+}
+
+.TmbCheckoutPaymentTypeSelector__PaymenyType__Container {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid var(--tmb-light-primary-color);
+    margin-bottom: 8px;
+    padding: 10px 0 10px 12px;
+}
+
+.TmbCheckoutPaymentTypeSelector__PaymenyType__Container--isDisabled {
+    opacity: .5;
+}
+
+.TmbCheckoutPaymentTypeSelector__PaymenyType__Container:last-child {
+    margin-bottom: 0;
+}
+
+.TmbCheckoutPaymentTypeSelector__Radio {
+    margin-right: 13px;
+}
+
+.TmbCheckoutPaymentTypeSelector__RadioLabel {
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="sr-Latn">
+      <body>
+         <trans-unit id="ORDER_PLACED_SUBJECT">
+            <source>Your {0} Order Number {1}</source>
+            <target>Vaš {0} broj narudžbine {1}</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TITLE">
+            <source>Thank you for your order.</source>
+            <target>Hvala vam za narudžbinu.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE">
+            <source>Your order number is {0}, placed {1} at {2}.</source>
+            <target>Broj vaše narudžbine je {0}, a ona je kreirana dana {1} u {2}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_START">
+            <source>Your order number is </source>
+            <target>Broj vaše narudžbine je </target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_END">
+            <source>, placed {0} at {1}.</source>
+            <target>, a ona je kreirana dana {0} u {1}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_ADDRESS_TITLE">
+            <source>Shipping Address</source>
+            <target>Adresa za isporuku</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PAYMENT_METHODS_TITLE">
+            <source>Payment Methods</source>
+            <target>Načini plaćanja</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_METHODS_TITLE">
+            <source>Shipping Methods</source>
+            <target>Načini isporuke</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ITEM_TITLE">
+            <source>Item</source>
+            <target>Artikal</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_QUANTITY_TITLE">
+            <source>Qty</source>
+            <target>Količina</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PRICE_TITLE">
+            <source>Price</source>
+            <target>Cena</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SUBTOTAL_TITLE">
+            <source>Subtotal</source>
+            <target>Međuzbir</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_DISCOUNT_TITLE">
+            <source>Discount</source>
+            <target>Popust</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TAX_TITLE">
+            <source>Tax</source>
+            <target>Porez</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_TITLE">
+            <source>Shipping</source>
+            <target>Isporuka</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TOTAL_TITLE">
+            <source>Total</source>
+            <target>Ukupno</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_THANKS_TEXT">
+            <source>Thanks again for shopping at {0}</source>
+            <target>Hvala još jednom na kupovini u {0}</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

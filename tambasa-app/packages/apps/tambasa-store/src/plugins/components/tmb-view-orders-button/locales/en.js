@@ -1,0 +1,1 @@
+export const viewOrdersText = "go to orders"

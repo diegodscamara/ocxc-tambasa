@@ -1,0 +1,23 @@
+.TmbProductLongDescription {
+  margin-top: var(--tmb-region-spacement-small);
+  text-align: left;
+}
+
+.TmbProductLongDescription__Description {
+  padding: 0.5rem 0;
+  font: normal normal normal 12px/18px var(--tmb-primary-font);
+  letter-spacing: 0.6px;
+  color: #707070;
+}
+
+.TmbProductLongDescription__Title {
+  font: normal normal bold 20px/24px var(--tmb-primary-font);
+  letter-spacing: 1px;
+  color: #1b1b1b;
+}
+
+@media (min-width: 2560px) {
+  .TmbProductLongDescription {
+    margin-top: var(--tmb-region-spacement-x-small);
+  }
+}

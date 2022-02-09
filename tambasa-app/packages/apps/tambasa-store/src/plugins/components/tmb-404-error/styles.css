@@ -1,0 +1,83 @@
+.tmb404Error {
+    display: flex;
+    background: var(--tmb-light-primary-color) 0% 0% no-repeat padding-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+}
+
+.content-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image404 {
+    display: flex;
+}
+
+.image404-img {
+    width: 389px;
+    height: 283px;
+}
+
+.pageNotFound1-p {
+    text-align: center;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+}
+
+.pageNotFound2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+}
+
+.pageNotFound2-p {
+    text-align: center;
+    font: normal normal bold 26px/32px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+}
+
+.pageNotFound3 {
+    display: flex;
+    margin-top: 23px;
+}
+
+.pageNotFound3-p {
+    text-align: center;
+    font: normal normal 300 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+    font-weight: 300;
+}
+
+.backToHome {
+    display: flex;
+    margin-top: 22px;
+}
+
+.backToHome-btn {
+    width: 176px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: inherit;
+    user-select: none;
+}

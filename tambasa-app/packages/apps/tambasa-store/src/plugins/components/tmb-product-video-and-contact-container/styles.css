@@ -1,0 +1,68 @@
+.TmbProductVideoAndContactContainer {
+  padding: 0 var(--tmb-region-spacement-small);
+}
+
+.TmbProductVideoAndContactContainer__Section {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.TmbProductVideoAndContactContainer .ProductSocialSharing {
+  align-self: flex-end;
+}
+
+.TmbProductVideoAndContactContainer .AddToPurchaseList {
+  width: 50%;
+}
+
+@media (min-width: 2560px) {
+  .TmbProductVideoAndContactContainer {
+    padding: 0 var(--tmb-region-spacement-large);
+  }
+}
+
+@media (max-width: 1920px) {
+  .TmbProductVideoAndContactContainer {
+    padding: 0 var(--tmb-region-spacement-large);
+  }
+}
+
+@media (max-width: 1680px) {
+  .TmbProductVideoAndContactContainer {
+    padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media (max-width: 1440px) {
+  .TmbProductVideoAndContactContainer {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbProductVideoAndContactContainer {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media (max-width: 1024px) {
+  .TmbProductVideoAndContactContainer {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 768px) {
+  .TmbProductVideoAndContactContainer__Section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .TmbProductVideoAndContactContainer {
+    padding: 0 var(--tmb-region-spacement-xs-small);
+  }
+}

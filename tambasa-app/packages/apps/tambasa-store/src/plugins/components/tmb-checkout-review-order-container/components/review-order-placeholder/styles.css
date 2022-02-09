@@ -1,0 +1,99 @@
+.ReviewOrderPlaceholder {
+  display: flex;
+  flex-direction: row;
+  text-align: unset;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.ReviewOrderPlaceholder__CustomerEmail {
+  height: 2rem;
+  margin: var(--cc-container-padding) 0;
+  flex: 1 0 72%;
+  max-width: 35%;
+  background-color: var(--cc-pageloader-box-background);
+}
+
+.ReviewOrderPlaceholder__OrderItemsHolder {
+  margin: var(--cc-container-padding) 0;
+  flex: 1 0 72%;
+}
+.ReviewOrderPlaceholder__OrderItem {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--cc-border-color);
+}
+
+.ReviewOrderPlaceholder__OrderItemImage {
+  background-color: var(--cc-pageloader-box-background);
+  width: 6rem;
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+
+.ReviewOrderPlaceholder__OrderItemName {
+  background-color: var(--cc-pageloader-box-background);
+  width: calc(95% - 6rem);
+  margin: 0rem 1.0rem;
+  height: 2rem;
+}
+
+.ReviewOrderPlaceholder__OrderSummary {
+  flex: 1 0 23%;
+  margin: var(--cc-container-padding) 0 0 2rem;
+  background-color: var(--cc-pageloader-box-background);
+  height: 16.875rem;
+}
+
+.ReviewOrderPlaceholder__PaymentInformation {
+  background-color: var(--cc-pageloader-box-background);
+  height: 5rem;
+  width: 100%;
+  flex: 1 0 72%;
+  margin: var(--cc-container-padding) 0;
+}
+
+.ReviewOrderPlaceholder__PlaceOrder {
+  background-color: var(--cc-pageloader-box-background);
+  height: 2rem;
+  width: 100%;
+  flex: 1 0 23%;
+  margin: var(--cc-container-padding) 0 0 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .ReviewOrderPlaceholder {
+    width: 100%;
+    margin: 0 var(--cc-container-padding);
+  }
+  .ReviewOrderPlaceholder__CustomerEmail {
+    max-width: 100%;
+  }
+  .ReviewOrderPlaceholder__OrderSummary, 
+  .ReviewOrderPlaceholder__CustomerEmail,
+  .ReviewOrderPlaceholder__PlaceOrder {
+    flex: unset;
+    width: 100%;
+    height: 2rem;
+  }
+  .ReviewOrderPlaceholder__CustomerEmail,
+  .ReviewOrderPlaceholder__PlaceOrder {
+    margin: var(--cc-container-padding) 0;
+  }
+  .ReviewOrderPlaceholder__OrderItemsHolder{
+    margin: 0;
+  }
+  .ReviewOrderPlaceholder__PaymentInformation {
+    order: 3;
+    margin: var(--cc-container-padding) 0;
+  }
+  .ReviewOrderPlaceholder__OrderSummary {
+    order: 4;
+    margin: var(--cc-container-padding) 0;
+  }
+  .ReviewOrderPlaceholder__PlaceOrder {
+    order: 5;
+    margin: var(--cc-container-padding) 0;
+  }
+}

@@ -1,0 +1,129 @@
+.TmbCollectionNavigationDesktop {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.TmbCollectionNavigationDesktop_AllCategories {
+  background-color: var(--tmb-light-primary-color);
+  padding-left: var(--tmb-region-spacement-large);
+  padding-right: 18.5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.TmbCollectionNavigationDesktop_AllCategories_Wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.TmbCollectionNavigationDesktop_AllCategories_Wrapper:hover{
+  cursor: pointer;
+}
+
+.TmbCollectionNavigationDesktop_AllCategories__Title {
+  font-family: var(--tmb-primary-font);
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+
+.TmbCollectionNavigationDesktop_OtherCategories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0 var(--tmb-region-spacement-large) 0 3rem;
+  margin: 0;
+  height: 100%;
+  background-color: var(--tmb-primary-color);
+}
+
+.TmbCollectionNavigationDesktop_OtherCategories__Item {
+  font-family: var(--tmb-primary-font);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+li.TmbCollectionNavigationDesktop_OtherCategories__Item a {
+  color: #fff;
+  user-select: none;
+}
+
+li.TmbCollectionNavigationDesktop_OtherCategories__Item 
+  .TmbCollectionNavigationDesktop_OtherCategories__Item___Slider {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #fff;
+  height: 2px;
+  transition: width .5s ease-in;
+}
+
+li.TmbCollectionNavigationDesktop_OtherCategories__Item:hover
+  .TmbCollectionNavigationDesktop_OtherCategories__Item___Slider {
+  width: 100%;
+}
+
+.TmbCollectionNavigationDesktop a {
+  color: var(--cc-color);
+  text-decoration: none;
+}
+
+.TmbCollectionNavigationDesktop__MenuItem > ul > li {
+  margin-bottom: 0.25rem;
+}
+
+@media (max-width: 1750px) {
+  .TmbCollectionNavigationDesktop_AllCategories {
+    padding-left: var(--tmb-region-spacement-l-medium);
+  }
+  .TmbCollectionNavigationDesktop_OtherCategories {
+    padding-right: var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media (max-width: 1600px) {
+  .TmbCollectionNavigationDesktop_AllCategories {
+    padding-left: var(--tmb-region-spacement-medium);
+  }
+  .TmbCollectionNavigationDesktop_OtherCategories {
+    padding-right: var(--tmb-region-spacement-medium);
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbCollectionNavigationDesktop_AllCategories {
+    padding-left: var(--tmb-region-spacement-small);
+  }
+  .TmbCollectionNavigationDesktop_OtherCategories {
+    padding-right: var(--tmb-region-spacement-small);
+  }
+}
+
+@media (max-width: 1250px) {
+  .TmbCollectionNavigationDesktop_AllCategories {
+    padding-left: var(--tmb-region-spacement-x-small);
+  }
+  .TmbCollectionNavigationDesktop_OtherCategories {
+    padding-right: var(--tmb-region-spacement-x-small);
+  }
+}
+
+@media (max-width: 850px) {
+  .TmbCollectionNavigationDesktop {
+    display: none;
+  }
+}

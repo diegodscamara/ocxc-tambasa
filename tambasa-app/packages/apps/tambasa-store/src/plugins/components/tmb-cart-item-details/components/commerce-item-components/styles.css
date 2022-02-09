@@ -1,0 +1,58 @@
+.CommerceItemName, a.CommerceItemName:hover {
+  font-family: var(--tmb-primary-font);
+	font-weight: bold;
+  font-size: .8rem;
+	line-height: 1.0;
+	text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.CommerceItemPrice {
+  font-family: var(--tmb-primary-font);
+  font-size: .95rem;
+  letter-spacing: .3px;
+}
+
+.CommerceItemPrice__PriceBreakUpTotal {
+  padding: 0 0.313rem;
+}
+
+.CommerceItemPrice__PriceBreakUpAtRate{
+  margin: 0 0.313rem;
+}
+
+.CommerceItemVariants {
+	font-size: var(--cc-font-size-small);
+  font-weight: normal;
+  line-height: 1.0;
+  margin: 0.313rem 0;
+  text-transform: capitalize;
+}
+
+.CommerceItemTotalPrice {
+  font-family: var(--tmb-primary-font);
+  font-weight: 400;
+  font-size: .95rem;
+}
+
+.FreeGiftIconMessage svg.FreeGiftIconMessage__GiftIcon {
+  height: 1rem;
+}
+
+.CommerceItemQtyContainer{
+  text-align: right;
+  color: var(--cc-color);
+}
+
+.CommerceItemQty {
+  font-weight: bold;
+  font-size: var(--cc-font-size-large);
+}
+
+@media only screen and (max-width: 768px) {
+  .CommerceItemPrice {
+    font-weight: unset;
+  }
+}

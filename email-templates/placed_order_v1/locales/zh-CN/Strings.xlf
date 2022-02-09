@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="zh-CN">
+      <body>
+         <trans-unit id="ORDER_PLACED_SUBJECT">
+            <source>Your {0} Order Number {1}</source>
+            <target>您的 {0} 订单编号 {1}</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TITLE">
+            <source>Thank you for your order.</source>
+            <target>感谢您订购。</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE">
+            <source>Your order number is {0}, placed {1} at {2}.</source>
+            <target>您的订单编号是 {0}，订单于 {1} {2} 下达。</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_START">
+            <source>Your order number is </source>
+            <target>您的订单编号是</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_END">
+            <source>, placed {0} at {1}.</source>
+            <target>，订单于 {0} {1} 下达。</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_ADDRESS_TITLE">
+            <source>Shipping Address</source>
+            <target>收货地址</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PAYMENT_METHODS_TITLE">
+            <source>Payment Methods</source>
+            <target>付款方式</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_METHODS_TITLE">
+            <source>Shipping Methods</source>
+            <target>配送方式</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ITEM_TITLE">
+            <source>Item</source>
+            <target>商品</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_QUANTITY_TITLE">
+            <source>Qty</source>
+            <target>数量</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PRICE_TITLE">
+            <source>Price</source>
+            <target>价格</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SUBTOTAL_TITLE">
+            <source>Subtotal</source>
+            <target>小计</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_DISCOUNT_TITLE">
+            <source>Discount</source>
+            <target>折扣</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TAX_TITLE">
+            <source>Tax</source>
+            <target>税</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_TITLE">
+            <source>Shipping</source>
+            <target>配送</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TOTAL_TITLE">
+            <source>Total</source>
+            <target>合计</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_THANKS_TEXT">
+            <source>Thanks again for shopping at {0}</source>
+            <target>再次感谢您在 {0} 购物</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

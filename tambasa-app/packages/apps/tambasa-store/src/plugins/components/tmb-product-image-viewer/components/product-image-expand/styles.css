@@ -1,0 +1,22 @@
+.TmbProductImageViewer__ImageExpand {
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+}
+
+.TmbProductImageViewer__ImageExpand button {
+  border: none;
+  background: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+.TmbProductImageViewer__ImageExpand button:hover,
+.TmbProductImageViewer__ImageExpand button:active {
+  background: none;
+}
+
+.TmbProductImageViewer__ImageExpand .Icon {
+  height: 1.2em;
+  color: var(--cc-icon-color);
+}

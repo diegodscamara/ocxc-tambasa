@@ -1,0 +1,92 @@
+.TmbCheckoutPaymentsContainer__Wrapper {
+  font-family: var(--tmb-primary-font);
+  padding: 0 var(--tmb-region-spacement-large);
+}
+
+.TmbCheckoutPaymentsContainer__AlertMessage {
+  padding: var(--cc-container-padding);
+}
+
+.TmbCheckoutPaymentsContainer__Section section {
+  display: flex;
+}
+
+.TmbCheckoutPaymentsContainer__Section section .TmbCheckoutPaymentMethodsContainer {
+  width: 70%;
+}
+
+.TmbCheckoutPaymentsContainer__Section section .TmbCartOrderSummaryContainer {
+  width: 30%;
+}
+
+.TmbCheckoutPaymentsContainer__Section section .TmbCartOrderSummaryContainer > section {
+  flex-direction: column;
+}
+
+.TmbCheckoutPaymentsContainer__FetchingPaymentText {
+  padding: var(--cc-container-padding);
+}
+
+.TmbCheckoutPaymentsContainer--hidden {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1750px) {
+  .TmbCheckoutPaymentsContainer__Wrapper {
+    padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .TmbCheckoutPaymentsContainer__Wrapper {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media only screen and (max-width: 1340px) {
+  .TmbCheckoutPaymentsContainer__Wrapper {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .TmbCheckoutPaymentsContainer__Section > section .TmbCartOrderSummaryContainer {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .TmbCheckoutPaymentsContainer__Section > section {
+    flex-direction: column;
+  }
+
+  .TmbCheckoutPaymentsContainer__Section > section .TmbCheckoutPaymentMethodsContainer {
+    width: 100%;
+  }
+
+  .TmbCheckoutPaymentsContainer__Section > section .TmbCartOrderSummaryContainer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .TmbCheckoutPaymentsContainer__Wrapper {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .TmbCheckoutPaymentsContainer__Section > section {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .TmbCheckoutPaymentsContainer__Wrapper {
+    padding: 0 1rem;
+  }
+}

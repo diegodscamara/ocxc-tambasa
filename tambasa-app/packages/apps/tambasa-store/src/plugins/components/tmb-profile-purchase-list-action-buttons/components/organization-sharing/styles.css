@@ -1,0 +1,16 @@
+.SharePurchaseList__DropdownWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.SharePurchaseList__DropdownElement {
+  width: auto;
+}
+
+.SharePurchaseList__InputElement {
+  margin-bottom: 0.5rem;
+}
+
+.SharePurchaseList__Comment {
+  width: 100%;
+}

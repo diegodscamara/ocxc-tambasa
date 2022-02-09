@@ -1,0 +1,5 @@
+export const widgetSectionTitleText = "Configuração de Conta WhatsApp"
+export const accountNumberLabelText = "Número da conta"
+export const accountNumberHelpText = "Insira o número da conta WhatsApp associada a empresa."
+export const attendanceLinkLabelText = "Link de redirecionamento"
+export const attendanceLinkHelpText = "Aqui se insere o link da API que chama a aplicação do WhatsApp."

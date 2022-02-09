@@ -1,0 +1,140 @@
+:root {
+  --cc-color-inactive: #9b9b9b;
+  --cc-color-active: #0572ce;
+}
+
+.TmbCheckoutProgressTracker {
+  margin: 1rem 0;
+}
+
+.TmbCheckoutProgressTracker button {
+  box-shadow: none;
+  color: var(--cc-color-inactive);
+  border: none;
+  background-color: var(--cc-background-color);
+}
+
+.TmbCheckoutProgressTracker button:hover {
+  background-color: var(--cc-background-color);
+}
+
+.TmbCheckoutProgressTracker button:disabled {
+  opacity: unset;
+}
+
+.TmbCheckoutProgressTracker__heading {
+  text-align: center;
+}
+
+.TmbCheckoutProgressTracker__wrapper {
+  display: flex;
+  overflow: hidden;
+  padding: 0 var(--tmb-region-spacement-large);
+  list-style: none;
+  font-family: var(--tmb-primary-font);
+}
+
+.TmbCheckoutProgressTracker__step {
+  flex: 1 1 0%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: var(--cc-color);
+}
+
+.TmbCheckoutProgressTracker__marker {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.TmbCheckoutProgressTracker__markerActive .TmbCheckoutProgressTracker__label {
+  color: var(--tmb-light-primary-color);
+}
+
+.TmbCheckoutProgressTracker__label.disabled:hover {
+  cursor: not-allowed;
+}
+
+.TmbCheckoutProgressTracker__marker::before {
+  content: attr(data-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cc-color-inactive);
+  color: var(--cc-button-color);
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: var(--cc-font-size-small);
+}
+
+.TmbCheckoutProgressTracker__markerActive::before {
+  background-color: var(--tmb-light-primary-color);
+}
+
+.TmbCheckoutProgressTracker__label {
+  display: inline-block;
+  position: relative;
+  max-width: 70%;
+  white-space: nowrap;
+  padding: 0.5rem 0.5rem;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  width: auto;
+  font-size: var(--cc-font-size-xsmall);
+  color: var(--cc-color);
+}
+
+.TmbCheckoutProgressTracker__marker::after {
+  width: calc(100% - 40px);
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+  content: '';
+  background-color: var(--cc-color-inactive);
+  height: 2px;
+  display: block;
+  position: absolute;
+  z-index: -10;
+  right: -0.75rem;
+  top: auto;
+}
+
+li:last-child {
+  flex-grow: 0;
+}
+
+li:last-child  .TmbCheckoutProgressTracker__marker::after {
+  display: none;
+}
+
+@media only screen and (max-width: 1750px) {
+  .TmbCheckoutProgressTracker__wrapper {
+    padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .TmbCheckoutProgressTracker__wrapper {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media only screen and (max-width: 1340px) {
+  .TmbCheckoutProgressTracker__wrapper {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .TmbCheckoutProgressTracker__wrapper {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .TmbCheckoutProgressTracker__wrapper {
+    padding: 0 1rem;
+  }
+}

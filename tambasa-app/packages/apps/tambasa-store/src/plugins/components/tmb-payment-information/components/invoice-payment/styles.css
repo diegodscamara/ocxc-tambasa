@@ -1,0 +1,23 @@
+.InvoicePayment {
+  display: flex;
+}
+.InvoicePayment .Icon {
+  display: flex;
+  width: 3.5em;
+  height: 100%;
+  margin: 0.2rem 0rem auto 0;
+  color: var(--cc-icon-color);
+}
+.InvoicePayment__Details{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.InvoicePayment__Text {
+  margin-bottom: 0.2rem;
+}
+
+.InvoicePayment__PONumber {
+  margin-bottom: 0.2rem;
+  overflow-wrap: anywhere;
+}

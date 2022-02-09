@@ -1,0 +1,58 @@
+.TmbCheckoutOrderConfirmation {
+  display: flex;
+  flex-direction: column;
+
+  font-family: var(--tmb-primary-font);
+  color: #fff;
+}
+
+.TmbCheckoutOrderConfirmation__Image {
+  height: 250px;
+  background: url('/file/general/boxes.png') no-repeat center;
+  background-size: contain;
+  margin-top: 80px;
+  margin-bottom: 2rem;
+}
+
+.TmbCheckoutOrderConfirmation__Heading {
+  margin-bottom: 1rem;
+}
+
+.TmbCheckoutOrderConfirmation__Heading,
+.TmbCheckoutOrderConfirmation__OrderDetails {
+  text-align: center;
+}
+
+.TmbCheckoutOrderConfirmation__OrderDetails {
+  border-radius: 0;
+  margin-bottom: 2.5rem;
+}
+
+.TmbCheckoutOrderConfirmation__OrderNumber {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.TmbCheckoutOrderConfirmation__ConfirmationMessage {
+  display: flex;
+  flex-direction: column;
+}
+
+.TmbCheckoutOrderConfirmation__Message {
+  display: inline-block;
+  max-width: 50%;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.TmbCheckoutOrderConfirmation__OrderId {
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 960px) {
+  .TmbCheckoutOrderConfirmation__Message {
+    max-width: 70%;
+  }
+}

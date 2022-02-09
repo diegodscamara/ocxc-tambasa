@@ -1,0 +1,253 @@
+.TmbProductRecommendationsCarousel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 var(--tmb-region-spacement-large);
+  font-family: var(--tmb-primary-font);
+  margin-bottom: 75px;
+}
+
+@media only screen and (min-width: 769px) {
+  .TmbProductRecommendationsCarousel {
+    width: 100%;
+  }
+}
+
+.TmbProductRecommendationsCarousel_Content {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.TmbProductRecommendationsCarousel_Content .swiper-button-prev,
+.TmbProductRecommendationsCarousel_Content .swiper-button-next {
+  color: transparent;
+}
+
+.TmbProductRecommendationsCarousel_Content .swiper-button-prev {
+  background-image: url('/file/general/left-arrow_l.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.TmbProductRecommendationsCarousel_Content .swiper-button-next {
+  background-image: url('/file/general/right-arrow_l.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.TmbProductRecommendationsCarousel__Heading {
+  border-left: 3px solid var(--tmb-primary-color);
+  text-transform: uppercase;
+  padding-left: 12.5px;
+  font-size: 30px;
+  margin-top: 75px;
+}
+
+.TmbProductRecommendationsCarousel__Heading___CommonText {
+  font-weight: 300;
+  padding-right: 12.5px;
+}
+
+.TmbProductRecommendationsCarousel__Heading___HighlightedText {
+  color: #fff;
+  background-color: var(--tmb-light-primary-color);
+  padding: 6px 15.5px;
+}
+
+.TmbProductRecommendationsCarousel .GenericCarouselSlider__BackButton {
+  left: 0px;
+}
+
+.TmbProductRecommendationsCarousel .GenericCarouselSlider__ForwardButton {
+  right: 0px;
+}
+
+.TmbProductRecommendationsCarousel .GenericCarouselSlider__Button button,
+.TmbProductRecommendationsCarousel .GenericCarouselSlider__Button button:active,
+.TmbProductRecommendationsCarousel .GenericCarouselSlider__Button button:hover {
+  justify-content: space-around;
+  position: absolute;
+  top: calc(50% - 20px);
+  width: 47px;
+  height: 40px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-hover-color)
+  );
+  text-decoration: none;
+  box-shadow: var(--cc-secondary-button-box-shadow);
+  background-color: none;
+  opacity: 100%;
+  border-radius: 0;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 325px;
+  position: relative;
+  padding: 0 0 1rem;
+  border: 1px solid var(--tmb-light-grey-2);
+}
+
+.TmbProductRecommendationsCarousel .ProductItem .ProductItem__Image {
+  display: block;
+  width: auto;
+  height: 182px;
+  margin: 0 0 6px 0;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem .ProductItem__Image img {
+  width: 100%;
+  height: auto;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem_SKU {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--tmb-lighter-color);
+  margin-bottom: 5px;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem__DisplayName {
+  font-size: 0.688rem;
+  font-weight: 600;
+  color: var(--tmb-primary-color);
+  text-align: center;
+  text-decoration: none;
+  white-space: initial;
+  margin: 0;
+  padding: 0 5px;
+  max-height: 18px;
+  overflow: hidden;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem .ProductItem__Price .ProductPrice,
+.TmbProductRecommendationsCarousel .ProductItem .ProductItem__Price--Now .ProductPrice {
+  display: block;
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+  color: var(--cc-color);
+  text-align: center;
+  padding: 0;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem .ProductItem__Price .ProductPrice span:last-child {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--tmb-dark-grey);
+
+  align-items: center;
+  white-space: initial;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem__CheckPrice {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--tmb-dark-grey1);
+  text-decoration: underline;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem__Details {
+  background-color: var(--tmb-primary-color);
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 17px;
+  margin-top: 10px;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem__Details:hover,
+.TmbProductRecommendationsCarousel .ProductItem__Details:active,
+.TmbProductRecommendationsCarousel .ProductItem__Details:focus,
+.TmbProductRecommendationsCarousel .ProductItem__Details:focus-visible {
+  box-shadow: none;
+  outline: none;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem .ProductPrice__SaleWrapper .ProductPrice__Price--Was {
+  display: block;
+  font-size: 9px;
+  font-weight: 400;
+  text-align: center;
+  color: #b2b2b2;
+}
+
+/* .TmbProductRecommendationsCarousel .ProductItem .ProductPrice__SaleWrapper {
+  padding: 0.5rem 0;
+} */
+
+.TmbProductRecommendationsCarousel .ProductItem .ProductPrice__SaleWrapper :not(:last-child) {
+  padding-right: 0;
+}
+
+.TmbProductRecommendationsCarousel .ProductItem .TmbProductRecommendationsCarousel__Heading {
+  font-size: var(--cc-font-size-large);
+}
+
+@media (max-width: 1750px) {
+  .TmbProductRecommendationsCarousel {
+    padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media (max-width: 1600px) {
+  .TmbProductRecommendationsCarousel {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbProductRecommendationsCarousel {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media (max-width: 1024px) {
+  .TmbProductRecommendationsCarousel {
+    padding: 0 3.5rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .TmbProductRecommendationsCarousel {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+
+  .TmbProductRecommendationsCarousel__Heading {
+    font-size: 20px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .TmbProductRecommendationsCarousel .ProductItem .ProductItem__Image {
+    width: 182px;
+  }
+}
+
+@media (max-width: 572px) {
+  .TmbProductRecommendationsCarousel__Heading___HighlightedText {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 500px) {
+  .TmbProductRecommendationsCarousel {
+    padding: 0 1rem;
+  }
+}

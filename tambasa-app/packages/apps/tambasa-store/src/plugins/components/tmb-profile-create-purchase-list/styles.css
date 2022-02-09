@@ -1,0 +1,160 @@
+.ProfileCreatePurchaseList__ListNameInput,
+.ProfileCreatePurchaseList__CancelButton,
+.ProfileCreatePurchaseList__SubmitButton,
+.ProfileCreatePurchaseList__Description{
+  width: 100%
+}
+
+.ProfileCreatePurchaseList > form > div {
+    margin-bottom: 1rem;
+  }
+
+.ProfileCreatePurchaseList{
+  padding: 0 var(--cc-container-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileCreatePurchaseList__RequiredLabel{
+    font-size: var(--cc-font-size-small);
+    padding-bottom: 1rem;
+}
+
+.ProfileCreatePurchaseList__DescriptionLabel, .ProfileCreatePurchaseList__ListNameLabel {
+  font-size: var(--cc-font-size-large);
+}
+
+.ProfileCreatePurchaseList__SubmitButton{
+    margin-bottom: 1rem;
+}
+
+.ProfileCreatePurchaseList__CancelButton{
+    margin-bottom: 2rem;
+}
+
+.ProfileCreatePurchaseList__FormButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfileCreatePurchaseList__FormButtons .ProfileCreatePurchaseList__SubmitButton {
+    margin-left: 0 ;
+}
+
+.ProfileCreatePurchaseList__FormButtons .ProfileCreatePurchaseList__CancelButton {
+  margin-right: 0 ;
+}
+
+.ProfileCreatePurchaseList__SearchInput::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.ProductSearch__Wrapper {
+  position: relative;
+  width: 40%;
+}
+
+.ProfileCreatePurchaseList__SearchIcon {
+  position: absolute;
+  color: #929292;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.ProfileCreatePurchaseList__SearchInput {
+  padding-left: 3.1rem;
+  width: 100%;
+}
+
+.ProfileCreatePurchaseList_Search__ClearButton {
+  display: none;
+  position: absolute;
+  border: none;
+  width: auto;
+  background: #fff;
+  color: var(--cc-a-color);
+
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  padding: 0;
+  padding-left: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ProfileCreatePurchaseList__ListNameInput,
+    .ProfileCreatePurchaseList__CancelButton,
+    .ProfileCreatePurchaseList__SubmitButton,
+    .ProfileCreatePurchaseList__Description{
+        width: 30%
+    }
+
+    .ProfileCreatePurchaseList__AddProduct{
+      position: relative;
+    }
+  
+    .ProfileCreatePurchaseList__AddProduct .Search__Container {
+      float: inherit;
+      width: 40%
+    }
+
+    .ProfileCreatePurchaseList__FormButtons{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .ProfileCreatePurchaseList__FormButtons button {
+        cursor: pointer;
+        flex: 0.25 0 0;
+        margin: 0.75rem 0;
+      }
+      .ProfileCreatePurchaseList__FormButtons .ProfileCreatePurchaseList__SubmitButton {
+        margin-left: 0.25rem ;
+      }
+      .ProfileCreatePurchaseList__FormButtons .ProfileCreatePurchaseList__CancelButton {
+        margin-right: 0.25rem ;
+      }
+
+}
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .ProfileCreatePurchaseList__AddProduct{
+    position: relative;
+    border-top: 1px solid var(--cc-border-color);
+    border-bottom: 1px solid var(--cc-border-color);
+    padding-bottom: 1rem;
+  }
+
+  .ProductSearch__Wrapper {
+    width: 60%;
+  }
+}
+
+.ProfileCreatePurchaseList__SubmitButton {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.ProfileCreatePurchaseList__SubmitButton{
+    background-color: var(--tmb-light-primary-color);
+}
+
+.ProfileCreatePurchaseList__SubmitButton:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+.ProfileCreatePurchaseList__FormButtons{
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 280px) {
+  .ProductSearch__Wrapper {
+    width: 100%;
+  }
+
+  .primary-heading {
+    padding-top: 1rem;
+  }
+}

@@ -1,0 +1,106 @@
+.ProfileSavedCard {
+  display: flex;
+  flex-flow: row;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.ProfileSavedCard__ImageContainer {
+  display: flex;
+  margin: 0.2rem 10px auto 0;
+  max-width: 7em;
+}
+
+.ProfileSavedCard__CardImage {
+  border: 0.8px solid var(--cc-border-color);
+  width: 3.5em;
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedCard__CardDetails {
+  display: flex;
+  flex-flow: column;
+  size: 0.9em;
+  flex: 1;
+}
+
+.ProfileSavedCard__CardText {
+  margin-bottom:.2rem;
+  max-width:inherit;
+}
+
+.ProfileSavedCard__CardActionsContainer {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.ProfileSavedCard__MakeDefaultContainer {
+  flex: 0 0 50%;
+  max-width: 50%;
+  display: flex;
+}
+
+.ProfileSavedCard__CardActionsContainer a,
+.ProfileSavedCard__CardActionsContainer button {
+  color: var(--cc-color);
+}
+
+.ProfileSavedCard__MakeDefault {
+  background-color: transparent;
+  color: var(--cc-color);
+  transition: color var(--cc-transition-secondary);
+  text-decoration: underline;
+  font: unset;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  padding: 0;
+  text-align: left;
+  border: none;
+  margin: 0;
+}
+
+.ProfileSavedCard__MakeDefault:not(:disabled):active,
+.ProfileSavedCard__MakeDefault:not(:disabled):hover {
+  background-color: transparent;  
+}
+
+.ProfileSavedCard__MakeDefault:focus,
+.ProfileSavedCard__MakeDefault:disabled {
+  background-color: transparent;
+}
+
+.ProfileSavedCard__MakeDefault:hover,
+.ProfileSavedCard__MakeDefault:active {
+  color: var(--cc-color);
+}
+
+.ProfileSavedCard__MakeDefault__HelpText {
+  display: none;
+}
+
+.ProfileSavedCard__DeleteLinkContainer {
+  text-indent: 1rem;
+  text-align: right;
+  text-decoration: underline;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.card-options-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.link-colors-card{
+  color:#fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-options-container{
+    flex-direction: column;
+  }
+}

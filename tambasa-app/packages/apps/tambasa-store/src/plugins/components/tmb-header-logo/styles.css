@@ -1,0 +1,8 @@
+.TmbHeaderLogo__Link___Image {
+  width: 214px;
+  height: 57px;
+  background-image: var(--tmb-logo-url);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

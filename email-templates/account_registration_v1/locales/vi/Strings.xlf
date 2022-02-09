@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="vi-VN">
+      <body>
+         <trans-unit id="ACCOUNT_REG_SUBJECT">
+            <source>{0} Account Registration Confirmation</source>
+            <target>Xác nhận đăng ký tài khoản {0}</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_1">
+            <source>Welcome to {0}!</source>
+            <target>Chào mừng bạn đến với {0}!</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_2">
+            <source>We appreciate your interest and look forward to you shopping with us in the future.</source>
+            <target>Chúng tôi đánh giá cao sự quan tâm của bạn và hy vọng bạn sẽ mua hàng của chúng tôi trong tương lai.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_3">
+            <source>Your account details are as follows: </source>
+            <target>Chi tiết tài khoản của bạn bao gồm những thông tin sau: </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_4">
+            <source>Username</source>
+            <target>Tên người dùng</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_5">
+            <source>ProfileId</source>
+            <target>Mã hồ sơ</target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_1">
+            <source>Please navigate to this page where you can reset your password: </source>
+            <target>Hãy điều hướng tới trang này để bạn có thể đặt lại mật khẩu của mình: </target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_2">
+            <source>The next time you log in to your {0} account, you will be asked to create a password of your own choosing.</source>
+            <target>Lần tới đăng nhập vào tài khoản {0}, bạn sẽ được yêu cầu tạo một mật khẩu tự chọn.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SALUTATION">
+            <source>Dear {0},</source>
+            <target>Xin chào {0}!</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SENT_SIGNATURE_TEXT">
+            <source>This is an automatically generated e-mail. Please do not reply.</source>
+            <target>Đây là email được tạo tự động. Vui lòng không trả lời email này.</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

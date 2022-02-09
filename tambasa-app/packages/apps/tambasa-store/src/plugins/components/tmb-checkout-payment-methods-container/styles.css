@@ -1,0 +1,21 @@
+.TmbCheckoutPaymentMethodsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.TmbCheckoutPaymentMethodsContainer__Header .TmbCheckoutPaymentMethodsContainer__Header___Title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  padding-top: 45px;
+  padding-bottom: 17px;
+  margin-bottom: 53px;
+}
+
+
+.TmbCheckoutPaymentMethodsContainer .Radio label {
+  margin-left: 0;
+}

@@ -1,0 +1,74 @@
+.TmbProductDetailsContainer {
+  margin-top: var(--tmb-region-spacement-xxl-small);
+  padding: 0 var(--tmb-region-spacement-small);
+}
+.TmbProductDetailsContainer__Section {
+  display: flex;
+}
+
+.TmbProductDetailsContainer .ProductSocialSharing {
+  align-self: flex-end;
+}
+
+.TmbProductDetailsContainer .AddToPurchaseList {
+  width: 50%;
+}
+
+section.Region.col-7 {
+  padding-left: var(--tmb-region-spacement-x-small);
+}
+
+@media (min-width: 2560px) {
+  .TmbProductDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-large);
+  }
+}
+
+@media (max-width: 1920px) {
+  .TmbProductDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-large);
+  }
+}
+
+@media (max-width: 1680px) {
+  .TmbProductDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media (max-width: 1440px) {
+  .TmbProductDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbProductDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media (max-width: 1024px) {
+  .TmbProductDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+}
+
+@media (max-width: 768px) {
+  .TmbProductDetailsContainer__Section {
+    flex-direction: column;
+  }
+
+  section.Region.col-5,
+  section.Region.col-7 {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .TmbProductDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-xs-small);
+  }
+}

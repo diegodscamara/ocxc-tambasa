@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="pt-PT">
+      <body>
+         <trans-unit id="ORDER_PLACED_SUBJECT">
+            <source>Your {0} Order Number {1}</source>
+            <target>O seu {0} Número de Encomenda {1}</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TITLE">
+            <source>Thank you for your order.</source>
+            <target>Agradecemos a sua encomenda.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE">
+            <source>Your order number is {0}, placed {1} at {2}.</source>
+            <target>O seu número de encomenda é {0}, efetuada {1} às {2}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_START">
+            <source>Your order number is </source>
+            <target>O seu número de encomenda é </target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ORDER_LINE_END">
+            <source>, placed {0} at {1}.</source>
+            <target>, efetuada {0} às {1}.</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_ADDRESS_TITLE">
+            <source>Shipping Address</source>
+            <target>Morada para Expedição</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PAYMENT_METHODS_TITLE">
+            <source>Payment Methods</source>
+            <target>Métodos de Pagamento</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_METHODS_TITLE">
+            <source>Shipping Methods</source>
+            <target>Métodos de Expedição</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_ITEM_TITLE">
+            <source>Item</source>
+            <target>Artigo</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_QUANTITY_TITLE">
+            <source>Qty</source>
+            <target>Quantidade</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_PRICE_TITLE">
+            <source>Price</source>
+            <target>Preço</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SUBTOTAL_TITLE">
+            <source>Subtotal</source>
+            <target>Total Parcial</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_DISCOUNT_TITLE">
+            <source>Discount</source>
+            <target>Desconto</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TAX_TITLE">
+            <source>Tax</source>
+            <target>Imposto</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_SHIPPING_TITLE">
+            <source>Shipping</source>
+            <target>Expedição</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_TOTAL_TITLE">
+            <source>Total</source>
+            <target>Total</target>
+         </trans-unit>
+         <trans-unit id="ORDER_PLACED_THANKS_TEXT">
+            <source>Thanks again for shopping at {0}</source>
+            <target>Mais uma vez, obrigado por comprar no {0}</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

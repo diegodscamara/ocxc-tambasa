@@ -1,0 +1,40 @@
+.TmbShowMoreProductsButton__Button {
+  font-size: var(--cc-font-size-large);
+  margin: 1rem;
+  border-radius: var(--cc-border-radius);
+  border-width: .5px;
+  border: 1px solid var(--cc-border-color);
+  outline: none;
+}
+
+.TmbShowMoreProductsButton__Button--Desktop {
+  min-width: 300px;
+  width: auto;
+}
+
+.TmbShowMoreProductsButton__Button--Mobile {
+  width: calc(100% - 2rem)
+}
+
+.TmbShowMoreProductsButton__HiddenLink {
+  display: none;
+}
+
+.TmbShowMoreProductsButton button.TmbShowMoreProductsButton__Button {
+  background: var(--tmb-primary-color);
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: .85rem;
+  padding: 10px 1rem;
+}
+
+.TmbShowMoreProductsButton button.TmbShowMoreProductsButton__Button:focus-visible {
+  outline: none;
+}
+
+@media (min-width: 1680px) {
+  .TmbShowMoreProductsButton {
+    padding-left: 300px;
+  }
+}

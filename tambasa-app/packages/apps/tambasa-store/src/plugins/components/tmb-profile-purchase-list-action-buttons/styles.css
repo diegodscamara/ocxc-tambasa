@@ -1,0 +1,59 @@
+.TmbProfilePurchaseListActionButtons {
+  float: right;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.TmbProfilePurchaseListActionButtons button {
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  background: none;
+  border: none;
+  font-weight: normal;
+}
+
+.TmbProfilePurchaseListActionButtons button:active,
+.TmbProfilePurchaseListActionButtons button:hover {
+  background: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .TmbProfilePurchaseListActionButtonsDesktop {
+    display: none;
+  }
+
+  .TmbProfilePurchaseListActionButtonsMobile {
+    display: block;
+  }
+
+  .TmbProfilePurchaseListActionButtonsMobile__MoreHorizontalIcon {
+    cursor: pointer;
+    display: inline-flex;
+    padding-right: 0;
+  }
+
+  .TmbProfilePurchaseListActionButtonsMobile__MoreHorizontalIcon .Icon {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .TmbProfilePurchaseListActionButtonsMobile {
+    display: none;
+  }
+
+  .TmbProfilePurchaseListActionButtonsDesktop {
+    display: inline;
+    padding: 0.3125rem var(--cc-container-padding);
+  }
+
+  .TmbProfilePurchaseListActionButtonsDesktop__Button {
+    text-decoration: underline;
+    width: auto;
+    padding: 0;
+  }
+
+  .TmbProfilePurchaseListActionButtonsDesktop__Separator {
+    margin: 0.188rem;
+  }
+}

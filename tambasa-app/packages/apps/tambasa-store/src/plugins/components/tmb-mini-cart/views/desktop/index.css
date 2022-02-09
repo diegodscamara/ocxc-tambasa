@@ -1,0 +1,83 @@
+.TmbMiniCartDesktop__Container {
+  margin-left: 10px;
+}
+
+.TmbMiniCartDesktop__Container > a {
+  display: flex;
+}
+
+.TmbMiniCartDesktop__Container > a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.TmbMiniCartDesktop__Container___IconBlock {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tmb-primary-color);
+  position: relative;
+  padding: 12px 6px;
+}
+
+.TmbMiniCartDesktop__Container___IconBlock svg {
+  height: 30px;
+  width: 30px;
+}
+
+.TmbMiniCartDesktop__Container___IconBlock___Qty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--tmb-primary-font);
+  font-size: 8px;
+  color: var(--tmb-primary-color);
+  background-color: #fff;
+  height: 10px;
+  width: 18px;
+  border-radius: 5px;
+  position: absolute;
+  right: -3px;
+  top: 9px;
+}
+
+.TmbMiniCartDesktop__Container__Title {
+  font-family: var(--tmb-primary-font);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 12px;
+  background-color: var(--tmb-light-primary-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  max-width: 135px;
+}
+  
+.TmbMiniCartDesktop a {
+  text-decoration: none;
+}
+  
+.TmbMiniCartDesktop .Popover {
+  top: 1rem;
+}
+
+a.button.checkout:hover {
+  color: #fff;
+}
+
+@media (min-width: 1920px) {
+  .TmbMiniCartDesktop__Container {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .TmbMiniCartDesktop__Container__Title {
+    width: 100%;
+  }
+}
+
+

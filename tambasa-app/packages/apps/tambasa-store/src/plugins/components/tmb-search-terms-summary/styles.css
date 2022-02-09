@@ -1,0 +1,34 @@
+.TmbSearchTermsSummary__NoResults {
+  margin-top: 2rem;
+}
+
+.TmbSearchTermsSummary__SuggestedSearch,
+.TmbSearchTermsSummary__OriginalSearch:nth-child(1) span,
+.TmbSearchTermsSummary__SearchAdjusted:nth-child(1) span,
+.TmbSearchTermsSummary__NoResults:nth-child(1) span {
+  font-weight: bold;
+}
+
+.TmbSearchTermsSummary__Container {
+  text-align: center;
+}
+
+.TmbSearchTermsSummary__OriginalSearch {
+  background: var(--tmb-light-primary-color);
+  color: #fff;
+  font-family: var(--tmb-primary-font);
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.TmbSearchTermsSummary__OriginalSearch p {
+  margin: 0;
+}
+
+.TmbSearchTermsSummary__OriginalSearch p span {
+  font-size: 1em;
+}
+
+.TmbSearchTermsSummary__ErrorMessage {
+  padding: 2rem;
+}

@@ -1,0 +1,19 @@
+.GeneralPaymentDetails {
+  display: flex;
+}
+
+.GeneralPaymentDetails .Icon {
+  display: flex;
+  width: 3.5em;
+  height: 100%;
+  margin: 0.2rem 1rem auto 0;
+}
+
+.GeneralPaymentDetails .Icon > path{
+  fill: var(--cc-icon-color);
+}
+
+.GeneralPaymentDetails__Details {
+  padding-top: .2rem;
+  font-weight: 500;
+} 

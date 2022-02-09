@@ -1,0 +1,66 @@
+.ProductResultPrice__ProductPrice, 
+.TmbProductResultPrice__CheckPrice,
+.ProductResultPrice__OriginalPrice {
+  font-family: var(--tmb-primary-font);
+}
+
+.ProductResultPrice__ProductPrice {
+  display: block;
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+  color: var(--cc-color);
+}
+
+a.TmbProductResultPrice {
+  display: flex;
+  flex-direction: column; /* In the case that list and sale prices are displayed */
+
+  font-family: var(--tmb-primary-font);
+  font-weight: 600;
+  color: #000;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+a.TmbProductResultPrice:hover,
+a.TmbProductResultPrice:active,
+a.TmbProductResultPrice:focus,
+a.TmbProductResultPrice:focus-visible {
+  outline: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.TmbProductResultPrice__OriginalPrice {
+  font-size: 9px;
+  font-weight: 400;
+  color: #b2b2b2;
+  text-decoration: line-through;
+}
+
+.TmbProductResultPrice__ProductPrice {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--tmb-dark-grey);
+}
+
+a.TmbProductCheckPrice {
+  color: var(--tmb-light-grey1);
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 0.6px;
+  margin-top: 1rem;
+}
+
+.ProductResultPrice__OriginalPrice {
+  color: var(--cc-invalid-focusring-color);
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+  text-decoration: line-through;
+  display: block;
+}
+
+.ProductResultPrice {
+  display: inline-block;
+}

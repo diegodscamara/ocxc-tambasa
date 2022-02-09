@@ -1,0 +1,8 @@
+{
+    "resources": {
+      "title": "Despesa de Acessoria",
+      "description": "Extensão utilizada para definir valor de acessoria",
+      "valueLabelText": "Valor de acessoria",
+      "valueHelpText": "O formato do campo é composto por números divido por pontos. (Ex: 140.54)"
+    }
+}

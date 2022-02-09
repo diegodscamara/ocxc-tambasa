@@ -1,0 +1,80 @@
+.ProfileUpdateExpiredPassword input {
+  width: 100%
+}
+
+.ProfileUpdateExpiredPassword {
+  padding: 0 var(--tmb-region-spacement-large);
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.ProfileUpdateExpiredPassword__EmailIcon,
+.ProfileUpdateExpiredPassword__PasswordIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.85em;
+}
+
+.ProfileUpdateExpiredPassword__EmailField .Icon,
+.ProfileUpdateExpiredPassword__PasswordField .Icon {
+  height: 1rem;
+}
+
+.ProfileUpdateExpiredPassword__EmailField,
+.ProfileUpdateExpiredPassword__PasswordField {
+  position: relative;
+}
+
+.ProfileUpdateExpiredPassword__StatusMessage > * {
+  margin-bottom: 0.75rem;
+}
+
+.ProfileUpdateExpiredPassword__InputFields > form > * {
+  margin-bottom: 1rem;
+}
+
+
+.ProfileUpdateExpiredPassword {
+  padding: 0 var(--tmb-region-spacement-large);
+  margin-bottom: 50px;
+  font-family: var(--tmb-primary-font);
+}
+.ProfileUpdateExpiredPassword input {
+  padding: 0.5rem;
+  font-family: var(--tmb-secondary-font);
+}
+
+@media (max-width: 1600px) {
+  .ProfileUpdateExpiredPassword {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .ProfileUpdateExpiredPassword {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .ProfileUpdateExpiredPassword {
+    padding: 0 50px;
+  }
+}
+
+.button-container-reset-password{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button-reset-password{
+  background-color: var(--tmb-light-primary-color);
+  width: 60%;
+}
+
+.submit-button-reset-password:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}

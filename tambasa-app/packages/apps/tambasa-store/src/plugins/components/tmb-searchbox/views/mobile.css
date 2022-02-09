@@ -1,0 +1,61 @@
+.SearchBoxMobile__Modal {
+  background-color: var(--cc-background-color);
+  color: var(--cc-color);
+  display: block;
+  left: 0;
+  outline: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform var(--cc-transition);
+  white-space: normal;
+  width: 100%;
+  top: 0;
+  z-index: var(--cc-modal-z-index);
+  visibility: hidden;
+}
+
+.SearchBoxMobile .TypeaheadResults {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.SearchBoxMobile__Toggle:checked ~ .SearchBoxMobile__Modal {
+  box-shadow: 4px 0 10px 0 rgba(0, 0, 0, .4);
+  transform: translate(0px, 0px);
+  visibility: visible;
+}
+
+.SearchBoxMobile__Backdrop {
+  background-color: var(--cc-background-color);
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transition: opacity var(--cc-transition);
+  width: 100%;
+  z-index: var(--cc-modal-backdrop-z-index);
+}
+
+.SearchBoxMobile__Toggle:checked ~ .SearchBoxMobile__Backdrop {
+  opacity: .75;
+  pointer-events: auto;
+}
+
+.SearchBoxMobile__SearchIcon {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  color: var(--cc-root-header-color);
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 500;
+  height: 40px;
+  outline: none;
+  position: relative;
+  user-select: none;
+}

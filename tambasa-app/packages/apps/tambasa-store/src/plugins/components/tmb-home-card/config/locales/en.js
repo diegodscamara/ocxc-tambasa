@@ -1,0 +1,5 @@
+export const titleTopLabel = "Title of the top line"
+export const titleBottomLabel = "Title of the bottom line"
+export const cardBackgroundLabel = "Card background image"
+export const categoryLinkLabel = "Link to acces the category"
+export const linkTextLabel = "Text for the category link"

@@ -1,0 +1,33 @@
+.TmbProductImageViewer__Slider {
+    position: relative;
+    white-space: nowrap;
+    border: 1px solid #707070!important;
+}
+
+.TmbProductImageViewer__SliderImage {
+    overflow: hidden;
+}
+
+.TmbProductImageViewer__Slider .TmbProductImageViewer__ImageZoom {
+    visibility: hidden;
+}
+
+.TmbProductImageViewer__Slider:hover .TmbProductImageViewer__ImageZoom {
+    visibility: visible;
+}
+
+.TmbProductImageViewer__HelpText {
+    text-align: center;
+}
+
+.TmbProductImageViewer__SliderWrapper {
+    position: relative;
+    transition: transform ease-out 250ms;
+    width: 100%;
+}
+
+.TmbProductImageViewer__SliderNumbers {
+    width: 100%;
+    text-align: center;
+    margin: 0.3rem;
+}

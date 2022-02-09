@@ -1,0 +1,48 @@
+.TmbHeaderContainerMobile__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: var(--cc-root-header-color);
+  white-space: nowrap;
+  background-color: var(--cc-root-header-background-color);
+  padding-right: 0.875rem;
+}
+
+.TmbHeaderContainerMobile__Section > *:last-child {
+  justify-content: flex-end;
+}
+
+.TmbHeaderContainerMobile__Section > *:first-child {
+  justify-content: flex-start;
+}
+
+.TmbHeaderContainerMobile__Section > *:only-child {
+  justify-content: center;
+}
+
+.TmbHeaderContainerMobile__Section > *:not(:first-child):not(:last-child):not(.col-12 + section) {
+  justify-content: center;
+}
+
+.TmbHeaderContainerMobile__Section > *:not(.col-12) {
+  display: inline-flex;
+  padding: 0.25rem;
+}
+
+/* error icon in header should not be 100% */
+.TmbHeaderContainerMobile__Section .Img__Wrapper .Img__MissingImgIcon {
+  width: 24px;
+}
+
+@media (min-width: 850px) {
+  .TmbHeaderContainerMobile__Section {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .TmbHeaderContainerMobile__Section > *:not(.col-12) {
+    padding: 0.5rem 0.75rem;
+  }
+}

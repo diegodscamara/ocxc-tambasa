@@ -1,0 +1,17 @@
+export const formHeaderTitle = 'CONTACT US';
+export const formHeaderDescription = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est';
+export const labelName = 'Name / Company';
+export const labelEmailAddress = 'Email';
+export const labelPhone = 'Phone';
+export const labelMessage = 'Message';
+export const concludeButton = 'Send';
+export const informationsCentralTitle = 'Call center';
+export const informationsCentralValue = '11 1234-5678 | 1234-5678';
+export const informationsPhoneTitle = 'WhatsApp';
+export const informationsPhoneValue = '11 99876-5432';
+export const informationsEmailTitle = 'E-mail';
+export const informationsEmailValue = 'contato@tambasa.com.br';
+export const informationsAddressTitle = 'Address';
+export const informationsAddressValue = 'Rua Voluntários da Pátria, 2525 - CJ 113 Santana - São Paulo - SP CEP: 02011-600';
+export const informationsSocialTitle = 'Social medias';
+export const formHeaderNavigation = 'CONTACT US';

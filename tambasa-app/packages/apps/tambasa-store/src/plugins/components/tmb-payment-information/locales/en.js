@@ -1,0 +1,1 @@
+export const paymentHeadingText = "Payment information"

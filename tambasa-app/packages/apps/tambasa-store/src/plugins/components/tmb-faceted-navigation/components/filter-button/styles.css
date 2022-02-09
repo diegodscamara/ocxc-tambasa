@@ -1,0 +1,29 @@
+.FilterButton {
+  display: inline-block;
+  background-color: var(--cc-button-background-color);
+  border: 1px solid var(--cc-button-background-color-active);
+  border-radius: var(--cc-border-radius);
+  color: var(--cc-button-color);
+  height: 35px;
+  width: calc((50%) - (1rem));
+  padding: .3rem 0;
+  margin: .5rem .1rem .5rem var(--cc-container-padding);
+  text-align: left;
+  position: absolute;
+  left: 0.3rem;
+}
+
+.FilterButton:active {
+  background-color: var(--cc-button-background-color-active);
+  font-weight: 500;
+}
+
+.FilterButton__Icon {
+  margin-left: .75rem;
+  margin-right: .5rem;
+  float: left;
+}
+
+.FilterButton__Icon svg {
+  transform: scale(0.75);
+}

@@ -1,0 +1,2 @@
+export const invoicedBillDescription = "Payment through invoiced bill. You just need to select a price list on the down below box."
+export const bankSlipDescription = "Quick and easy orders with bank slip"

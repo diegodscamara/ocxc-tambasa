@@ -1,0 +1,98 @@
+.ProfileUpdatePassword {
+  width: 100%;
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 3rem;
+}
+
+.ProfileUpdatePassword__Content form {
+  padding-top: 0.2rem;
+}
+
+.ProfileUpdatePassword__InputElement {
+  margin-bottom: 1.0rem;
+}
+
+.ProfileUpdatePassword__InputElement input:focus{
+  outline: none;
+}
+
+.ProfileUpdatePassword__InputElementIconDiv  {
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+
+.ProfileUpdatePassword__InputElementDiv input {
+   display:block;
+   box-sizing: border-box;
+   padding-right: 1.8rem;
+}
+
+.ProfileUpdatePassword__InputField {
+  width : 100%;
+}
+
+.ProfileUpdatePassword__IconBasicStyle {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--cc-icon-color);
+}
+
+.ProfileUpdatePassword__CloseButtonDiv{
+  text-align: right;
+  line-height: 0.1rem;
+}
+
+.ProfileUpdatePassword__CloseButton{
+  cursor: pointer;
+}
+
+.ProfileUpdatePassword :focus {
+  outline: auto;
+}
+
+.ProfileUpdatePassword__Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 2.0rem;
+}
+
+.ProfileUpdatePassword__Buttons .ProfileUpdatePassword__SubmitButton {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.ProfileUpdatePassword__Buttons .ProfileUpdatePassword__CancelButton {
+  margin-right: 0.25rem;
+  width : 100%;
+}
+
+@media only screen and (max-width: 768px){
+  .ProfileUpdatePassword__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfileUpdatePassword__Buttons .ProfileUpdatePassword__SubmitButton {
+    margin-left: 0;
+    margin-bottom: 1.0rem;
+  }
+  .ProfileUpdatePassword__Buttons .ProfileUpdatePassword__CancelButton {
+    margin-right: 0;
+  }
+}
+
+input{
+  border-radius: 5px;
+}
+
+.ProfileUpdatePassword__SubmitButton{
+    background-color: var(--tmb-light-primary-color);
+}
+
+.ProfileUpdatePassword__SubmitButton:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+label{
+  text-transform: none;
+}

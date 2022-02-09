@@ -1,0 +1,263 @@
+.ProfileRegistration input{
+  width: 100%;
+}  
+
+.ProfileRegistration {
+  padding: 0 var(--tmb-region-spacement-large);
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+  margin-top: 50px;
+}
+
+.ProfileRegistration.account-finished {
+  margin-top: 0;
+}
+
+.ProfileRegistration > form > div {
+  margin-bottom: 1em;
+}
+
+.ProfileRegistration__UserPreferences,
+.ProfileRegistration .RadioGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.ProfileRegistration__UserPreferences > input,
+.ProfileRegistration .RadioGroup > input {
+  flex-basis: 1rem;
+  margin-right: .5rem;
+}
+
+.ProfileRegistration__UserPreferences > label,
+.ProfileRegistration .DynamicProperty__CheckBox > label {
+  width: 95%;
+}
+
+.DynamicProperty__CheckBox {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+
+.DynamicProperty__CheckBox input,
+.DynamicProperty__CheckBox label {
+  margin-right: 1rem;
+}
+
+.ProfileRegistration__EmailIcon,
+.ProfileRegistration__PasswordIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.85em;
+}
+
+.ProfileRegistration__EmailField .Icon,
+.ProfileRegistration__PasswordField .Icon,
+.ProfileRegistration__ConfirmPasswordField .Icon {
+  height: 1rem;
+}
+
+.ProfileRegistration__PasswordIcon {
+  top : 0.14em;
+}
+
+.ProfileRegistration__EmailField,
+.ProfileRegistration__PasswordField,
+.ProfileRegistration__ConfirmPasswordField {
+  position: relative;
+}
+
+.ProfileRegistration__LinkToLogin {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  color: var(--cc-secondary-button-color);
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: linear-gradient(to bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  box-shadow: var(--cc-secondary-button-box-shadow);
+  border: 1px solid transparent;
+  border-radius: var(--cc-border-radius);
+  padding: 0.5em 1em;
+  text-transform: unset;
+  font-weight: 600;
+  width: 60%;
+}
+
+.ProfileRegistration__LinkToLogin:hover, .ProfileRegistration__LinkToLogin:focus {
+  color: var(--cc-secondary-button-color);
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: linear-gradient(to bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  text-decoration: none;
+  box-shadow: var(--cc-secondary-button-box-shadow);
+}
+
+.ProfileRegistration {
+  padding: 0 var(--tmb-region-spacement-large);
+  margin-bottom: 50px;
+  font-family: var(--tmb-primary-font);
+}
+.ProfileRegistration input {
+  padding: 0.5rem;
+  font-family: var(--tmb-secondary-font);
+}
+
+@media (max-width: 1600px) {
+  .ProfileRegistration {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .ProfileRegistration {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .ProfileRegistration {
+    padding: 0 50px;
+  }
+}
+
+.hidden-label{
+  display: none;
+}
+
+
+.button-container-create-account{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.label{
+  margin-top: 18px;
+  font: normal normal medium 14px/18px Montserrat;
+  letter-spacing: 0.7px;
+  color: #707070;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-col-md-4{
+  width: 30%;
+}
+
+.custom-col-md-6{
+  width: 47%;
+}
+
+.custom-col-md-12{
+  width: 100%;
+}
+
+.title{
+    text-align: left;
+    font: normal normal bold 22px/27px Montserrat;
+    letter-spacing: 0px;
+    color: #1B1B1B;
+    border-bottom: 1px solid #C9C9C9;
+    padding-bottom: 15px;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+
+.create-account-button-custom{
+  background-color: var(--tmb-light-primary-color);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.create-account-button-custom:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+.button-container-create-account{
+  padding-top: 2rem;
+  border-top: 1px solid #C9C9C9;
+}
+
+.custom-container-fields{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hide-form-step{
+  position: absolute;
+  visibility: hidden;
+}
+
+.ProfileRegistration__UserPreferences{
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-container-fields, .custom-row{
+    flex-direction: column;
+  }
+
+  .custom-col-xs-12 {
+    width: 100%;
+  }
+}
+
+.account-finish-container{
+  width: 100%;
+  background-color: var(--tmb-light-primary-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-finish-button{
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.account-finish-text{
+  margin-top: 2rem;
+  font-weight: normal;
+}
+
+.account-finished{
+  background-color: var(--tmb-light-primary-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.validationMessage{
+  margin-top: 5px;
+}
+
+.validationMessage  .warningIcon{
+  margin-top: -0.5rem;
+}
+
+input {
+    border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+.ProfileResetPassword input {
+  width: 100%
+}
+
+.ProfileResetPassword p {
+  margin-top: 0;
+}
+
+.ProfileResetPassword {
+  padding: 0 var(--tmb-region-spacement-large);
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+
+}
+
+.ProfileResetPassword__Username {
+  margin-bottom: 2.5em;
+}
+
+.ProfileResetPassword__EmailIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.55em;
+  width: 1.2rem;
+}
+
+.ProfileResetPassword__EmailField {
+  position: relative;
+}
+
+
+@media (max-width: 1600px) {
+  .ProfileResetPassword {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .ProfileResetPassword {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .ProfileResetPassword {
+    padding: 0 50px;
+  }
+}
+
+.submit-button-reset-password{
+  background-color: var(--tmb-light-primary-color);
+  width: 60%;
+}
+
+.submit-button-reset-password:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+.button-container-reset-password{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

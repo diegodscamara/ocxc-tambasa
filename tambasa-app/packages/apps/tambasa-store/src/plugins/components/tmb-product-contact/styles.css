@@ -1,0 +1,56 @@
+.TmbProductContact {
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  padding: 1rem;
+  text-align: left;
+}
+
+.TmbProductContact__Title {
+  color: #4b4b4b;
+  font: normal normal bold 26px/38px Montserrat;
+  margin-bottom: 0.813rem;
+}
+
+.TmbProductContact__Text {
+  color: #4b4b4b;
+  font: normal normal normal 12px/15px Montserrat;
+}
+
+.TmbProductContact__Form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.813rem;
+}
+
+.TmbProductContact__Form > *:not(:last-child) {
+  margin-bottom: 0.813rem;
+}
+
+.TmbProductContact__Input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d2d2d2;
+}
+
+.TmbProductContact__Input::placeholder {
+  color: #9f9f9f;
+  font: normal normal normal 12px/15px Lato;
+  padding-left: 1rem;
+}
+
+.TmbProductContact__Button {
+  background: var(--tmb-light-primary-color) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  font: normal normal bold 16px/19px Montserrat;
+  width: 100px;
+  margin-left: auto;
+}
+
+/* Media queries */
+@media (max-width: 960px) {
+  .TmbProductContact {
+    margin-top: var(--tmb-region-spacement-xxl-small);
+  }
+  .TmbProductContact__Button {
+    margin: 0;
+    width: 100%;
+  }
+}

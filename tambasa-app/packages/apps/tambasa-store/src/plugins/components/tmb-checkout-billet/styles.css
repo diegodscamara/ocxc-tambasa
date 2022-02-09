@@ -1,0 +1,37 @@
+.TmbCheckoutBillet__Container {
+  font-family: var(--tmb-primary-font);
+  width: 100%;
+}
+
+.TmbCheckoutBillet__Container__Common {
+  flex-direction: column;  
+}
+
+.TmbCheckoutBillet__Container__Common, .TmbCheckoutBillet__Container__Invoiced {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TmbCheckoutBilletCommon__Wrapper, .TmbCheckoutBilletInvoiced__Wrapper {
+  display: flex;
+  width: 50%;
+}
+
+.TmbCheckoutBilletCommon__Icon {
+  max-width: 100px;
+  padding: 2rem 0;
+}
+
+.TmbCheckoutBillet_ExternalPricing__Container {
+  width: 50%;
+  padding-left: 3rem;
+}
+
+.TmbCheckoutBillet_ExternalPricing__Container .TmbExternalPricing {
+  flex: 1;
+  max-width: 300px;
+}
+
+.TmbCheckoutBillet_ExternalPricing__Container .TmbExternalPricing .TmbExternalPricing__Title {
+  background-color: #fff;
+}

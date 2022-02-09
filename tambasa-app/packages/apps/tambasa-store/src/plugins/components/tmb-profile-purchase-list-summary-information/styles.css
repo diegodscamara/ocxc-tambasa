@@ -1,0 +1,38 @@
+.TmbProfilePurchaseListSummaryInformation__Row {
+  display: flex;
+  margin-bottom: 0.3rem;
+}
+
+.TmbProfilePurchaseListSummaryInformation__Label {
+  float: left;
+  font-weight: 500;
+}
+
+.TmbProfilePurchaseListSummaryInformation__TextCol {
+  width: 100%;
+}
+
+.TmbProfilePurchaseListSummaryInformation__Text,
+.TmbProfilePurchaseListSummaryInformation__Value {
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .TmbProfilePurchaseListSummaryInformation__ValueCol {
+    padding-left: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .TmbProfilePurchaseListSummaryInformation__LabelCol {
+    width: 45%;
+  }
+
+  .TmbProfilePurchaseListSummaryInformation__ValueCol {
+    width: 55%;
+  }
+
+  .TmbProfilePurchaseListSummaryInformation__Value {
+    float: right;
+  }
+}

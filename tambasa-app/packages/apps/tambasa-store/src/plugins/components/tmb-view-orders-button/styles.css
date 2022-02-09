@@ -1,0 +1,32 @@
+.TmbViewOrdersButton__Link {
+  font-family: var(--tmb-primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 195px;
+  height: 45px;
+}
+
+.TmbViewOrdersButton__Link:active,
+.TmbViewOrdersButton__Link:hover,
+.TmbViewOrdersButton__Link:focus,
+.TmbViewOrdersButton__Link:focus-visible {
+  outline: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .TmbViewOrdersButton__Link {
+    margin-bottom: 1.5rem;
+  }
+}

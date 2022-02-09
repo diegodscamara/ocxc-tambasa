@@ -1,0 +1,153 @@
+/*Home banner info starts here*/
+
+.TmbHomeBannerInfo {
+  height: 100px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--tmb-region-spacement-large);
+}
+
+.TmbHomeBannerInfo__Container {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.TmbHomeBannerInfo__Container-Image {
+  margin-right: 14px;
+  width: 32px;
+  height: 32px;
+}
+
+.TmbHomeBannerInfo__Container-Content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.TmbHomeBannerInfo__Container-Title {
+  font: normal normal bold 14px/18px var(--tmb-primary-font);
+  letter-spacing: 0px;
+  color: #3f3f3f;
+}
+
+.TmbHomeBannerInfo__Container-Text {
+  font-size: 13px;
+  font-family: var(--tmb-primary-font);
+  letter-spacing: 0px;
+  color: #3f3f3f;
+}
+
+@media (min-width: 2560px) {
+  .TmbHomeBannerInfo {
+    padding: 0 var(--tmb-region-spacement-large);
+    /* justify-content: left; */
+  }
+
+  /* .TmbHomeBannerInfo__Container {
+        width: 222px;
+    } */
+}
+
+@media (max-width: 1750px) {
+  .TmbHomeBannerInfo {
+    padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media (max-width: 1600px) {
+  .TmbHomeBannerInfo {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media (max-width: 1440px) {
+  /* .TmbHomeBannerInfo {
+        padding: 0 10rem 0 14rem !important;
+    } */
+
+  .TmbHomeBannerInfo__Container {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbHomeBannerInfo {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media (max-width: 1250px) {
+  .TmbHomeBannerInfo {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+}
+
+@media (max-width: 960px) {
+  .TmbHomeBannerInfo {
+    padding: 0 2rem 0 3rem !important;
+  }
+
+  .TmbHomeBannerInfo__Container {
+    padding-right: 0.2rem;
+  }
+
+  .TmbHomeBannerInfo__Container-Title {
+    font-size: 11px;
+  }
+
+  .TmbHomeBannerInfo__Container-Text {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  .TmbHomeBannerInfo {
+    height: 5rem !important;
+    padding: 0 3rem 0 4rem !important;
+  }
+
+  .TmbHomeBannerInfo__Container {
+    margin-right: 0.2rem;
+    width: 141px;
+  }
+
+  .TmbHomeBannerInfo__Container-Image {
+    width: 25px;
+    height: 25px;
+  }
+
+  .TmbHomeBannerInfo__Container-Title {
+    font-size: 8px;
+  }
+
+  .TmbHomeBannerInfo__Container-Text {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 572px) {
+  .TmbHomeBannerInfo {
+    flex-wrap: wrap;
+    height: 7rem !important;
+    justify-content: center !important;
+    padding: 0 0 0 1rem !important;
+  }
+
+  .TmbHomeBannerInfo__Container-Title {
+    font-size: 9px;
+  }
+
+  .TmbHomeBannerInfo__Container-Text {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 375px) {
+  .TmbHomeBannerInfo {
+    height: 10rem !important;
+  }
+}
+
+/*Home banner info ends here*/

@@ -1,0 +1,33 @@
+{
+  "authenticatedUrls": [],
+  "author": "Isac M Q Junior",
+  "whitelistUrls": [],
+  "config": {
+    "port": "3000"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.0",
+    "winston": "^3.3.4"
+  },
+  "description": "Payment Gateway",
+  "devDependencies": {},
+  "publicUrls": [
+    "/ccstorex/custom/v1/nsh_external_pricing/status",
+    "/ccstorex/custom/v1/nsh_external_pricing/listprices",
+    "/ccstorex/custom/v1/nsh_external_pricing/calculateprice",
+    "/ccstorex/custom/v1/nsh_external_pricing/validateprices",
+    "/ccstorex/custom/v1/nsh_external_pricing/logs"
+  ],
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "main": "index.js",
+  "name": "NSH_External_Pricing",
+  "scripts": {
+    "start": "node index.js",
+    "updateurls": "python ../python/update_occs_extension_urls.py -f package.json -p ./app/routes"
+  },
+  "translations": [],
+  "version": "0.0.2"
+}

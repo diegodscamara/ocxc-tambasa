@@ -1,0 +1,51 @@
+/*TmbHomeCard Starts here*/
+
+.TmbHomeCard {
+    height: 424px;
+    width: 300px;
+    margin: 105px 0 0 200px;
+    position: relative;
+}
+
+.TmbHomeCard__Background {
+    height: 100%;
+    width: 100%;
+}
+
+.TmbHomeCard__Fade {
+    width: 280px;
+    height: 401px;
+    background: var(--tmb-light-primary-color) 0% 0% no-repeat padding-box;
+    mix-blend-mode: hard-light;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.TmbHomeCard__Content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font: normal normal 600 30px/32px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    padding-top: 108px;
+}
+
+.TmbHomeCard__Content-Border {
+    border-bottom: 3px solid #ffffff;
+    width: 64px;
+    margin-left: 105px;
+    padding-top: 8.5px;
+}
+
+.TmbHomeCard__Content-More {
+    font: normal normal 600 11px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    padding-top: 105.5px;
+}
+
+
+/*TmbHomeCar Ends here*/

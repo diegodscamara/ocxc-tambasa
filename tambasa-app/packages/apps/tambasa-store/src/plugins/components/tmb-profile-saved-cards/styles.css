@@ -1,0 +1,562 @@
+.ProfileSavedCards {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 3rem;
+}
+
+.ProfileSavedCards__ActionResponse {
+  margin-bottom: 1rem;
+}
+
+.ProfileSavedCards__NoSavedCards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileSavedCards .Card {
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  margin: 0;
+}
+
+.ProfileSavedCards .Card.ProfileSavedCards__NoSavedCards.Card__Primary {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedCards .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedCards__Items { 
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.ProfileSavedCards__Footer {
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: column;
+  width: 25%;
+  align-self: center;
+}
+
+.ProfileSavedCards__Item {
+  display: flex;
+  flex-flow: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileSavedCards__Items {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ProfileSavedCards .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+  }
+
+  .ProfileSavedCards__Footer {
+    width: 100%;
+  }
+}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+  .ProfileSavedCards__Items {
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card-title {
+    font-size     : x-large;
+    padding-bottom: 15px;
+    margin-bottom : 15px;
+    display       : block;
+}
+.cards-title-container {
+    display        : flex;
+    justify-content: space-between;
+    border-bottom  : 1px solid;
+    align-items    : end;
+}
+.card {
+    display       : flex;
+    flex-direction: column;
+    padding       : 20px 30px;
+    border-radius : 20px;
+    box-shadow    : rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    min-height    : 170px;
+    margin-bottom : 15px;
+    cursor        : pointer;
+    width: 100%;
+}
+
+.card-main-container{
+    width: 45%;
+}
+
+@media only screen and (max-width: 991px) {
+    .card-main-container {
+        width: 100%;
+    }
+}
+.master-card {
+    background: -webkit-linear-gradient(45deg, rgba(11, 11, 11, 1) 0%, rgba(46, 46, 46, 1) 52%, rgba(46, 46, 46, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(11, 11, 11, 1) 0%, rgba(46, 46, 46, 1) 52%, rgba(46, 46, 46, 1) 100%);
+    background: -moz-linear-gradient(45deg, rgba(11, 11, 11, 1) 0%, rgba(46, 46, 46, 1) 52%, rgba(46, 46, 46, 1) 100%);
+    background: linear-gradient(45deg, rgba(11, 11, 11, 1) 0%, rgba(46, 46, 46, 1) 52%, rgba(46, 46, 46, 1) 100%);
+    color     : #fff;
+}
+.visa {
+    background: -webkit-linear-gradient(45deg, rgba(18, 47, 100, 1) 0%, rgba(30, 52, 90, 1) 52%, rgba(57, 61, 68, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(18, 47, 100, 1) 0%, rgba(30, 52, 90, 1) 52%, rgba(57, 61, 68, 1) 100%);
+    background: -moz-linear-gradient(45deg, rgba(18, 47, 100, 1) 0%, rgba(30, 52, 90, 1) 52%, rgba(57, 61, 68, 1) 100%);
+    background: linear-gradient(45deg, rgba(18, 47, 100, 1) 0%, rgba(30, 52, 90, 1) 52%, rgba(57, 61, 68, 1) 100%);
+    color     : #fff;
+}
+.american-express {
+    background: -webkit-linear-gradient(45deg, rgb(132, 32, 32) 0%, rgb(107, 52, 52) 52%, rgb(72, 59, 59) 100%);
+    background: -o-linear-gradient(45deg, rgb(132, 32, 32) 0%, rgb(107, 52, 52) 52%, rgb(72, 59, 59) 100%);
+    background: -moz-linear-gradient(45deg, rgb(132, 32, 32) 0%, rgb(107, 52, 52) 52%, rgb(72, 59, 59) 100%);
+    background: linear-gradient(45deg, rgb(132, 32, 32) 0%, rgb(107, 52, 52) 52%, rgb(72, 59, 59) 100%);
+    color     : #fff;
+}
+.default {
+    background: -webkit-linear-gradient(45deg, rgba(96, 108, 136, 1) 0%, rgba(96, 108, 136, 1) 41%, rgba(52, 62, 89, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(96, 108, 136, 1) 0%, rgba(96, 108, 136, 1) 41%, rgba(52, 62, 89, 1) 100%);
+    background: -moz-linear-gradient(45deg, rgba(96, 108, 136, 1) 0%, rgba(96, 108, 136, 1) 41%, rgba(52, 62, 89, 1) 100%);
+    background: linear-gradient(45deg, rgba(96, 108, 136, 1) 0%, rgba(96, 108, 136, 1) 41%, rgba(52, 62, 89, 1) 100%);
+    color     : #fff;
+}
+.card-top {
+    display        : flex;
+    justify-content: space-between;
+}
+.card-ship {
+    width: 25px;
+}
+.card-name {
+    margin-bottom: 0;
+    min-height   : 20px;
+}
+.card-flag {
+    width: 50px;
+}
+.card-numbers {
+    letter-spacing: .1rem;
+    font-size     : 14px;
+}
+.card-valid-date {
+    display        : flex;
+    align-items    : center;
+    justify-content: flex-end;
+}
+.card-valid-date_date-text {
+    font-size: 18px !important;
+}
+.card-valid-date p {
+    display  : block;
+    font-size: 10px;
+    margin   : 0 2px;
+}
+.card-client-name {
+    letter-spacing: .1rem;
+    margin-bottom : 0;
+    min-height    : 20px;
+}
+.card-top-right {
+    min-height: 45px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.checkbox-container {
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    padding      : 0;
+}
+.title-address {
+    font-size: 20px;
+    color    : #5e5b5b;
+}
+.p-0 {
+    padding: 0;
+}
+.custom-radio-button {
+    width           : 25px;
+    background-color: white;
+    height          : 25px;
+    border          : 2px solid gray;
+    border-radius   : 70px;
+    position        : absolute;
+    top             : 11px;
+    right           : 5px;
+    cursor          : pointer;
+}
+.custom-label {
+    min-width: 100%;
+}
+.card-active {
+    background-color: #3dae2b;
+    color           : #fff;
+    position        : absolute;
+    padding         : 5px 10px;
+    border-radius   : 8px;
+    bottom          : 0;
+    left            : 50%;
+    transform       : translateX(-50%);
+    text-align      : center;
+}
+
+.info{
+    height: 10px;
+    display: block;
+    font-size: 0;
+}
+.info.active{
+    height: 10px;
+    font-size: 0.9rem;
+    color: #333;
+    font-family: 'proxima_novaregular';
+    margin-left: 6%;
+}
+.custom-radio-button-active {
+    background-size: cover;
+    font-size      : 30px;
+    color          : #3dae2b;
+    font-weight    : bolder;
+}
+.active-border {
+    border: 2px solid #3dae2b;
+}
+.cvv-custom-input {
+    margin-right    : 10px;
+    margin-bottom   : 5px;
+    border-radius   : 8px;
+    border          : none;
+    background-color: rgba(0, 0, 0, .4);
+    color           : #fff;
+    max-width: 151px;
+}
+
+.cvv-custom-input::placeholder{
+    color: #fff;
+}
+.card-bottom-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.create-card{
+    cursor: unset;
+}
+.create-card .card-numbers{
+    font-size: 16px;
+}
+.cards-container{
+    display: flex;
+    width: 100%;
+    float: left;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.add-new-card{
+    background-color: var(--tmb-light-primary-color);
+}
+
+.add-new-card:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+
+.custom-col-md-6{
+  width: 50%;
+  float: left;
+}
+
+.custom-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card-container-add{
+    padding-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .custom-col-md-12{
+    width: 100%;
+    float: left;
+  }
+  .custom-container{
+    flex-direction: column;
+    }
+
+.card-container-add{
+    padding-left:0;
+    margin-top: 1rem;
+}
+}
+
+
+
+
+.ProfileSavedCards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileSavedCards ul {
+  padding: .5rem;
+}
+
+.ProfileSavedCards__List {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.ProfileSavedCards__ListItem {
+  max-height: 220px;
+  color: var(--tmb-light-grey-4);
+  border-radius: 7px;
+  background: transparent linear-gradient(21deg, #070707 0%, #404040 100%) 0% 0% no-repeat padding-box;
+  padding: 21px 32px;
+  margin-bottom: 1rem;
+}
+
+.ProfileSavedCards__ListItem.isSelected {
+  outline: 3px solid var(--tmb-light-primary-color);
+}
+
+.ProfileSavedCards__ListItem form label {
+  padding: 0;
+}
+
+.ProfileSavedCards__ListItem .Radio__Control {
+  width: 0;
+  height: 0;
+  margin: 0;
+  border: 0;
+  visibility: hidden;
+}
+
+.ProfileSavedCards__Item--selected {
+  /* border: 2px solid var(--tmb-light-primary-color); */
+}
+
+.ProfileSavedCards__RadioButtonContainer {
+  display: none;
+}
+
+.ProfileSavedCards__RadioButton label {
+  margin-left: 0;
+  font-weight: normal;
+}
+
+.ProfileSavedCards__CardTypeImg {
+  width: 60px;
+  height: 36px;
+}
+
+.ProfileSavedCards__CardDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ProfileSavedCards__CardTypeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProfileSavedCard__Nickname {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.ProfileSavedCard__NicknameText {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.ProfileSavedCard__NameOnCard {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.ProfileSavedCard__ExpiryDate {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 13px;
+}
+
+.ProfileSavedCard__ExpiryDate___ValidThruContainer {
+  display: flex;
+}
+
+.ProfileSavedCard__ExpiryDate___ValidThru {
+  margin-right: 5px;
+}
+
+.ProfileSavedCard__ExpiryDate___Date {
+  margin: 0;
+}
+
+.ProfileCardDetails__Card__ValidThru {
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  line-height: 10px;
+  width: 39px;
+  height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.ProfileCardDetails__Card__ValidThruArrow {
+  font-size: 14px;
+}
+
+.ProfileSavedCards__Chip {
+  width: 42px;
+  height: 34px;
+}
+
+.ProfileSavedCards__CardDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+} 
+
+.ProfileSavedCards__CardNumber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.ProfileSavedCards__CvvDetailsContainer {
+  display: flex;
+  position: relative;
+}
+
+.ProfileSavedCards__CvvInputContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.ProfileSavedCards__CvvInput {
+  height: 25px;
+  width: 60px;
+}
+
+.ProfileSavedCards__CvvInput:disabled {
+  background-color: var(--cc-form-element-disabled-color);
+  cursor: not-allowed;
+}
+
+.ProfileSavedCards__CvvIconContainer {
+  margin-left: 0.5rem;
+  font-size: 10px;
+}
+
+.ProfileSavedCards__CvvIconContainer svg {
+  height: 2.3em;
+}
+
+.ProfileSavedCards__Invalid {
+  border-color: var(--cc-invalid-focusring-color);
+}
+
+.ProfileSavedCards__ErrorContainerWrapper {
+  display: flex;
+  position: relative;
+  background: var(--tmb-light-grey-4);
+  padding: 3px 10px;
+  border-radius: 15px;
+}
+
+.ProfileSavedCards__ErrorContainer {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 200px;
+  left: -150%;
+  top: -125%;
+  border-radius: 20px;
+  padding: 3px 0;
+}
+
+.ProfileSavedCards__ErrorContainer__Arrow {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  transform: rotate(45deg);
+  bottom: -2px;
+  right: 15px;
+  background-color: inherit;
+  z-index: 1;
+}
+
+.ProfileSavedCards__ErrorMessage {
+  display: none;
+  color: var(--cc-validation-error-color);
+  font-weight: 500;
+  font-size: var(--cc-font-size-xsmall);
+}
+
+.ProfileSavedCards__ErrorIconContainer {
+  display: none;
+  order: -1;
+}
+
+.ProfileSavedCards__ErrorIconContainer svg {
+  color: var(--cc-error-message-icon-color);
+  height: 12px;
+  margin-right: 10px;
+}
+
+.ProfileSavedCards__ErrorMessage:not(:empty) {
+  display: block;
+}
+
+.ProfileSavedCards__ErrorMessage:not(:empty) + .ProfileSavedCards__ErrorIconContainer{
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileSavedCards__ListItem{
+      max-height: unset;
+  }
+}

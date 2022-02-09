@@ -1,0 +1,25 @@
+.TmbProductBreadcrumbs__BreadcrumbLink,
+.TmbProductBreadcrumbs__BreadcrumbLink:active,
+.TmbProductBreadcrumbs__BreadcrumbLink:hover {
+  text-decoration: none;
+  font: normal normal normal 14px/22px var(--tmb-primary-font);
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/* Media queries */
+
+@media (min-width: 2560px) {
+  .TmbProductBreadcrumbs {
+    width: 830px;
+  }
+}
+
+@media (max-width: 960px) {
+  .TmbProductBreadcrumbs {
+    text-align: left;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 375px) {}

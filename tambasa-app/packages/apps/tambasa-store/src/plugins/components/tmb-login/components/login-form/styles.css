@@ -1,0 +1,144 @@
+.Login input {
+  width: 100%
+}
+
+.Login_Content{
+  font-size: var(--cc-font-size);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Login > form > div {
+  margin-bottom: 1em;
+}
+
+.Login__EmailIcon, 
+.Login__PasswordIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.85em;
+}
+
+.Login__EmailField .Icon,
+.Login__PasswordField .Icon{
+  height: 1rem;
+}
+
+.Login__EmailField,
+.Login__PasswordField {
+  position: relative;
+}
+
+.Login__ForgotPassword {
+  text-align: right;
+}
+
+.Login__ForgotPassword__Link {
+  color: var(--cc-color);
+  text-decoration: underline
+}
+
+.Login__LinkToCreateAccount {
+  margin-bottom: 1em;
+}
+
+.hidden-label{
+  display: none;
+}
+
+.Login input{
+  padding: 0.5rem;
+  font-family: var(--tmb-secondary-font);
+}
+
+.login-button{
+  background-color: var(--tmb-light-primary-color);
+  width: 60%;
+}
+
+.login-button:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+.button-container-login{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 18px;
+}
+
+
+.Login__ForgotPassword{
+  margin-top: 9px;
+}
+.midle-line{
+  width: 1px;
+  background-color: #C9C9C9;
+}
+
+.login-container, .create-account-container{
+  width: 40%;
+}
+
+.label{
+  margin-top: 18px;
+  font: normal normal medium 14px/18px Montserrat;
+  letter-spacing: 0.7px;
+  color: #707070;
+  text-transform: uppercase;
+}
+
+.create-account-title, .login-title{
+    text-align: left;
+    font: normal normal bold 22px/27px Montserrat;
+    letter-spacing: 0px;
+    color: #1B1B1B;
+    border-bottom: 3px solid #1b1b1b;
+    padding-bottom: 15px;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+
+.create-account-text{
+  text-align: center;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0.7px;
+  color: #707070;
+  margin-top: 36px;
+}
+
+.create-account-button{
+  background-color: var(--tmb-light-primary-color);
+  width: 60%;
+}
+
+.create-account-button:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+.button-container-create-account{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 54px;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Login_Content {
+    flex-direction: column;
+  }
+
+  
+  .login-container, .create-account-container{
+    width: 100%;
+  }
+
+  .create-account-container{
+    margin-top: 50px;
+  }
+
+} 

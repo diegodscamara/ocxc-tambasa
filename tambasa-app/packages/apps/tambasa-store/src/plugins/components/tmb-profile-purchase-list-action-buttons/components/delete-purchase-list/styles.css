@@ -1,0 +1,41 @@
+.DeletePurchaseList__HeaderText {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.DeletePurchaseList__Alert {
+  margin: 1rem 0 1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .DeletePurchaseList__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .DeletePurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem 0 0.75rem 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .DeletePurchaseList__Buttons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .DeletePurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem;
+  }
+
+  .DeletePurchaseList__Buttons .DeletePurchaseList__ConfirmButton {
+    margin-right: 0;
+  }
+
+  .DeletePurchaseList__Buttons .DeletePurchaseList__CancelButton {
+    margin-left: 0;
+  }
+}

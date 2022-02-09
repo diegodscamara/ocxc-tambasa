@@ -1,0 +1,71 @@
+.ProfileAddressForm {
+    margin: var(--cc-container-padding);
+    color: var(--cc-color);
+
+}
+.ProfileAddressForm__AllFieldsRequiredText {
+  font-size: var(--cc-font-size-small);
+}
+.ProfileAddressForm input, .ProfileAddressForm Form input, .ProfileAddressForm Form select, .ProfileAddressForm Form button {
+    width: 100%;
+}
+.ProfileAddressForm__Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.ProfileAddressForm__Buttons button {
+  cursor: pointer;
+  flex: 0.25 0 0;
+  margin: 0.75rem 0;
+}
+.ProfileAddressForm__Buttons .ProfileAddressForm__ConfirmButton {
+  margin-left: 0.25rem ;
+}
+.ProfileAddressForm__Buttons .ProfileAddressForm__CancelButton {
+  margin-right: 0.25rem ;
+}
+.ProfileAddressInput__Checkbox {
+  font-size: var(--cc-font-size-small)
+}
+
+.ProfileAddressForm form:not(.invalid) .validationMessage {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileAddressForm__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfileAddressForm__Buttons .ProfileAddressForm__ConfirmButton {
+    margin-left: 0;
+  }
+  .ProfileAddressForm__Buttons .ProfileAddressForm__CancelButton {
+    margin-right: 0;
+  }
+  .ProfileAddressForm .ProfileAddressForm__AddressType,
+  .ProfileAddressForm .ProfileAddressForm__CompanyName {
+    width: 100%;
+  }
+  .ProfileAddressForm__FirstNameLastNameContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfileAddressForm__FirstName {
+    margin: 0;
+  }
+  .ProfileAddressForm__LastName {
+    margin: 1rem 0 0 0;
+  }
+}
+
+
+.ProfileAddressForm__ConfirmButton{
+  background-color: var(--tmb-light-primary-color);
+  width: 60%;
+}
+
+.ProfileAddressForm__ConfirmButton:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}

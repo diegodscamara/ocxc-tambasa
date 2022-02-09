@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="de-DE">
+      <body>
+         <trans-unit id="ACCOUNT_REG_SUBJECT">
+            <source>{0} Account Registration Confirmation</source>
+            <target>Bestätigung für Accountregistrierung {0}</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_1">
+            <source>Welcome to {0}!</source>
+            <target>Willkommen bei {0}!</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_2">
+            <source>We appreciate your interest and look forward to you shopping with us in the future.</source>
+            <target>Wir freuen uns über Ihr Interesse und hoffen, dass Sie auch in Zukunft bei uns einkaufen.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_3">
+            <source>Your account details are as follows: </source>
+            <target>Ihre Accountdetails lauten wie folgt: </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_4">
+            <source>Username</source>
+            <target>Benutzername</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_5">
+            <source>ProfileId</source>
+            <target>ProfileId</target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_1">
+            <source>Please navigate to this page where you can reset your password: </source>
+            <target>Navigieren Sie zu dieser Seite, auf der Sie Ihr Kennwort zurücksetzen können: </target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_2">
+            <source>The next time you log in to your {0} account, you will be asked to create a password of your own choosing.</source>
+            <target>Wenn Sie sich das nächste Mal bei Ihrem {0}-Account anmelden, werden Sie dazu aufgefordert, ein neues Wunschkennwort zu erstellen.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SALUTATION">
+            <source>Dear {0},</source>
+            <target>Guten Tag {0},</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SENT_SIGNATURE_TEXT">
+            <source>This is an automatically generated e-mail. Please do not reply.</source>
+            <target>Diese E-Mail wurde automatisch generiert. Beantworten Sie diese E-Mail nicht.</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

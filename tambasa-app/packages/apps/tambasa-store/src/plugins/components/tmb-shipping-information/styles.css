@@ -1,0 +1,40 @@
+.TmbShippingInformation__ErrorMessage {
+    text-align: center;
+    margin: 2rem;
+} 
+
+.TmbShippingInformation__HeadingContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.TmbShippingInformation__EditPayment, .TmbShippingInformation__EditPayment--disable {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.TmbShippingInformation__EditPayment a, .TmbShippingInformation__EditPayment--disable a {
+    color: #fff;
+}
+
+.TmbShippingInformation__EditPayment--disable {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.TmbShippingInformation .Card {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cart Header */
+.TmbShippingInformation .CartItemsTableHeader {
+    padding: 0 0 0 5rem;
+}
+
+.TmbShippingInformation .CartItemDetails__ItemDetailsHeading {
+    width: 46%;
+}

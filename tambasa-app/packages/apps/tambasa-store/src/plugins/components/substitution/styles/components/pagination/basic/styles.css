@@ -1,0 +1,57 @@
+.BasicPagination__PageIndicator {
+  padding: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.BasicPagination {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.8rem;
+}
+
+.NoResults {
+  display: none;
+}
+
+.BasicPagination__PageIndicator.BasicPagination__PageIndicatorFirstPage,
+.BasicPagination__PageIndicator.BasicPagination__PageIndicatorLastPage {
+  display: none;
+}
+
+a.BasicPagination__PageIndicator.BasicPagination__PageIndicatorPrevPage:hover,
+a.BasicPagination__PageIndicator.BasicPagination__PageIndicatorPrevPage:focus,
+a.BasicPagination__PageIndicator.BasicPagination__PageIndicatorPrevPage:focus-visible,
+a.BasicPagination__PageIndicator.BasicPagination__PageIndicatorNextPage:hover,
+a.BasicPagination__PageIndicator.BasicPagination__PageIndicatorNextPage:focus,
+a.BasicPagination__PageIndicator.BasicPagination__PageIndicatorNextPage:focus-visible {
+  text-decoration: none;
+  outline: 0;
+}
+
+.BasicPagination__PageIndicator.BasicPagination__PageIndicatorPrevPage 
+span.BasicPagination__PageIndicatorPrevPage--srOnly,
+.BasicPagination__PageIndicator.BasicPagination__PageIndicatorNextPage 
+span.BasicPagination__PageIndicatorPrevPage--srOnly {
+  display: block !important;
+  font-family: var(--tmb-primary-font);
+  font-size: 0.99rem;
+  color: var(--tmb-light-primary-color);
+  text-transform: uppercase;
+  letter-spacing: 0px;
+}
+
+.BasicPagination__PageIndicator.BasicPagination__PageIndicatorPrevPage 
+span.BasicPagination__PageIndicatorPrevPage--srOnly::after {
+  content: "(";
+  margin-left: 5px;
+}
+
+.BasicPagination__PageIndicator.BasicPagination__PageIndicatorNextPage 
+span.BasicPagination__PageIndicatorPrevPage--srOnly::before {
+  content: ")";
+  margin-right: 5px;
+}

@@ -1,0 +1,193 @@
+.CartItem__Disable .CartItemDetails__ItemDetails{
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.CartItemDetails__ActionLinks .CartItemAddToWishListLink,
+.CartItemDetails__ActionLinks .CartItemRemoveLink,
+.CartItemDetails__ActionLinks .AddToPurchaseList {
+  margin: 0.25rem 0;
+}
+
+.CartItemDetails__ItemBasicDetails {
+  line-height: 1rem;
+}
+
+.CartItemDetails__ItemDetails .CommerceItemImage {
+  cursor: pointer;
+  width: 78px;
+  height: 78px;
+  border: 1px solid #d4d4d4;
+}
+
+@media only screen and (min-width: 769px) {
+  .CartItemDetails__ItemDetails {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .CartItemDetails__ItemDetails .CommerceItemImage:focus, 
+  .CartItemDetails__ItemDetails .CommerceItemImage:focus-visible {
+    box-shadow: none;
+    outline: none;
+  }
+
+  .CartItemDetails__ItemBasicDetails {
+    width: 43%;
+    padding: .8rem 1.0rem 0 1rem;
+  }
+
+  .CartItemDetails__ItemDetailsHeading {
+    width: 55%;
+  }  
+
+  .CartItemDetails__DesktopVisible , .CartItemDetails__ItemPriceHeading  {
+    text-align: left;
+    padding-right: 3%;
+  }
+
+  .CartItemDetails__DesktopVisible .CommerceItemPrice{
+    display: block;
+    font-weight: normal;
+  }
+
+  .CartItemDetails__DesktopVisible .CommerceItemSKU {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+  }
+
+  .CartItemDetails__Quantity {
+    padding-left: 1.5rem;
+  }
+
+  .CartItemDetails__Quantity, .CartItemDetails__Total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CartItemDetails__Quantity, .CartItemDetails__ItemQunatityHeading {
+    text-align: center;
+    flex: 0 0 36%;
+  }
+
+  .CartItemDetails__Total, .CartItemDetails__ItemTotalHeading {
+    flex: 0 0 64%;
+    text-align: center;
+  }
+  
+  .CartItemDetails__ItemTotalHeading {
+    padding-left: 1.7rem;
+  }
+
+  .CartItemUpdateError {
+    text-align: left;
+  }
+
+  .CartItemDetails__ActionLinks {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+  }
+
+  .CartItemPromotion,  .CartItemSurcharge {
+    margin: 0.325rem 0;
+  }
+
+  .CartItemDetails__ActionLinks .CartItemAddToWishListLink,  .CartItemDetails__ActionLinks .CartItemRemoveLink {
+    text-align: right;
+  }
+
+  .CartItemDetails__ItemBasicDetails .GWPItemPicker__LinkItem {
+    padding-top: 0.1rem;
+  }
+
+  .CartItemDetails__MobileVisible .CommerceItemPrice {
+    display: none;
+  }
+
+  .CartItemDetails__QuantityTotalContainer {
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+   .CartItemDetails__ItemDetails {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .CartItemRemoveLink, .CommerceItemTotalPrice {
+    width: 100%;
+    text-align: right;
+  }
+
+  .CommerceItemPrice {
+    font-weight: normal;
+    text-align: left;
+  }
+
+  .CartItemRemoveLink, .CartItemAddToWishListLink {
+    flex: 1;
+  }
+
+  .CartItemQuantityDisplayAndUpdate {
+    margin-top: 0.9375rem;
+  }
+
+  .CartItemDetails__ItemBasicDetails {
+    padding: 0rem 1.0rem;
+    flex: 3 2;
+  }
+
+   .CartItemDetails__PriceAndQuantityDetails {
+    text-align: right;
+    flex: 0 0 20%;
+  }
+
+  .GiftItemDetails__ItemDetails {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid var(--cc-border-color);
+    padding: 0.9375rem 0;
+  }
+
+  .CartItemDetails__ItemBasicDetails .GWPItemPicker__LinkItem {
+    padding-top: 0.1rem;
+  }
+
+  .CartItemDetails__MobileVisible .CommerceItemPrice {
+    display: block;
+    margin: 0.313rem 0;
+  }
+
+  .CartItemDetails__DesktopVisible .CommerceItemPrice {
+    display: none;
+    margin: 0.313rem 0;
+  }
+
+  .CartItemDetails__QuantityTotalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 3rem;
+  }
+
+  .CartItemDetails__QuantityTotalContainer .CartItemDetails__Quantity {
+    order: 5;
+  }
+
+  .CartItemDetails__ActionLinks {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+  }
+
+}

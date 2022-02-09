@@ -1,0 +1,68 @@
+.TmbPaymentInformation {
+  font-family: var(--tmb-primary-font);
+  border: 2px solid var(--tmb-light-primary-color);
+  width: 50%;
+  margin-right: 9px;
+}
+
+.TmbPaymentInformation__HeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  background: var(--tmb-light-primary-color);
+  color: #fff;
+  padding: 12px 17px 12px 11px;
+}
+
+.TmbPaymentInformation__PaymentGroupItem {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.9375rem 0;
+}
+
+.TmbPaymentInformation__PaymentGroupItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.TmbPaymentInformation__PaymentGroupItem:first-child {
+  padding-top: 0;
+}
+
+.TmbPaymentInformation__EditPayment {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.TmbPaymentInformation__EditPayment a {
+  color: #fff;
+  vertical-align: middle;
+}
+
+.TmbPaymentInformation__EditPayment--disable {
+  text-decoration: underline;
+}
+
+.TmbPaymentInformation__EditPayment--disable a {
+  color: #fff;
+  vertical-align: middle;
+  pointer-events: none;
+}
+
+.TmbPaymentInformation div.TmbPaymentInformation__Card {
+  padding: 13.5px 0 19.5px 11px;
+}
+
+@media(max-width: 700px) {
+  .TmbPaymentInformation {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 9px;
+  }
+}

@@ -1,0 +1,40 @@
+.ProfilePreferences__Form{
+  padding-top: 0.5rem;
+}
+
+.ProfilePreferences__Checkbox {
+  padding-bottom: 0.5rem;
+}
+
+.ProfilePreferences__Form .Checkbox label {
+  margin-left: 0;
+  font-size: var(--cc-font-size-small);
+}
+
+.ProfilePreferences__Buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.0rem;
+}
+
+.ProfilePreferences__Buttons .ProfilePreferences__SubmitButton {
+  width: 60%;
+}
+.ProfilePreferences__Buttons .ProfilePreferences__CancelButton {
+  margin-right: 0.25rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+  .ProfilePreferences__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfilePreferences__Buttons .ProfilePreferences__SubmitButton {
+    margin-left: 0;
+    margin-bottom: 1.0rem;
+  }
+  .ProfilePreferences__Buttons .ProfilePreferences__CancelButton {
+    margin-right: 0;
+  }
+}

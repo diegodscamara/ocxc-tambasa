@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<xliff version="1.0">
+   <file original="Strings.xlf" source-language="en" product-name="cloudcommerce" product-version="1.0" datatype="x-oracle-cloud-notification" target-language="pt-BR">
+      <body>
+         <trans-unit id="ACCOUNT_REG_SUBJECT">
+            <source>{0} Account Registration Confirmation</source>
+            <target>Confirmação de registro da conta {0}</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_1">
+            <source>Welcome to {0}!</source>
+            <target>Bem-vindo ao {0}!</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_2">
+            <source>We appreciate your interest and look forward to you shopping with us in the future.</source>
+            <target>Agradecemos seu interesse e esperamos sua próxima compra conosco no futuro.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_3">
+            <source>Below is your account information: </source>
+            <target>Segue abaixo as informações da sua conta: </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_4">
+            <source>Username</source>
+            <target>Nome do usuário</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_LINE_5">
+            <source>ProfileId</source>
+            <target>ID do perfil</target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_1">
+            <source>Please navigate to this page where you can reset your password: </source>
+            <target>Navegue até esta página para redefinir sua senha: </target>
+         </trans-unit>
+         <trans-unit id="PASSWORD_RESET_LINE_2">
+            <source>The next time you log in to your {0} account, you will be asked to create a password of your own choosing.</source>
+            <target>Na próxima vez que você entrar na sua conta {0}, será solicitado a criar uma senha de sua escolha.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SALUTATION">
+            <source>Dear {0},</source>
+            <target>Prezado(a) {0},</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_SENT_SIGNATURE_TEXT">
+            <source>This is an automatically generated e-mail. Please do not reply.</source>
+            <target>Este é um e-mail gerado automaticamente. Não responda.</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_HEADER">
+            <source>Account created successfully</source>
+            <target>Conta criada com sucesso</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_ACTIVATE">
+            <source>Activate account</source>
+            <target>Ativar conta</target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_ALTERNATIVE">
+            <source>or copy the following link: </source>
+            <target>ou copie o link a seguir: </target>
+         </trans-unit>
+         <trans-unit id="ACCOUNT_REG_FOOTER">
+            <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nunc et nulla consectetur euismod. In hac habitasse platea dictumst. Ut in pulvinar mi, blandit pretium sem. Suspendisse pharetra ac.</source>
+            <target>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nunc et nulla consectetur euismod. In hac habitasse platea dictumst. Ut in pulvinar mi, blandit pretium sem. Suspendisse pharetra ac.</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

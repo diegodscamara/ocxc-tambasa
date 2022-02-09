@@ -1,0 +1,61 @@
+.Login__EmailMarketingPreferences {
+  padding: var(--cc-container-padding);
+}
+
+@media only screen and (min-width: 768px) {
+  .Login__EmailMarketingPreferences {
+    width: 45%;
+    margin-left: 4rem;
+  }
+
+  .Login__EmailMarketingPreferences button {
+    width: 45%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+} 
+
+.Login {
+  padding: 0 var(--tmb-region-spacement-large);
+  font-size: var(--cc-font-size);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.Login input {
+  padding: 0.5rem;
+  font-family: var(--tmb-secondary-font);
+}
+
+@media (max-width: 1600px) {
+  .Login {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .Login {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .Login {
+    padding: 0 50px;
+  }
+}
+
+.button-container-create-account{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Login {
+    flex-direction: column;
+  }
+} 

@@ -1,0 +1,34 @@
+.TmbCheckoutContinueToPaymentButton__Continue,
+.TmbCheckoutContinueToPaymentButton__Continue:disabled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--tmb-primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  background-color: var(--tmb-success-1);
+  width: 100%;
+}
+
+.TmbCheckoutContinueToPaymentButton__Continue:hover,
+.TmbCheckoutContinueToPaymentButton__Continue:active 
+.TmbCheckoutContinueToPaymentButton__Continue:focus-visible { 
+  background-color: var(--tmb-success-1);
+  outline: 0;
+}
+
+.TmbCheckoutContinueToPaymentButton__Icon {
+  color: #fff;
+  margin-right: .75rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .TmbCheckoutContinueToPaymentButton__Continue {
+    justify-content: center;
+    flex: unset;
+  }
+}

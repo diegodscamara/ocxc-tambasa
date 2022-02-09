@@ -1,0 +1,143 @@
+.CollectionNavigation h2 {
+  font-weight: 250;
+}
+
+.CollectionNavigation_RootCard a {
+  color: inherit;
+}
+
+.CollectionNavigation_ChildCard {
+  background-color: var(--cc-background-color);
+  height: 100%;
+  width: var(--menu-card-width);
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translateX(0);
+  transition: transform var(--cc-transition);
+}
+
+.CollectionNavigation_ChildCard a {
+  color: inherit;
+}
+
+.CollectionNavigation_ChildCard>ul {
+  margin-top: 0;
+}
+
+input:not(:checked)+.CollectionNavigation_ChildCard {
+  transform: translateX(100%);
+  transition: transform var(--cc-transition);
+}
+
+input:checked+.CollectionNavigation_ChildCard {
+  transform: translateX(0);
+  transition: transform var(--cc-transition);
+}
+
+input:checked+.CollectionNavigation_ChildCard.HideLeft {
+  transform: translateX(-100%);
+  transition: transform var(--cc-transition);
+}
+
+.CollectionNavigation__IconContainer {
+  display: flex;
+  padding: 0.25rem;
+}
+
+.CollectionNavigation__IconContainer>div {
+  flex: 1;
+}
+
+.CollectionNavigation__CloseIcon {
+  display: inline-flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+.CollectionNavigation__CloseIcon path:last-child {
+  fill: #0572CE;
+}
+
+.CollectionNavigation__MenuTitle {
+  display: flex;
+  height: 50px;
+  background-color: var(--menu-header-bg-color);
+  margin-bottom: 0.5rem;
+}
+
+.CollectionNavigation__MenuTitle>* {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.CollectionNavigation__Nav {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+ul.CollectionNavigation__Nav {
+  margin: 0;
+}
+
+.CollectionNavigation__BackNavItem {
+  width: 100%;
+  display: inline-flex;
+  align-self: flex-start;
+  font-weight: bolder;
+  padding-bottom: 0.75rem;
+}
+
+.CollectionNavigation__MenuTitle+.CollectionNavigation__BackNavItem {
+  padding-bottom: 0;
+}
+
+.CollectionNavigation__BackNavItem>label {
+  display: flex;
+  flex: 1;
+  padding-left: 0.85rem;
+}
+
+.CollectionNavigation__NavItem {
+  padding: 0.35rem 0.85rem;
+}
+
+.CollectionNavigation__NavItem>label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CollectionNavigation__NavItem>a {
+  display: inline-flex;
+  width: 100%;
+}
+
+.Icon.CollectionNavigation_ExpandIcon {
+  margin: unset;
+}
+
+.Icon.CollectionNavigation_ExpandIcon path:first-child {
+  fill: #4A4A4A;
+}
+
+.CollectionNavigation__BackIcon path {
+  fill: #4A4A4A;
+}
+
+.CollectionNavigation_ChildCard--Hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .UserProfileLinks__ProfileLink {
+    display: flex;
+  }
+
+  .UserProfileLinks__VerticalDiv>*:not(:last-child) {
+    align-items: center;
+    margin-bottom: 1em;
+    text-decoration-line: none;
+  }
+}

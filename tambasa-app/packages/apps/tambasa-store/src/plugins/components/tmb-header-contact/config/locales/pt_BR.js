@@ -1,0 +1,17 @@
+export const contactEmailLinkLabel = 'Link para o email';
+export const contactEmailTextLabel = 'Endereço de email';
+export const contactPhoneLinkLabel = 'Link para o telefone';
+export const contactPhoneTextLabel = 'Número de telefone';
+export const facebooklLinkLabel = 'Link para a página do Facebook';
+export const instagramlLinkLabel = 'Link para a página do Instagram';
+export const linkedinlLinkLabel = 'Link para a página do Linkedin';
+export const menuHomeLinkLabel = 'Link para a página home';
+export const menuHomeTextLabel = 'Texto para a página home';
+export const menuPromoLinkLabel = 'Link para a página de promoções';
+export const menuPromoTextLabel = 'Texto para a página de promoções';
+export const menuBlogLinkLabel = 'Link para a página do blog';
+export const menuBlogTextLabel = 'Texto para a página do blog';
+export const menuContactLinkLabel = 'Link para a página de contato';
+export const menuContactTextLabel = 'Texto para a página de contato';
+export const servicesLinkLabel = 'Link para a página de serviços';
+export const servicesTextLabel = 'Texto para a página de serviços';

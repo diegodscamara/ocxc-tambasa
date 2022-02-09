@@ -1,0 +1,108 @@
+.ProfileAddressBook {
+  color: var(--cc-color);
+  font-size: 1em;
+  width: 100%;
+
+}
+
+.ProfileAddressBook__List {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.ProfileAddressBook__NoAddressLabel {
+  font-size: var(--cc-font-size-small);
+  padding: var(--cc-container-padding) 0;
+}
+
+.ProfileAddressBook .ProfileAddressBook__NewAddress {
+  color: var(--cc-button-background-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ProfileAddressBook__AddNewAddressLink {
+  display: flex;
+  justify-content: center;
+}
+
+.ProfileAddressBook__AddNewAddress {
+  text-align: center;
+  margin: 1rem 0;
+  color: var(--cc-button-color);
+  background: var(--cc-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-color));
+  background-image: linear-gradient(to bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-color));
+  box-shadow: var(--cc-button-box-shadow);
+  border: 1px solid transparent;
+  border-radius: var(--cc-border-radius);
+  padding: 0.5em 1em;
+  text-transform: unset;
+  font-weight: 500;
+  flex: 0.25 1 0;
+}
+  
+.ProfileAddressBook__AddNewAddress:hover, .ProfileAddressBook__AddNewAddress:focus {
+  color: var(--cc-button-color);
+  background: var(--cc-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-hover-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-hover-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-hover-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-hover-color));
+  background-image: linear-gradient(to bottom, var(--cc-button-background-color), var(--cc-button-background-gradient-hover-color));
+  text-decoration: none;
+  box-shadow: var(--cc-button-box-shadow);
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileAddressBook__List {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ProfileAddressBook .ProfileAddressBook__NewAddress {
+    color: var(--cc-button-background-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .ProfileAddressBook__AddNewAddress {
+    flex: 1 1 0;
+  }
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+  .ProfileAddressBook__List {
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.addresses-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+#add-profile-address-button{
+  background-color: var(--tmb-light-primary-color);
+  width: 60%;
+}
+
+#add-profile-address-button:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}

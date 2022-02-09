@@ -1,0 +1,48 @@
+span.SortResults__Content__OrderByText {
+  font-size: 14px;
+  color: var(--tmb-dark-grey);
+}
+
+span.SortResults__Content__OrderByText {
+  display: inline-block;
+  margin-right: 6px;
+  user-select: none;
+}
+
+.SortResults__Content.SortResults__Content--Desktop,
+.SortResults__Content.SortResults__Content--Mobile {
+  display: flex;
+  align-items: center;
+}
+
+.TmbSortResults__Container .SortResults__Label {
+  border: 1px solid var(--tmb-light-grey-3);
+  background: transparent;
+  max-width: 120px;
+  max-height: 30px;
+  font-size: 11px;
+  padding: 6px 25px 6px 8px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.TmbSortResults__Container .SortResults__Button {
+  position: relative;
+}
+
+.TmbSortResults__Container .SortResults__CaretIcon {
+  position: absolute;
+  top: 6px;
+  right: -1.2rem;
+  pointer-events: none;
+}
+
+.TmbSortResults__Container .SortResults__CaretIcon .Icon {
+  height: 2.5rem;
+}

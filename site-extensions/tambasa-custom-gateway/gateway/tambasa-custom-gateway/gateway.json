@@ -1,0 +1,8 @@
+{
+  "provider": "Tambasa Custom Gateway",
+  "paymentMethodTypes": ["card", "invoice"],
+  "transactionTypes": {
+    "card": ["authorization" ,"void", "refund"],
+    "invoice": ["authorization"]
+  }
+}

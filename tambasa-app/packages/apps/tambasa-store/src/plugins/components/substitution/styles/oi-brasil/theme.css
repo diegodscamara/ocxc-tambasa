@@ -1,0 +1,11 @@
+@import '../theme.css';
+
+:root {
+    --tmb-primary-color: #da1a1a;
+    --tmb-light-primary-color: #e40102;
+	--tmb-lighter-color: #e23939;
+    
+    --tmb-primary-color-rgb: 218, 26, 26;
+    --tmb-logo-url: url("/file/general/logo-tambasa-oi.png");
+}
+

@@ -1,0 +1,2 @@
+export const invoicedBillDescription = "Pagamento via boleto faturado. Para isto, basta selecionar uma das condições de pagamento na caixa de lista de preços!"
+export const bankSlipDescription = "Pagamento rápido e fácil com boleto!"

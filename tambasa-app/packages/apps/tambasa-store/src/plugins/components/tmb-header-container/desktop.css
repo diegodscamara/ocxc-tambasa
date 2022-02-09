@@ -1,0 +1,32 @@
+.TmbHeaderContainerDesktop__Section section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TmbHeaderContainerDesktop__Section > *:first-child {
+  align-items: center;
+  padding: 22px 0;
+}
+
+.TmbHeaderContainerDesktop__Section:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.TmbHeaderContainerDesktop__Section > * {
+  display: inline-flex;
+}
+
+.TmbHeaderContainerDesktop__Section .Img__Wrapper .Img__MissingImgIcon {
+  width: 24px;
+}
+.TmbHeaderContainerDesktop__Section .Image {
+  margin-left:0rem;
+}
+
+@media (max-width: 850px) {
+  .TmbHeaderContainerDesktop__Section {
+    display: none !important;
+  }
+}

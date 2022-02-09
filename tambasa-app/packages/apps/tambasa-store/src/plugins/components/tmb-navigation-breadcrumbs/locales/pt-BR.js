@@ -1,0 +1,1 @@
+export const pageLocationText = 'Você está em: '

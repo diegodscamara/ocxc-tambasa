@@ -1,0 +1,8 @@
+{
+    "resources": {
+      "title": "Management Cost",
+      "description": "Extension used to specify a value to management cost",
+      "valueLabelText": "Maganament value",
+      "valueHelpText": "You must insert a numeric value splited by a dot, for example, 140.54"
+    }
+}

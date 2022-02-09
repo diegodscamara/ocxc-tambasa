@@ -1,0 +1,36 @@
+.TmbCookieControl {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1200;
+  background: var(--cc-background-color);
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.2);
+  padding: var(--cc-container-padding);
+  font-family: var(--tmb-primary-font);
+}
+
+.TmbCookieControl__CookiePolicyLink{
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.TmbCookieControl__Message{
+  font-size: var(--cc-font-size-small);
+}
+
+.TmbCookieControl__Heading{
+  font-size: var(--cc-font-size-large)
+}
+
+.TmbCookieControl__Buttons > button{
+  margin: 1.25rem 1rem 0 0;
+  width: 17rem;
+  background-color: var(--tmb-light-primary-color);
+}
+
+@media screen and (max-width: 767px) {
+  .TmbCookieControl__Buttons  > button{
+    width: 100%;
+    margin-right: 0rem;
+  }
+}

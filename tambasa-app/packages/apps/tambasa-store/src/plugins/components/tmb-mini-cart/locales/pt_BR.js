@@ -1,0 +1,1 @@
+export const miniCartTitle = "Meu carrinho"

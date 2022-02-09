@@ -1,0 +1,23 @@
+.RefinementList__SelectListContent {
+  height: 35px;
+}
+
+.RefinementList__SelectList {
+  font-weight: 500;
+  background-image: linear-gradient(var(--cc-button-color), var(--cc-border-color));
+  padding: .3rem;
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.RefinementList__SelectListCaretIcon {
+  float: right;
+  z-index: 2;
+  transform: translate(40%, -80%);
+  pointer-events: none;
+}

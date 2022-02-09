@@ -1,0 +1,5 @@
+export const widgetSectionTitleText = "WhatsApp Account Settings"
+export const accountNumberLabelText = "Account Number"
+export const accountNumberHelpText = "Type in your phone number account."
+export const attendanceLinkLabelText = "Page Link"
+export const attendanceLinkHelpText = "Type the page address responsible for calling WhatsApp application."

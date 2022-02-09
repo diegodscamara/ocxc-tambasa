@@ -1,0 +1,34 @@
+.FilterHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cc-title-background-color);
+  padding: .5rem 0;
+}
+
+.FilterHeader_LeftSide {
+  margin-left: .8rem;
+}
+
+.FilterHeader_RightSide {
+  margin-right: .5rem;
+}
+
+.FilterHeader__Title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.FilterHeader__Subtitle {
+  display: inline-block;
+  text-align: start;
+  width: 100%;
+  font-size: var(--cc-font-size-small);
+}
+
+.FilterHeader__DoneLink {
+  display: inline-block;
+  font-weight: 500;
+  font-size: .8rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,73 @@
+.HomeDeliveryAddressInformation__Address {
+  border: 2px solid var(--tmb-light-primary-color);
+}
+
+.HomeDeliveryAddressInformation__AddressDetails > span{
+  padding-right: 0.33rem;
+}
+
+.HomeDeliveryAddressInformation__Heading__Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--tmb-light-primary-color);
+  color: #fff;
+  padding: 12px 17px 12px 11px;
+}
+
+.HomeDeliveryAddressInformation__Heading___Text {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--tmb-primary-font);
+  text-transform: uppercase;
+}
+
+.HomeDeliveryAddressInformation__Heading___Icon {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+span.HomeDeliveryAddressInformation__SelectedShippingAddress {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.HomeDeliveryAddressInformation__AddressSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 13px;
+  font-weight: 600;
+  padding: 23px 20px;
+}
+
+.AddressInformation__Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.AddressInformation__EditButton, 
+.AddressInformation__OpenAddressBookButton {
+  color: var(--tmb-light-primary-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  background: none;
+  padding: 0;
+}
+
+.AddressInformation__EditButton:hover, 
+.AddressInformation__EditButton:active, 
+.AddressInformation__EditButton:focus-visible, 
+.AddressInformation__OpenAddressBookButton:hover,
+.AddressInformation__OpenAddressBookButton:active, 
+.AddressInformation__OpenAddressBookButton:focus-visible {
+  background-color: inherit;
+  outline: 0;
+} 

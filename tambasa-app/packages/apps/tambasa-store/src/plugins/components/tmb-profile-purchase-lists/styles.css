@@ -1,0 +1,116 @@
+.ProfilePurchaseLists {
+  padding: var(--cc-container-padding);
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton,
+.ProfilePurchaseLists__NewPurchaselistButton:hover,
+.ProfilePurchaseLists__NewPurchaselistButton:active {
+  display: inline-flex;
+  width: auto;
+  margin-bottom: 1rem;
+  background: var(--cc-button-background-color);
+  color: var(--cc-button-color);
+  border-radius: var(--cc-border-radius);
+  text-decoration: none;
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton:hover {
+  background: var(--cc-button-background-color-hover);
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton:active {
+  background: var(--cc-button-background-color-active);
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton .AddList__Icon {
+  height: 1rem;
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton span {
+  margin: auto 2.5rem auto 0.5rem;
+}
+
+.PurchaseList__PurchaseListItem,
+.PurchaseList__PurchaseListItem:active,
+.PurchaseList__PurchaseListItem:focus,
+.PurchaseList__PurchaseListItem:hover {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.5rem 0 1rem;
+}
+
+.PurchaseList__PurchaseListItem:focus,
+.ProfilePurchaseLists__NewPurchaselistButton:focus {
+  border-color: var(--cc-focusring-color);
+  box-shadow: 0 0 0 0.2rem var(--cc-focusring-halo-color);
+}
+
+.PurchaseList__PurchaseListItem:last-child {
+  border-bottom: none;
+}
+
+.PurchaseList__PurchaseListItem .PurchaseList__PurchaseListItemName {
+  font-weight: bold;
+}
+
+.PurchaseList__FlexElement {
+  display: flex;
+}
+
+.PurchaseList__FlexGrow {
+  flex: 1 1 auto;
+}
+
+.PurchaseList__ShareIcon {
+  height: 1rem;
+  width: 1.5rem;
+  margin: 0;
+  color: var(--cc-icon-color);
+}
+
+.PurchaseLists__LoadMore {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .ProfilePurchaseLists .TabContainer__TabContent {
+    padding: 0;
+  }
+
+  .PurchaseLists__LoadMore > button {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .PurchaseLists__LoadMore > button {
+    padding: 0.5rem 5rem;
+  }
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton{
+    background-color: var(--tmb-light-primary-color);
+}
+
+.ProfilePurchaseLists__NewPurchaselistButton:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+@media only screen and (max-width: 280px) {
+  .TabContainer__TabHeaders {
+    flex-direction: column;
+  }
+
+  .ProfilePurchaseLists__NewPurchaselistButton {
+    width: 100%;
+  }
+}

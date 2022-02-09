@@ -1,0 +1,20 @@
+.TmbProductImageViewer__ZoomLens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    background: var(--cc-modal-backdrop);
+    top: 0;
+    cursor: pointer;
+}
+  
+.TmbProductImageViewer__ZoomImage {
+    border: 1px solid var(--cc-border-color);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 2rem;
+}
+.TmbProductImageViewer__Slide .TmbProductImageViewer__ZoomIn img{
+    max-width: unset !important;
+    max-height: unset !important;
+    cursor: zoom-out;
+}

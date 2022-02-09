@@ -1,0 +1,53 @@
+.TmbDynamicProductList__Table {
+  text-align: center;
+  display: grid;
+  grid-gap: 20px 31px;
+  min-width: 265px;
+}
+
+.TmbDynamicProductList__Table--Mobile {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem 1rem;
+}
+
+.TmbDynamicProductList__Table--Desktop {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 1rem 3rem 0 3rem;
+}
+
+.TmbDynamicProductList__ErrorMessage {
+  text-align: center;
+  font-weight: 400;
+  font-size: var(--cc-font-size-large);
+  padding: 4rem 2rem;
+  min-width: 265px;
+}
+
+@media (min-width: 1680px) {
+  .TmbDynamicProductList__Table--Desktop {
+    padding-left: 300px;
+  }
+}
+
+@media (max-width: 710px) {
+  .TmbDynamicProductList__Table--Mobile {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .TmbDynamicProductList__Table--Mobile {
+    padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .TmbDynamicProductList__Table {
+    justify-items: center;
+  }
+
+  .TmbDynamicProductList__Table--Mobile {
+    grid-template-columns: 1fr;
+  }
+}

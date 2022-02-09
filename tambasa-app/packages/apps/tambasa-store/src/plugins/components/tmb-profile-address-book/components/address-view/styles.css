@@ -1,0 +1,27 @@
+.AddressView__Address {
+  font-style: normal;
+}
+
+.Icon.AddressView__HomeIcon {
+  color: var(--cc-icon-color);
+  height: 3rem;
+  width: 3rem;
+}
+
+.AddressView__Badge {
+  display: flex;
+  flex-grow: 1;
+  font-size: var(--cc-font-size-small) !important;
+  font-weight: 500 !important;
+  margin: 1rem 0 0 0;
+}
+
+.AddressView__AddressTitle {
+  font-weight: 500;
+}
+
+.AddressView__Image {
+  text-align: left;
+  width: 3.5rem;
+}
+

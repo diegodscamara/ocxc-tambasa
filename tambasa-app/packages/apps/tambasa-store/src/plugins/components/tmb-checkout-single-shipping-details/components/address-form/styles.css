@@ -1,0 +1,69 @@
+form label {
+  display: block;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+.AddressForm {
+  color: var(--cc-color);
+}
+
+.AddressForm__Field {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.AddressForm__AllFieldsRequiredText {
+  font-size: var(--cc-font-size-small);
+}
+
+.AddressForm input,
+.AddressForm Form input,
+.AddressForm Form select,
+.AddressForm Form button {
+  width: 100%;
+}
+
+.AddressForm__Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.AddressForm__Buttons button {
+  cursor: pointer;
+  flex: 0.5 0 0;
+  margin: 0.75rem 0;
+}
+
+.AddressForm__Buttons .AddressForm__ConfirmButton {
+  margin-left: 0.25rem;
+}
+
+.AddressForm__Buttons .AddressForm__CancelButton {
+  margin-right: 0.25rem;
+}
+
+.AddressForm_SaveAsANewProfileAddressCheckBox label,
+.AddressForm_SaveAsANewAccountAddressCheckBox label {
+  padding: 1rem 0 0 0;
+}
+
+.AddressForm form:not(.invalid) .validationMessage {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .AddressForm__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .AddressForm__Buttons .AddressForm__ConfirmButton {
+    margin-left: 0;
+  }
+  .AddressForm__Buttons .AddressForm__CancelButton {
+    margin-right: 0;
+  }
+}

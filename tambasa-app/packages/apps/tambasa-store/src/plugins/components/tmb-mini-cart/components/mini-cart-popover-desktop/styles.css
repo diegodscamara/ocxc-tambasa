@@ -1,0 +1,32 @@
+.MiniCartDesktop__Popover {
+  transition: var(--cc-transition);
+  position: relative;
+}
+
+.MiniCartDesktop__Popover * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.MiniCartDesktop .Popover {
+  top: 1rem;
+}
+
+.MiniCartDesktop .Popover__HeaderTitle {
+  color: var(--cc-color);
+}
+
+.MiniCartDesktop .Popover__Header {
+  margin-bottom: var(--cc-container-padding);
+}
+  
+.MiniCartDesktop__Popover .Popover__Wrapper {
+  width: 400px;
+}
+
+.Popover__Header {
+  margin-bottom: .5rem;
+}
+
+.Popover__HeaderTitle {
+  text-transform: uppercase;
+}

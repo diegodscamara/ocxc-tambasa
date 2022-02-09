@@ -1,0 +1,119 @@
+.ProfileDetails {
+  width: 100%;
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 3rem;
+}
+
+.ProfileDetails__Content{
+  width: 100%;
+}
+
+.ProfileDetails__AllFieldsRequiredText{
+  font-size: var(--cc-font-size-small);
+  padding-bottom: 0.6rem;
+}
+
+.ProfileDetails__Link {
+  margin-top: 1.0rem;
+}
+
+.ProfileDetails__Link a {
+  background-color: transparent;
+  color: var(--cc-color);
+  text-decoration: underline;
+  display: inline;
+}
+
+button.ProfileDetails__CancelButton {
+  margin-top: 1.0rem;
+}
+
+.ProfileDetails__SubmitButton {
+  margin-top: 1.0rem;
+}
+
+.ProfileDetails__InputElement {
+  margin-bottom: 1.0rem;
+}
+
+.ProfileDetails__InputElement input:focus{
+  outline: none;
+}
+
+.ProfileDetails__InputElementIconDiv  {
+   text-align: right;
+   margin-top: 0.5rem;
+}
+
+.ProfileDetails__InputField {
+  width : 100%;
+}
+
+.ProfileDetails__IconBasicStyle {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--cc-icon-color);
+}
+
+.ProfileDetails__InputElementDiv {
+  text-transform: uppercase;
+}
+
+.ProfileDetails__InputElementDiv input {
+  display:block;
+  box-sizing: border-box;
+  padding-right: 1.8rem;
+}
+
+.ProfileDetails__HiddenSubmitButton {
+  display: none;
+}
+
+.ProfileDetails :focus {
+  outline: auto;
+}
+.ProfileDetails__DisabledField {
+background-color: var(--cc-form-element-disabled-color);
+}
+
+.ProfileDetails__Buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.ProfileDetails__Buttons .ProfileDetails__SubmitButton {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.ProfileDetails__Buttons .ProfileDetails__CancelButton {
+  margin-right: 0.25rem;
+}
+
+@media only screen and (max-width: 768px){
+  .ProfileDetails__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfileDetails__Buttons .ProfileDetails__SubmitButton {
+    margin-left: 0;
+  }
+  .ProfileDetails__Buttons .ProfileDetails__CancelButton {
+    margin-right: 0;
+  }
+}
+
+.ProfileDetails__SubmitButton{
+    background-color: var(--tmb-light-primary-color);
+}
+
+.ProfileDetails__SubmitButton:not(:disabled):hover {
+  background-color: var(--tmb-primary-color);
+}
+
+label {
+  text-transform: uppercase;
+}
+
+.Alert__Message--Success{
+  margin-bottom: 1rem;
+}

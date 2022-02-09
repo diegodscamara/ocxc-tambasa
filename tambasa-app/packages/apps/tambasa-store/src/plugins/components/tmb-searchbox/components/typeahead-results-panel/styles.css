@@ -1,0 +1,12 @@
+.TypeaheadResults {
+  padding-left: .2rem;
+  background-color: var(--cc-background-color);
+  z-index: 1;
+}
+
+.TypeaheadResultItem {
+  margin: 0 0 1rem 0;
+  color: var(--cc-color);
+  font-family: var(--tmb-primary-font);
+  font-size: 14px;
+}

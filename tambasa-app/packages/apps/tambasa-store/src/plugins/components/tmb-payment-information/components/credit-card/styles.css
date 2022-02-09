@@ -1,0 +1,171 @@
+.TmbPaymentInformation .CreditCardPaymentDetails {
+  display: flex;
+}
+
+.TmbPaymentInformation .CreditCardPaymentDetails__CardIconDetails {
+  display: flex;
+  margin: 0.2rem 1rem auto 0;
+  max-width: 7em;
+}
+
+.TmbPaymentInformation .CreditCardPaymentDetails__CardDetails{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.TmbPaymentInformation .CreditCardPaymentDetails__BillingAddressText {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.TmbPaymentInformation .CreditCardPaymentDetails__CardText .CreditCardPaymentDetails__BillingAddress{
+  margin-bottom: 0.2rem;
+} 
+
+.TmbPaymentInformation .CreditCardPaymentDetails__BillingAddressDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card {
+  width: 231px;
+  height: 144px;
+  padding: 14px 23px 15px 22px;
+  background: transparent linear-gradient(21deg, #070707 0%, #404040 100%) 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  color: var(--tmb-light-grey-4);
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card___NicknameCardType_Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__Number {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 11px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__CardNickname {
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 5px;
+
+  height: auto;
+  width: 139px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__CardNickname,
+.TmbPaymentInformation .CheckoutCardDetails__Card__Name,
+.TmbPaymentInformation .CheckoutCardDetails__Card__Number,
+.TmbPaymentInformation .CheckoutCardDetails__CardType .CardTypes,
+.TmbPaymentInformation .CheckoutCardDetails__Card__ExpiryDateValue {
+  transition: background 1s linear;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__CardNickname:empty,
+.TmbPaymentInformation .CheckoutCardDetails__Card__Name:empty,
+.TmbPaymentInformation .CheckoutCardDetails__Card__Number:empty,
+.TmbPaymentInformation .CheckoutCardDetails__CardType .CardTypes:empty,
+.TmbPaymentInformation .CheckoutCardDetails__Card__ExpiryDateValue:empty {
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    var(--tmb-light-grey-4);
+  background-repeat: repeat-y;
+  background-size: 50px 200px;
+  background-position: 0 0;
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 100% 0, 0 0;
+  }
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__CardChip {
+  width: 30px;
+  height: 24px;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__CardType {
+  width: 30px;
+  height: 24px;
+}
+
+.TmbPaymentInformation .CreditCardPaymentDetails__CardIcon {
+  width: 100%;
+}
+
+.TmbPaymentInformation .NicknameChipContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__ExpiryDateCvv_Container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__ExpiryDate_Container {
+  display: flex;
+  align-items: center;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__ValidThru {
+  display: flex;
+  align-items: center;
+  font-size: 6px;
+  line-height: 7px;
+  width: 32px;
+  height: auto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__ValidThruArrow {
+  font-size: 11px;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__ExpiryDateValue {
+  font-size: 10px;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__Name {
+  font-size: 11px;
+  font-weight: 600;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__Cvv_Container {
+  display: flex;
+  align-items: center;
+}
+
+.TmbPaymentInformation .CheckoutCardDetails__Card__Name {
+  display: inline-block;
+  height: 11px;
+}

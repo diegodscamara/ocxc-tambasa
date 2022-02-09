@@ -1,0 +1,19 @@
+.TmbDynamicProductListingContainer {
+  text-align: center;
+}
+
+.TmbDynamicProductListingContainer__Section--Desktop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: var(--cc-root-header-color);
+  white-space: nowrap;
+  background-color: var(--cc-root-header-background-color);
+}
+
+.TmbDynamicProductListingContainer__Section--Desktop .col-3,
+.TmbDynamicProductListingContainer__Section--Desktop .col-6,
+.TmbDynamicProductListingContainer__Section--Desktop .col-9 {
+  padding: 0.5rem;
+}

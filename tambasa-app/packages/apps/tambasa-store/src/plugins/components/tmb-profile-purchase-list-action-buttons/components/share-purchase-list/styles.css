@@ -1,0 +1,37 @@
+.SharePurchaseList__HeaderText {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .SharePurchaseList__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SharePurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem 0 0.75rem 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .SharePurchaseList__Buttons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .SharePurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem;
+  }
+
+  .SharePurchaseList__Buttons .SharePurchaseList__SubmitButton {
+    margin-right: 0;
+  }
+
+  .SharePurchaseList__Buttons .SharePurchaseList__CancelButton {
+    margin-left: 0;
+  }
+}

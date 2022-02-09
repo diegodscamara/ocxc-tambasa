@@ -1,0 +1,56 @@
+.PurchaseList__SearchResults_RecordRow:hover {
+  background-color: white !important;
+}
+
+.PurchaseList__SearchResults_RecordColumn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5rem;
+}
+
+.PurchaseList__SearchResults_RecordColumn div {
+  word-break: break-word;
+}
+
+.PurchaseList__SearchResults_PriceItem {
+  float: right;
+}
+
+.PurchaseList__SearchResults_Image{
+  width: 100px;
+}
+
+.PurchaseList__SearchResults_Name{
+  width: 55%;
+}
+
+.PurchaseList__SearchResults_Price {
+  flex: 1;
+}
+
+.display {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.PurchaseList__SearchResults_RecordRow_border {
+  border-top: 1px solid var(--cc-border-color);
+}
+
+.PurchaseList__SearchResults_RecordRow_noBorder {
+  border-top: none;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .PurchaseList__SearchResults_Price {
+    display: none;
+  }
+
+  .PurchaseList__SearchResults_Price--Mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,46 @@
+.ShippingAddressDetails__ShippingMethodIcon {
+  display: none;
+  margin: 0.2rem 1rem auto 0;
+}
+
+.ShippingAddressDetails__ShippingMethodIcon .Icon {
+  height: 3rem;
+  color: var(--cc-icon-color);
+}
+
+.PaymentAndShippingContainer {
+  display: flex;
+  font-family: var(--tmb-primary-font);
+}
+
+.ShippingAddressDetails__ShippingDetails .HomeDeliveryAddressInformation__Address {
+  width: 50%;
+}
+
+.ShippingAddressDetails__ShippingDetails .HomeDeliveryAddressInformation__AddressSummary {
+  flex-direction: column;
+  align-items: unset;
+  justify-content: unset;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+@media(max-width: 700px) {
+  .PaymentAndShippingContainer {
+    flex-direction: column;
+  }
+
+  .ShippingAddressDetails__ShippingDetails .HomeDeliveryAddressInformation__AddressSummary {
+    flex-direction: row;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .ShippingDeliveryOption__ShippingOptionLabel {
+    margin-top: 0;
+  }
+
+  .ShippingAddressDetails__ShippingDetails .HomeDeliveryAddressInformation__Address {
+    width: 100%;
+  }
+}

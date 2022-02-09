@@ -1,0 +1,13 @@
+.ShippingDeliveryOption__ShippingOptionLabel {
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.ShippingDeliveryOption__ShippingOption {
+  display: flex;
+  flex-direction: column;
+}
+
+.ShippingDeliveryOption__ShippingOptionDescription {
+  font-weight: 400;
+}

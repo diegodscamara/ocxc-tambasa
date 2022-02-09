@@ -1,0 +1,28 @@
+.TmbCartOrderSummaryContainer {
+  background-color: var(--tmb-light-grey);
+  padding: 26px 21px 21px 21px;
+  margin-left: 90px;
+  position: relative;
+}
+
+.TmbCartOrderSummaryContainer .CheckoutCompletePaymentButton {
+  flex: unset;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+}
+
+.TmbCartOrderSummaryContainer .CheckoutCompletePaymentButton button {
+  background-color: var(--tmb-success-1);
+}
+
+@media (max-width: 1440px) {
+  .TmbCartOrderSummaryContainer {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 960px) {
+  .TmbCartOrderSummaryContainer {
+    margin: 1rem 0 0 0;
+  }
+}

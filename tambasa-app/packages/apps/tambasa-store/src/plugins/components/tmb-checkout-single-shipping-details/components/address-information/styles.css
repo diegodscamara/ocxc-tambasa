@@ -1,0 +1,19 @@
+.AddressInformation {
+  margin-top: 23.5px;
+}
+
+.AddressInformation__Buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.AddressInformation__OpenAddressBookButton {
+  float: right;
+}
+
+.AddressInformation__NoAddressAvailable {
+  font-size: var(--cc-font-size-small);
+  margin: 0.5rem 0;
+}

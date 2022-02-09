@@ -1,0 +1,30 @@
+.TmbHeaderWishlist {
+  height: 40px;
+  width: 40px;
+  border: 1px solid var(--tmb-primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.TmbHeaderWishlist__Icon {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--tmb-primary-color); 
+}
+
+.TmbHeaderWishlist__ListQty {
+  font-family: var(--tmb-primary-font);
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--tmb-primary-color);
+  position: absolute;
+  margin-bottom: 1px;
+}
+
+@media (min-width: 1920px) {
+  .TmbHeaderWishlist {
+    margin-left: 30px;
+  }
+}

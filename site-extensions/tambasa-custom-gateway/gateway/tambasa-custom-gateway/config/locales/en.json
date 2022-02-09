@@ -1,0 +1,14 @@
+{
+  "resources" : {
+    "title": "Custom Gateway",
+    "description": "Configuration for Custom Gateway",
+    "agentInstanceLabel": "Agent Configuration",
+    "previewInstanceLabel": "Preview Configuration",
+    "storefrontInstanceLabel": "Storefront Configuration",
+    "paymentMethodTypes": "Custom Gateway Payment Methods",
+    "paymentMethodsLabel": "Payment Methods",
+    "paymentMethodsHelpText": "Select the payment methods",
+    "cardLabel": "Credit Card",
+    "invoiceLabel": "Billet"
+  }
+}

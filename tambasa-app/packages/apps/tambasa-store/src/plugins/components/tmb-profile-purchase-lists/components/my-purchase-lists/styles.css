@@ -1,0 +1,193 @@
+.TmbMyPurchaseLists__FilterOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.TmbMyPurchaseLists__FilterOptions .Dropdown {
+  width: max-content;
+  margin-left: auto;
+  font-weight: 500;
+  height: 100%;
+  border-radius: var(--cc-border-radius);
+  float: right;
+}
+
+.TmbMyPurchaseLists__FilterOptions 
+.Dropdown .Dropdown__Select {
+  position: relative;
+}
+
+.TmbMyPurchaseLists__FilterOptions .Dropdown 
+.Dropdown__Select .Dropdown__Icon {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  margin: 0;
+}
+
+.Search__Container {
+  position: relative;
+  height: 2.5rem;
+}
+
+.TmbMyPurchaseLists__Search {
+  display: inline-block;
+  margin-right: 0.5rem;
+  width: 100%;
+}
+
+.PurchaseLists__SearchText {
+  font-weight: bold;
+  margin-left: 0.2rem;
+}
+
+.PurchaseLists__FetchingDataText {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.TmbMyPurchaseLists__Search .ActionIcon {
+  height: 2.5rem;
+  width: 5rem;
+  border: 1px solid var(--cc-border-color);
+  border-radius: 5%;
+}
+
+.TmbMyPurchaseLists .Search__SearchText {
+  display: flex;
+  flex-direction: row;
+  height: 2.5em;
+  margin: 0;
+  padding-left: 1.875rem;
+  padding-right: 3rem;
+  width: 100%;
+  border-radius: 0;
+}
+
+.TmbMyPurchaseLists .Search__SearchText input {
+  width: 80%;
+}
+
+/* .TmbMyPurchaseLists .Search__SearchText input[type="search"]::-webkit-search-decoration,
+.TmbMyPurchaseLists .Search__SearchText input[type="search"]::-webkit-search-cancel-button,
+.TmbMyPurchaseLists .Search__SearchText input[type="search"]::-webkit-search-results-button,
+.TmbMyPurchaseLists .Search__SearchText input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+.TmbMyPurchaseLists .Search__SearchText input[type=search]::-webkit-search-decoration,
+.TmbMyPurchaseLists .Search__SearchText input[type=search]::-webkit-search-cancel-button,
+.TmbMyPurchaseLists .Search__SearchText input[type=search]::-webkit-search-results-button,
+.TmbMyPurchaseLists .Search__SearchText input[type=search]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+} */
+
+.TmbMyPurchaseLists__Search .ClearButton {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ClearButton--hidden {
+  visibility: hidden;
+}
+
+.ClearButton__Reset {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  color: var(--cc-a-color);
+  border: none;
+  padding: 0;
+  margin: 0;
+  bottom: unset;
+}
+
+.SharedPurchaseLists__Search .Search__Container.SharedPurchaseLists__Search {
+  width: 50%;
+}
+
+.SharedPurchaseLists__SortFilter {
+  width: 40%;
+}
+
+.SharedPurchaseLists__Search .Search__SearchText {
+  height: 2.5em;
+  margin: 0;
+  padding-left: 1.875rem;
+  padding-right: 3rem;
+  width: 100%;
+  display: block;
+}
+
+.SearchComponent__SearchIcon {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.625rem;
+  width: 0.938rem;
+  color: #9b9b9b;
+  color: var(--cc-icon-color);
+}
+
+.TmbMyPurchaseLists__FilterOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 1rem;
+}
+
+.TmbMyPurchaseLists__FilterOptions .Dropdown {
+  width: max-content;
+  font-weight: 500;
+  height: 100%;
+  border-radius: var(--cc-border-radius);
+  float: left;
+  margin-right: auto;
+  margin-left: unset;
+  margin-bottom: 1rem;
+}
+
+.TmbMyPurchaseLists__FilterOptions .Dropdown label {
+  display: inline-block;
+}
+
+.TmbMyPurchaseLists__FilterOptions .Dropdown select {
+  width: max-content;
+}
+
+.TmbMyPurchaseLists__RightOptions {
+  margin-bottom: 1rem;
+  float: right;
+}
+
+.TmbMyPurchaseLists__Search {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 550px) {
+  .TmbMyPurchaseLists__FilterOptions .Dropdown,
+  .TmbMyPurchaseLists__FilterOptions .Dropdown select {
+    width: 100%;
+  }
+
+  .TmbMyPurchaseLists__FilterOptions {
+    flex-direction: column-reverse;
+    margin: 1rem 0;
+  }
+
+  .TmbMyPurchaseLists__RightOptions {
+    width: 100%;
+  }
+  
+  .TmbMyPurchaseLists__Search {
+    margin: 0;
+  }
+
+  .TmbMyPurchaseLists__Search label {
+    width: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+export const pageIdentificationText = "You\'re at: "

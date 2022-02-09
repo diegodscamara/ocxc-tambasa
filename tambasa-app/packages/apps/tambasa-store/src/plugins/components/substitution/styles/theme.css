@@ -1,0 +1,100 @@
+:root {
+	--cc-background-color: #fff;
+	--cc-desktop-body-min-width: 100%;
+	--cc-desktop-body-max-width: 120em;
+	--cc-secondary-background-color: #F8F9F9;
+	--cc-pageloader-box-background: hsl(0, 0%, 89%);
+	--cc-color: #4a4a4a;
+	--cc-modal-backdrop-z-index: 1040;
+	--cc-modal-z-index: 1050;
+	--cc-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	--cc-transition-secondary: 150ms ease-in-out;
+	--cc-root-header-background-color: #fff;
+	--cc-root-header-color: #9b9b9b;
+	--cc-a-color: #0572ce;
+	--cc-a-color-active: #045ba4;
+	--cc-button-background-color: #0572ce;
+	--cc-button-background-color-hover: #03569c;
+	--cc-button-background-color-active: #045ba4;
+	--cc-button-color: #fff;
+	--cc-button-disabled: #8cc8f5;
+	--cc-invalid-focusring-color: #d1001a;
+	--cc-focusring-color: #4A90E2;
+	--cc-focusring-halo-color: rgba(5, 114, 206, .5);
+	--cc-border-radius: 4px;
+	--cc-border-color: #cdd2d6;
+	--cc-font-size: 1rem;
+	--cc-font-size-xlarge: 1.5rem;
+	--cc-font-size-large: 1.125rem;
+	--cc-font-size-small: 0.875rem;
+	--cc-font-size-xsmall: 0.75rem;
+	--cc-secondary-button-background-color: #fff;
+	--cc-secondary-button-background-gradient-color: #f2f4f7;
+	--cc-secondary-button-background-gradient-hover-color: #f6f6f6;
+	--cc-secondary-button-color: #4a4a4a;
+	--cc-secondary-button-box-shadow: inset 0 0 0 0.05em #ddd;
+	--cc-title-background-color: #f8f9f9;
+	--cc-icon-color: #9b9b9b;
+	--cc-form-element-disabled-color: #ebebeb;
+	--cc-box-shadow: 0.25rem 0 0.625rem 0 rgba(0, 0, 0, 0.4);
+	--cc-icon-color-hover: #000;
+	--cc-error-message-color: #920012;
+	--cc-error-message-background-color: #fdf3f4;
+	--cc-error-message-border-color: #d1001a;
+	--cc-error-message-icon-color: #d0021b;
+	--cc-info-message-color: #4a4a4a;
+	--cc-info-message-background-color: #f4f9ff;
+	--cc-info-message-border-color: #8cc8f5;
+	--cc-info-message-icon-color: #0572ce;
+	--cc-success-message-color: #005800;
+	--cc-success-message-background-color: #dff0d8;
+	--cc-success-message-border-color: #7ed321;
+	--cc-success-message-icon-color: #006600;
+	--cc-warning-message-color: #4a4a4a;
+	--cc-warning-message-background-color: #fff9f0;
+	--cc-warning-message-border-color: #f5a623;
+	--cc-warning-message-icon-color: #f7981c;
+	--cc-modal-backdrop: rgba(0, 0, 0, 0.6);
+	--cc-container-padding: 0.5rem;
+	--cc-validation-success-color: #417502;
+	--cc-validation-error-color: #d0021b;
+	--cc-collapsible-button-background-color: #cdd2d6;
+
+	/* <layout-custom-variables> */
+
+	/* Margins, paddings, gaps... */
+	--tmb-region-spacement-large: 350px;
+	--tmb-region-spacement-l-medium: 250px;
+	--tmb-region-spacement-medium: 200px;
+	--tmb-region-spacement-small: 100px;
+	--tmb-region-spacement-x-small: 50px;
+	--tmb-region-spacement-xxl-small: 32px;
+	--tmb-region-spacement-xs-small: 16px;
+
+	/* Colors, themes... */
+	--tmb-primary-color: #003161;
+	--tmb-light-primary-color: #084F96;
+	--tmb-lighter-color: #488CCF;
+	--tmb-light-grey: #F5F5F5;
+	--tmb-light-grey-1: #AFB0B1;
+	--tmb-light-grey-2: #d8d8d8;
+	--tmb-light-grey-3: #d6d5d5;
+	--tmb-light-grey-4: #d6d6d6;
+	--tmb-light-grey-5: #dcdcdc;
+	--tmb-light-grey-6: #d4d4d4;
+	--tmb-light-grey-7: #c9c9c9;
+	--tmb-dark-grey: #707070;
+	--tmb-dark-grey1: #878787;
+	--tmb-success-1: #26CC64;
+	--tmb-danger: #e93c3c;
+
+	/* Fonts */
+	--tmb-primary-font: Montserrat, Geneva, sans-serif;
+	--tmb-secondary-font: 'Lato', sans-serif;
+	--tmb-font-color-1: #192124;
+	--tmb-font-color-2: #003161;
+	--tmb-font-product-breadcrumbs: normal normal normal 14px/22px Montserrat;
+
+    --tmb-logo-url: url("/file/general/logo-tambasa.png");
+	/* </layout-custom-variables> */
+}

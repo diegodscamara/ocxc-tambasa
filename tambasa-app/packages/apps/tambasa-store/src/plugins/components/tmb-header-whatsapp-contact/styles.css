@@ -1,0 +1,62 @@
+.TmbHeaderWhatsappContact a{
+  max-height: 40px;
+  outline: none;
+  text-decoration: none;
+}
+
+.TmbHeaderWhatsappContact a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+.WhatsAppContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--tmb-success-1);
+  margin-left: 11px;
+  width: 180px;
+}
+
+.WhatsAppContainer__IconBlock {
+  height: 38px;
+  width: 38px;
+  background-color: var(--tmb-success-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.WhatsAppContainer__InfoBlock {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  color: #1B1B1B;
+  font-size: 11px;
+}
+
+.WhatsAppContainer__InfoBlock span {
+  text-decoration: none;
+  text-align: center;
+}
+
+.WhatsAppContainer__InfoBlock___Title {
+  font-family: var(--tmb-primary-font);
+  font-weight: 500;
+}
+
+.WhatsAppContainer__InfoBlock___PhoneNumber {
+  font-family: var(--tmb-primary-font);
+  font-weight: 700;
+}
+
+@media (max-width: 1130px) {
+  .WhatsAppContainer {
+    width: auto;
+  }
+  
+  .WhatsAppContainer__InfoBlock {
+    display: none;
+  }
+}

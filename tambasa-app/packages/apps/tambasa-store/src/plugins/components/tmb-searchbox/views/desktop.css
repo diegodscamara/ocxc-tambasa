@@ -1,0 +1,71 @@
+.TmbSearchBoxDesktop {
+  flex: 1;
+  margin-left: 33px;
+  max-width: 374px;
+}
+
+.TmbSearchBoxDesktop .TypeaheadResults {
+  display: block;
+  width: 100%;
+  
+  position: absolute;
+  box-shadow: 0.5px 0.5px 1px 1px;
+}
+
+.TmbSearchBoxDesktop .TypeaheadResultItem p {
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.TmbSearchBoxDesktop form {
+  border: 1px solid #DBDBDB;
+  border-right: 0;
+  height: 40px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.SearchBoxDesktop__SearchIcon {
+  height: 40px;
+  width: 40px;
+  background-color: var(--tmb-light-primary-color);
+  color: #fff;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBoxDesktop__SearchIcon .Icon {
+  height: 17px;
+}
+
+.SearchBoxDesktop__SearchIcon button:disabled {
+  background-color: var(--tmb-light-grey);
+  opacity: 1;
+}
+
+@media (min-width: 2250px) {
+  .TmbSearchBoxDesktop {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1550px) {
+  .TmbSearchBoxDesktop {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbSearchBoxDesktop {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .TmbSearchBoxDesktop {
+    margin-left: 33px;
+  }
+}

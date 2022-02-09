@@ -1,0 +1,209 @@
+.TmbProfilePurchaseListInformation{
+  padding: 0 var(--cc-container-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.TmbProfilePurchaseListInformation__SubmitButton{
+  margin-bottom: 1rem;
+  flex: unset;
+}
+
+.TmbProfilePurchaseListInformation__FormButtons{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.TmbProfilePurchaseListInformation__FormButtons .TmbProfilePurchaseListInformation__SubmitButton {
+  margin-left: 0 ;
+  flex: unset;
+}
+
+.TmbProfilePurchaseListInformation__FormButtons .TmbProfilePurchaseListInformation__CancelButton {
+  margin-right: 0 ;
+  flex: unset;
+}
+
+.TmbProfilePurchaseListInformation__DeselectAllButton{
+  width: fit-content;
+}
+
+.TmbProfilePurchaseListInformation__SearchInput___Wrapper {
+  position: relative;
+  width: 40%;
+}
+
+.TmbProfilePurchaseListInformation__SearchInput {
+  padding-left: 50px;
+  width: 100%;
+}
+
+.TmbProfilePurchaseListInformation__SearchInput::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.TmbProfilePurchaseListInformation__AddToCartButton{
+  width: 100%;
+}
+
+.TmbProfilePurchaseListInformation__AddToCart{
+  border-bottom: 1px solid var(--cc-border-color);
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.TmbProfilePurchaseListInformation__DeselectAll{
+  padding-top: 1rem;
+}
+
+.TmbProfilePurchaseListInformation_Search__ClearButton {
+  border: none;
+  width: auto;
+  position: absolute;
+  background: #fff;
+  color: var(--cc-a-color);
+  top: 50%;
+  right: .5rem;
+  transform: translateY(-50%);
+  padding: 0 0 0 .5rem;
+  display: none;
+}
+
+.TmbProfilePurchaseListInformation__SearchIcon {
+  position: absolute;
+  color: #929292;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.PurchaseList__SearchResults___Wrapper {
+  max-height: 410px;
+  width: 40%;
+  overflow-y: auto;
+  position: absolute;
+
+  border: 1px solid #dedede;
+  padding: 0.5rem;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 0px 8px 20px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.PurchaseList__SearchResults_RecordRow {
+  display: flex;
+  color: var(--cc-color);
+  background: none;
+  border: none;
+  font-weight: normal;
+  font-size: var(--cc-font-size-small);
+  text-align: left;
+  padding: 0 0;
+  width: 100%;
+  height: 100px;
+}
+
+.PurchaseList__SearchResults_Name div:first-child {
+  max-height: 42px;
+  overflow: hidden;
+}
+
+.PurchaseList__SearchResults_Name div:nth-child(2) {
+  max-height: 21px;
+  overflow: hidden;
+}
+
+/* Desktop View */
+@media only screen and (min-width: 768px) {
+  .TmbProfilePurchaseListInformation__DeselectAll{
+    padding-bottom: 1rem;
+  }
+
+  .TmbProfilePurchaseListInformation__DeselectAllButton{
+    width: fit-content;
+  }
+
+  .TmbProfilePurchaseListInformation__AddProduct{
+    padding-bottom: 3rem;
+    position: relative;
+  }
+
+  .TmbProfilePurchaseListInformation__AddProduct .Search__Container {
+    float: inherit;
+    width: 40%
+  }
+
+  .TmbProfilePurchaseListInformation__FormButtons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .TmbProfilePurchaseListInformation__FormButtons button {
+    cursor: pointer;
+    flex: 0.25 0 0;
+    margin: 0.75rem 0;
+  }
+
+  .TmbProfilePurchaseListInformation__FormButtons .TmbProfilePurchaseListInformation__SubmitButton {
+    margin-left: 0.25rem ;
+    flex: unset;
+  }
+
+  .TmbProfilePurchaseListInformation__FormButtons .TmbProfilePurchaseListInformation__CancelButton {
+    flex: unset;
+    margin-right: 0.25rem ;
+  }
+
+  .TmbProfilePurchaseListInformation__AddToCartButton{
+    width: 23rem;
+  }
+  
+  .PurchaseList__SearchResults_Price--Mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1340px) {
+  .TmbProfilePurchaseListInformation__SearchInput___Wrapper, .PurchaseList__SearchResults___Wrapper {
+    width: 60%;
+  }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .TmbProfilePurchaseListInformation__AddProduct{
+    position: relative;
+    border-top: 1px solid var(--cc-border-color);
+    border-bottom: 1px solid var(--cc-border-color);
+    padding-bottom: 1rem;
+  }
+
+  .ProfilePurchaseListItemData__ItemDetailsHeader {
+    display: none;
+  }
+
+  .TmbProfilePurchaseListInformation__FormButtonsPageEnd{
+    padding-top: 1rem;
+  }
+
+  .TmbProfilePurchaseListInformation__SearchInput___Wrapper {
+    width: 100%;
+  }
+
+  .PurchaseList__SearchResults___Wrapper {
+    width: 100%;
+  }
+
+  .PurchaseList__SearchResults_Price {
+    display: none;
+  }
+
+  .PurchaseList__SearchResults_Price--Mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+.BillingAddressDetails {
+  display: flex;
+  flex-direction: column;
+}
+.BillingAddressDetails__HeadingText {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.BillingAddressDetails__Text{
+  margin-bottom: 0.2rem;
+}

@@ -1,0 +1,19 @@
+{
+    "extensionID": "",
+    "developerID": "guilherme.vieira@nsh.com.br",
+    "createdBy": "NSH",
+    "version": 1,
+    "timeCreated": "2021-09-14",
+    "translations": [
+        {
+            "language": "pt_BR",
+            "name": "Despesa de Acessoria",
+            "description": "Extensão para definição do valor de acessoria"
+        },
+        {
+            "language": "en",
+            "name": "Management Cost",
+            "description": "Extension to define managament cost"
+        }
+    ]
+}

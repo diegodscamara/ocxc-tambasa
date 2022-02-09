@@ -1,0 +1,65 @@
+.MyAccountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid var(--tmb-light-primary-color); 
+  margin-left: 10px;
+  padding: 0 16px 0 10px;
+}
+
+.MyAccountContainer a {
+  display: flex;
+  justify-content: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.MyAccountContainer  a:hover,
+.MyAccountContainer a:focus {
+  outline: none;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.MyAccountContainer__Icon {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.MyAccountContainer__Icon svg {
+  color: var(--tmb-primary-color);
+}
+
+.MyAccountContainer__Title {
+  font-family: var(--tmb-primary-font);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--tmb-light-primary-color);
+  display: flex;
+  align-items: center;
+}
+
+/* Media queries */
+
+@media (min-width: 1920px) {
+  .MyAccountContainer {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .MyAccountContainer__Title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .MyAccountContainer {
+    width: 100%;
+  }
+}

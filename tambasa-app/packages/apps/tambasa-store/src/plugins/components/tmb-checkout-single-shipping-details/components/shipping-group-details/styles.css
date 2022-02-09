@@ -1,0 +1,15 @@
+.ShippingGroupDetails__HeadingContainer {
+  display: flex;
+}
+
+.ShippingGroupDetails__HeadingContainer button, .ShippingGroupDetails__HeadingContainer button:hover {
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+  background-color: var(--cc-background-color);
+  padding: 0;
+  color: var(--cc-color);
+  display: inline-block;
+  text-align: unset;
+  width: unset;
+  margin-left: auto;
+}

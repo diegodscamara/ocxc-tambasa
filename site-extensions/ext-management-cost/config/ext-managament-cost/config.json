@@ -1,0 +1,17 @@
+{
+    "widgetDescriptorName": "ext-management-cost",
+    "titleResourceId": "title",
+    "descriptionResourceId": "description",
+    "properties": [
+      {
+        "id": "managementCostField",
+        "type": "stringType",
+        "name": "managementCostField",
+        "helpTextResourceId": "valueHelpText",
+        "labelResourceId": "valueLabelText",
+        "defaultValue": "1.00",
+        "pattern": "(^[0-9]{1,}[.][0-9]{1,}$)",
+        "required": false
+      }
+    ]
+  }

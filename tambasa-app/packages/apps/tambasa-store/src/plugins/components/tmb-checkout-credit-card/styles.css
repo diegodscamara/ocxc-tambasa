@@ -1,0 +1,15 @@
+.TmbCheckoutCreditCard {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.TmbCheckoutCreditCard__RadioButtonContainer {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.TmbCheckoutCreditCard__AddCardDetailsContainer--hidden {
+  display: none;
+}

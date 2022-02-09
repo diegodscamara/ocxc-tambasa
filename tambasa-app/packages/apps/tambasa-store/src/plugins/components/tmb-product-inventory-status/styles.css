@@ -1,0 +1,94 @@
+/* TmbProductInventoryStatus styles */
+
+.TmbProductInventoryStatus {
+  border-bottom: 1px solid #707070;
+  border-top: 1px solid #707070;
+  text-align: left;
+  padding: 0.625rem 0 0.625rem 0;
+}
+
+.TmbProductId,
+.TmbProductStock,
+.TmbProductGroup,
+.TmbProductSuperGroup,
+.TmbProductBrand,
+.TmbProductSalesUnity {
+  display: flex;
+  color: var(--tmb-primary-color);
+  font: normal normal normal 14px/18px var(--tmb-primary-font);
+  padding: 0.25rem 0;
+}
+
+.TmbProductId span,
+.TmbProductStock span,
+.TmbProductGroup span,
+.TmbProductSuperGroup span,
+.TmbProductBrand span,
+.TmbProductSalesUnity span {
+  padding-right: 0.3rem;
+}
+
+.TmbProductId__Label,
+.TmbProductStock__Label,
+.TmbProductGroup__Label,
+.TmbProductSuperGroup__Label,
+.TmbProductBrand__Label,
+.TmbProductSalesUnity__Label {
+  font-weight: bold;
+}
+
+.TmbProductId__Id,
+.TmbProductGroup__Name,
+.TmbProductSuperGroup__Name,
+.TmbProductBrand__Name,
+.TmbProductSalesUnity__Name {
+  text-transform: uppercase;
+}
+
+/* Media queries */
+
+@media (max-width: 960px) {
+  .TmbProductId,
+  .TmbProductStock,
+  .TmbProductGroup,
+  .TmbProductSuperGroup,
+  .TmbProductBrand,
+  .TmbProductSalesUnity {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .TmbProductId,
+  .TmbProductStock,
+  .TmbProductGroup,
+  .TmbProductSuperGroup,
+  .TmbProductBrand,
+  .TmbProductSalesUnity {
+    flex-wrap: wrap;
+    font-size: 12px;
+    display: flex;
+    align-items: end;
+  }
+}
+
+@media (max-width: 375px) {
+  .TmbProductSuperGroup__Label {
+    width: 16%;
+  }
+
+  .TmbProductId,
+  .TmbProductStock,
+  .TmbProductGroup,
+  .TmbProductSuperGroup,
+  .TmbProductBrand,
+  .TmbProductSalesUnity {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 320px) {
+  .TmbProductSuperGroup__Label {
+    width: 19%;
+  }
+}

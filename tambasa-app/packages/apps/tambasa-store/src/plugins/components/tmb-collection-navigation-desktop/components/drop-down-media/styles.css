@@ -1,0 +1,16 @@
+
+.CollectionNavigationDesktop__DropDownMedia {
+  max-width: 30%;
+}
+
+
+.CollectionNavigationDesktop .CollectionNavigationDesktop__DropDownMedia a,
+.CollectionNavigationDesktop .CollectionNavigationDesktop__DropDownMedia a:hover, 
+.CollectionNavigationDesktop .CollectionNavigationDesktop__DropDownMedia a:focus {
+  border: none;
+}
+
+.CollectionNavigationDesktop__DropDownMedia img {
+  min-width: 100px;
+}
+

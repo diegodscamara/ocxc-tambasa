@@ -1,0 +1,38 @@
+.TmbProfilePurchaseListDetailsContainer {
+  padding: 0 var(--tmb-region-spacement-large);
+  margin-bottom: 3rem;
+}
+
+.TmbProfilePurchaseListDetailsContainer__Section {
+  display: flex;
+}
+
+@media (max-width: 1750px) {
+  .TmbProfilePurchaseListDetailsContainer {
+      padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media (max-width: 1600px) {
+  .TmbProfilePurchaseListDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbProfilePurchaseListDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media (max-width: 1250px) {
+  .TmbProfilePurchaseListDetailsContainer {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+}
+
+@media (max-width: 768px) {
+  .TmbProfilePurchaseListDetailsContainer {
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,10 @@
+.TmbProductImageViewer__Slide {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.TmbProductImageViewer__SlideImage {
+  display: inline-block;
+  position: relative;
+}

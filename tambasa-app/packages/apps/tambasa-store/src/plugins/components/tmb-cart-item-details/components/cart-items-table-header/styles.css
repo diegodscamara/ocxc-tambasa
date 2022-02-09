@@ -1,0 +1,13 @@
+.CartItemsTableHeader {
+  display: flex;
+  align-items: center;
+  background-color: var(--tmb-light-primary-color);
+  color: #fff;
+  font-family: var(--tmb-primary-font); 
+  font-weight: 500;
+  font-size: .8rem;
+  letter-spacing: 0.26px;
+  text-transform: uppercase;
+  min-height: 30px;
+  padding: 0 5rem;
+}

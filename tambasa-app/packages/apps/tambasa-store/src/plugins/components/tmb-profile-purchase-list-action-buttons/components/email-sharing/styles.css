@@ -1,0 +1,58 @@
+.SharePurchaseList__EmailConfigItem {
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.5rem 0;
+}
+
+.SharePurchaseList__RemoveShopper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.SharePurchaseList__RemoveShopper button {
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  background: none;
+  border: none;
+  font-weight: normal;
+}
+
+.SharePurchaseList__RemoveShopper button:active,
+.SharePurchaseList__RemoveShopper button:hover {
+  background: none;
+}
+
+.SharePurchaseList__RemoveShopperButton {
+  text-decoration: underline;
+  width: auto;
+  padding: 0;
+}
+
+.SharePurchaseList__AddEmailElement {
+  padding-bottom: 1rem;
+}
+
+.SharePurchaseList__AddEmailElement button {
+  color: var(--cc-a-color);
+  background: none;
+  border: none;
+  font-weight: normal;
+  box-shadow: none;
+}
+
+.SharePurchaseList__AddEmailElement button:active,
+.SharePurchaseList__AddEmailElement button:hover {
+  background: none;
+}
+
+.SharePurchaseList__AddEmail {
+  width: auto;
+  padding: 0;
+}
+
+.SharePurchaseList__InputElement {
+  margin-bottom: 0.5rem;
+}
+
+.SharePurchaseList__Comment {
+  width: 100%;
+}

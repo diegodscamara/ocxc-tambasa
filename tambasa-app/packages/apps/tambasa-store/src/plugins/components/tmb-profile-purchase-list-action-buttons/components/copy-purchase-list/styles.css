@@ -1,0 +1,56 @@
+.CopyPurchaseList__HeaderText {  
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.CopyPurchaseList__InputElement,
+.CopyPurchaseList__AllFieldsRequiredText {
+  margin-bottom: 0.5rem;
+}
+
+#purchaseListName {
+  width: 100%;
+}
+.CopyPurchaseList__Wrapper
+{
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .CopyPurchaseList__Buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .CopyPurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem 0 0.75rem 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .CopyPurchaseList__Backdrop {
+    display: none;
+  }
+
+  .CopyPurchaseList__Buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+  }
+
+  .CopyPurchaseList__Buttons button {
+    flex: 1;
+    margin: 0.75rem;
+  }
+
+  .CopyPurchaseList__Buttons .CopyPurchaseList__SubmitButton {
+    margin-right: 0;
+  }
+
+  .CopyPurchaseList__Buttons .CopyPurchaseList__CancelButton {
+    margin-left: 0;
+  }
+}

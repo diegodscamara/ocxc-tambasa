@@ -1,0 +1,72 @@
+.TmbCheckoutReviewOrderContainer {
+  padding: 0 var(--tmb-region-spacement-large);
+}
+
+.TmbCheckoutReviewOrderContainer .TmbCheckoutReviewOrderComponentsContainer {
+  width: 70%;
+}
+
+.TmbCheckoutReviewOrderContainer .TmbCartOrderSummaryContainer {
+  width: 30%;
+  max-height: 350px;
+}
+
+.TmbCheckoutReviewOrderContainer__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.TmbCheckoutReviewOrderContainer__Section > section {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .TmbCheckoutReviewOrderContainer .ShippingInformation,
+  .TmbCheckoutReviewOrderContainer .PaymentInformation {
+    margin-right: var(--cc-container-padding);
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .TmbCheckoutReviewOrderContainer {
+    padding: 0 var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .TmbCheckoutReviewOrderContainer {
+    padding: 0 var(--tmb-region-spacement-medium);
+  }
+}
+
+@media only screen and (max-width: 1340px) {
+  .TmbCheckoutReviewOrderContainer {
+    padding: 0 var(--tmb-region-spacement-small);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .TmbCheckoutReviewOrderContainer {
+    padding: 0 var(--tmb-region-spacement-x-small);
+  }
+
+  .TmbCheckoutReviewOrderContainer__Section > section{
+    flex-direction: column;
+  }
+
+  .TmbCheckoutReviewOrderContainer .TmbCheckoutReviewOrderComponentsContainer {
+    width: 100%;
+  }
+  
+  .TmbCheckoutReviewOrderContainer .TmbCartOrderSummaryContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .TmbCheckoutReviewOrderContainer {
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,68 @@
+.MiniCart__SubTotal {
+  margin: var(--cc-container-padding) 0;
+  font-weight: bold;
+  color: var(--cc-color);
+  display: flex;
+}
+  
+.MiniCart__SubTotalLabel {
+  width: 80%;
+}
+  
+.MiniCart__SubTotalAmount {
+  text-align: right;
+  width: 100%;
+}
+  
+.MiniCart__Buttons a.button, .MiniCart__Buttons button {
+  display: inline-block;
+  flex: 1;
+  margin-top: var(--cc-container-padding);
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.MiniCart__Buttons a.button:hover, .MiniCart__Buttons button:hover {
+  box-shadow: none;
+}
+
+.MiniCart__Buttons div:first-child a {
+  margin: .5rem 0 0 0;
+  border: 1px solid #000;
+}
+
+.MiniCart__Buttons div:last-child a {
+  font-weight: 600;
+}
+
+.MiniCart__Buttons a.button .secondary{
+  background: var(--cc-secondary-button-background-color);
+}
+
+.MiniCart__Buttons .checkout {
+  background-color: #24a955;
+}
+
+.MiniCartItem__StockStatus, .MiniCart__PreOrderable {
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  font-weight: normal;
+}
+  
+.MiniCartItem__StockStatus, .MiniCart__BackOrderable {
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  font-weight: normal;
+}
+
+.MiniCart__HeaderAddedIcon {
+  color: var(--cc-success-message-color);
+}
+  
+.MiniCart__HeaderText {
+  flex: 1;
+  padding-left: var(--cc-container-padding);
+  font-size: var(--cc-font-size-large);
+  color: var(--cc-color);
+}

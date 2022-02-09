@@ -1,0 +1,21 @@
+.TmbCheckoutSingleShippingDetails {
+  font-family: var(--tmb-primary-font);
+  width: 70%;
+}
+
+.ProfileAddressInput__AllFieldsRequiredText {
+  font-size: var(--cc-font-size-small);
+}
+
+.ProfileAddressInput input,
+.ProfileAddressInput Form input,
+.ProfileAddressInput Form select,
+.ProfileAddressInput Form button {
+  width: 100%;
+}
+
+.ProfileAddressInput label {
+  display: block;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}

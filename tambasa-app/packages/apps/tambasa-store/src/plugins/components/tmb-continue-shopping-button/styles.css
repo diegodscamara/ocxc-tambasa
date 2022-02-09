@@ -1,0 +1,33 @@
+.TmbContinueShoppingButton__Link {
+  font-family: var(--tmb-primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-right: 1.5rem;
+  width: 195px;
+  height: 45px;
+}
+
+.TmbContinueShoppingButton__Link:active,
+.TmbContinueShoppingButton__Link:hover,
+.TmbContinueShoppingButton__Link:focus,
+.TmbContinueShoppingButton__Link:focus-visible {
+  outline: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .TmbContinueShoppingButton__Link {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Get Address By CEP",
+  "description": "Retrieves address data by a CEP data",
+  "type": "object",
+  "properties": {
+    "cep": {
+      "type": "string",
+      "description": "The 8-digit CEP id"
+    }
+  },
+  "required": [],
+  "example": {
+    "cep": "01001000"
+  }
+}

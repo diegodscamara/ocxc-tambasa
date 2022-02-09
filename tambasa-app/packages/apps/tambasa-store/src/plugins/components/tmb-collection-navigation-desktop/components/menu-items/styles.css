@@ -1,0 +1,9 @@
+.CollectionNavigationDesktop__LeafCategories {
+    padding-bottom: 15px;
+}
+
+.CollectionNavigationDesktop__MenuItems {
+    display: none;
+    border-left: 2px solid var(--tmb-primary-color);
+    padding-left: 15px;
+}

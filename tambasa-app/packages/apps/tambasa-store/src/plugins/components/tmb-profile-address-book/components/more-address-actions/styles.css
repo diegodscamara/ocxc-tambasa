@@ -1,0 +1,66 @@
+.MoreAddressActions__HorizontalGearIcon {
+  color: #fff;
+  cursor: pointer;
+}
+
+.MoreAddressActions__Icon {
+  margin: 0.25rem 0;
+  text-align: right;
+  width: 2rem;
+}
+
+.MoreAddressActions__Popover,
+.MoreAddressActions__Icon .Popover__Close {
+  cursor: pointer;
+}
+
+.MoreAddressActions__Icon .Popover {
+  background: var(--cc-background-color);
+  border-radius: var(--cc-border-radius);
+  overflow: initial;
+  position: absolute;
+  right: 3.5rem;
+  top: 0rem;
+}
+
+.MoreAddressActions__Icon .Popover ul {
+  margin: 0;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.MoreAddressActions__Icon .Popover li {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0 0 0.5rem 0;
+  text-align: left;
+}
+
+.MoreAddressActions__Icon .Popover li a{
+  color: var(--cc-color);
+}
+
+.MoreAddressActions__Icon .Popover:after,
+.Popover:before {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  left: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 2rem;
+  width: 0;
+}
+
+.MoreAddressActions__Icon .Popover:after {
+  border-color: transparent;
+  border-left-color: var(--cc-background-color);
+  border-width: 0.75rem;
+  margin-top: -0.75rem;
+}
+
+.MoreAddressActions__Icon .Popover:before {
+  border-color: transparent;
+  border-left-color: 1px solid var(--cc-background-color);
+  border-width: 0.75rem;
+  margin-top: -0.75rem;
+}

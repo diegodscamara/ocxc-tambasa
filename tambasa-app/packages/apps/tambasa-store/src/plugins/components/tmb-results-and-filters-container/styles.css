@@ -1,0 +1,12 @@
+section.TmbResultsAndFiltersContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem 0;
+  font-family: var(--tmb-primary-font);
+}
+
+.TmbResultsAndFiltersContainer section.Region {
+  width: unset;
+  flex: none;
+}

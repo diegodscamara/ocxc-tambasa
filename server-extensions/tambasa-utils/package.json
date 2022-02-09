@@ -1,0 +1,22 @@
+{
+  "name": "tambasa-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "guilherme.vieira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "nodemailer": "^6.7.2",
+    "uuid": "^8.3.2"
+  },
+  "publicUrls": [
+    "/ccstorex/custom/v1/payment/credit-card",
+    "/ccstorex/custom/v1/payment/generic",
+    "/ccstorex/custom/v1/email"
+  ]
+}

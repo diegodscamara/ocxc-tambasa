@@ -1,0 +1,250 @@
+.TmbContactUs__Container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.TmbContactUs_row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TmbContactUs_col {
+    width: 50%;
+}
+
+.TmbContactUs__Container {
+  padding: 0 var(--tmb-region-spacement-large);
+  font-family: var(--tmb-primary-font);
+  
+}
+
+.TmbContactUs__BackgroundImage, .TmbContactUs__BackgroundImageMob{
+  width: 100%;
+}
+.TmbContactUs__CustomMargin{
+  margin-top: -6rem;
+}
+
+@media (max-width: 1600px) {
+  .TmbContactUs__Container {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbContactUs__Container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .TmbContactUs__Container {
+    padding: 0 50px;
+  }
+}
+
+.TmbContactUs_FormHeader_Title{
+  font: normal normal bold 26px/32px Montserrat;
+  color: #000000;
+}
+
+.TmbContactUs_FormHeader_Description {
+  font: normal normal 300 16px/19px Montserrat;
+  color: #000000;
+}
+
+.TmbContactUs_FormHeader{
+  padding: 25px 22px;
+  margin: 1rem 0;
+  background-color: #fff;
+  border-left: 3px solid var(--tmb-light-primary-color);
+}
+
+.TmbContactUs_FormContainer input,
+.TmbContactUs_FormContainer textarea{
+  width: 100%;
+  border: 1px solid #D2D2D2;
+  color: #9F9F9F;
+  margin-bottom: 17px;
+  font: normal normal normal 16px Lato;
+  padding: 15px 25px;
+   
+}
+.TmbContactUs_FormContainer textarea{
+  resize: none;
+  height: 180px;
+}
+
+.label{
+  display: none;
+}
+
+.TmbContactUs_FormContainer{
+  margin: 22px;
+  background-color: #F5F5F5;
+  padding: 32px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #9F9F9F;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #9F9F9F;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #9F9F9F;
+}
+
+.TmbContactUs_FormButton{
+  display: flex;
+  justify-content: end;
+}
+
+.TmbContactUs_FormButton button{
+  background: #26CC64 0% 0% no-repeat padding-box;
+  font: normal normal bold 22px Montserrat;
+}
+
+.TmbContactUs_InformationsContainer{
+  padding-left: 1rem;
+  padding-top: 60px;
+}
+
+.TmbContactUs_InformationsTitle {
+    font: normal normal 300 24px Montserrat;
+    letter-spacing: -0.94px;
+    color: #333333;
+}
+
+.TmbContactUs_InformationsValue {
+    font: normal normal bold 23px Montserrat;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.TmbContactUs_InformationsSocial__Link {
+  color: #333333;
+}
+
+.TmbContactUs_InformationsCentral,
+.TmbContactUs_InformationsPhone,
+.TmbContactUs_InformationsEmail,
+.TmbContactUs_InformationsAddress{
+  margin-bottom: 25px;
+}
+
+.TmbContactUs__BackgroundImageMob{
+  display: none;
+}
+
+/* TmbProductNavigation styles */
+
+.TmbContactUs__FormHeader-Navigation {
+  display: flex;
+  height: 30px;
+}
+
+.TmbContactUs__FormHeader-Navigation a {
+  font: normal normal normal 16px/19px Montserrat;;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none; 
+}
+
+.TmbContactUs__FormHeader-Navigation:hover {
+  color: var(--tmb-light-primary-color);
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media (max-width: 1750px) {
+  .TmbContactNavigation {
+    padding-right: var(--tmb-region-spacement-l-medium);
+  }
+}
+
+@media (max-width: 1600px) {
+  .TmbContactNavigation {
+    padding-right: var(--tmb-region-spacement-medium);
+  }
+}
+
+@media (max-width: 1340px) {
+  .TmbContactNavigation {
+    padding-right: var(--tmb-region-spacement-small);
+  }
+}
+
+@media (max-width: 960px) {
+  .TmbContactNavigation {
+    padding-right: var(--tmb-region-spacement-x-small);
+  }
+}
+
+@media (max-width: 500px) {
+  .TmbContactNavigation {
+    padding-right: 1rem;
+  }
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+  .TmbContactUs_col{
+    width: 100%;
+  }
+
+  .TmbContactUs_FormContainer {
+    margin: 0;
+    padding: 16px;
+  }
+
+  .TmbContactUs_FormButton{
+    justify-content: center;
+  }
+  .TmbContactUs_InformationsValue{
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .TmbContactUs__BackgroundImageMob{
+    display: block;
+  }
+
+  .TmbContactUs__BackgroundImage{
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .TmbContactUs__FormHeader-Navigation a{
+    font-size: 12px;
+  }
+
+  .TmbContactUs_FormHeader_Title{
+    font-size: 19px;
+  }
+
+  .TmbContactUs_FormHeader_Description,
+  .TmbContactUs_InformationsValue {
+    font-size: 15px;
+  }
+
+  .TmbContactUs_FormHeader {
+    padding: 25px 10px;
+  }
+
+  .TmbContactUs__Container {
+    padding: 0 1rem;
+  } 
+
+  .TmbContactUs_InformationsContainer {
+    padding-left: 0;
+  }
+}

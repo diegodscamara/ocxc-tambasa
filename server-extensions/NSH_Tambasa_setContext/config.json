@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "url": "https://a9263388c1dev-admin.occa.ocs.oraclecloud.com",
+        "key": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlM2E3MTcwZS1lMTJjLTQ2MjMtYTBmMy1jMDYwMmIxOTA3MzAiLCJpc3MiOiJhcHBsaWNhdGlvbkF1dGgiLCJleHAiOjE2NzE1NDMwMDksImlhdCI6MTY0MDAwNzAwOX0=.z8rSrGSAdvRE4uIzPwo1Gx300KbBPrI1RGtSYtJpCI="
+    },
+    "tst": {
+        "url": "https://a9263388c1tst-admin.occa.ocs.oraclecloud.com",
+        "key": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NTIzMTEyMS00NTNjLTQ5YTQtODhlNS1kOTc0ODIzN2QzYWEiLCJpc3MiOiJhcHBsaWNhdGlvbkF1dGgiLCJleHAiOjE2NzE1NDI5NjQsImlhdCI6MTY0MDAwNjk2NH0=.7I9lM7rBhVw95EBTSFQiqdRDTLFg1PEmkzqsSkT9vtg="
+    },
+    "prd": {
+        "url": "https://a9263388c1prd-admin.occa.ocs.oraclecloud.com",
+        "key": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNDM5OTE1Ny1jMzg3LTQ0ZDgtYjgzMS1iZDBjZjA1YWVjMjYiLCJpc3MiOiJhcHBsaWNhdGlvbkF1dGgiLCJleHAiOjE2NzE1NDI3NDYsImlhdCI6MTY0MDAwNjc0Nn0=.65in6G2itTgHA5+1queidMqVi88uMT0Iya2cYSx0Yqc="
+    }
+}

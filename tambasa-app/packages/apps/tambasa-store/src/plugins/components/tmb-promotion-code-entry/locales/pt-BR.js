@@ -1,0 +1,1 @@
+export const couponCodeInputPlaceholder = "Cupom de desconto"

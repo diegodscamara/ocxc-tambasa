@@ -1,0 +1,118 @@
+
+ .ProfilePurchaseListItemData__ItemDetails {
+    padding: 0.5rem;
+    width: 100%;
+    z-index: 1;
+    font-size: 0.9rem;
+  }
+  
+  .ProfilePurchaseListItemData__Row {
+    color: black;
+    background: none;
+    border: none;
+    font-weight: normal;
+    text-align: left;
+    padding: 0 0;
+    border-bottom: 1px solid var(--cc-border-color);
+  }
+  
+  .ProfilePurchaseListItemData__Image, 
+  .ProfilePurchaseListItemData__Quantity {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .ProfilePurchaseListItemData__Name{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .ProfilePurchaseListItemData__ProductName{
+    font-weight: bold;
+    color: var(--cc-color);
+    font-size: var(--cc-font-size-small);
+  }
+
+  .ProfilePurchaseListItemData__ProductName, a.ProfilePurchaseListItemData__ProductName:hover {
+    font-weight: bold;
+    font-size: var(--cc-font-size-small);
+    line-height: 1.0;
+    text-decoration: none;
+    color: var(--cc-color);
+    cursor: pointer;
+  }
+  
+  .ProfilePurchaseListItemData__Quantity {
+    float: right;
+    padding: 0.5rem;
+  }
+
+  .ProfilePurchaseListItemData__ItemDetailsHeader{
+    border-bottom: 1px solid var(--cc-border-color);
+    font-size: var(--cc-font-size);
+  }
+  
+  .ProfilePurchaseListItemData__QuantityLabel{
+    float: right;
+    padding-right: 1.5rem;
+  }
+  
+  .ProfilePurchaseListItemData__RemoveItem{
+    text-decoration: underline;
+  }
+
+  .ProfilePurchaseListItemData__QuantityInputText{
+    width: 3rem;
+    text-align: center;
+  }
+
+  .ProfilePurchaseListItemData__QuantityInput{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .ProfilePurchaseListItemData__PurchaseListItemVariant{
+    text-transform: capitalize;
+    color: var(--cc-color);
+  }
+
+  /* Desktop View */
+@media only screen and (min-width: 768px) {
+  .ProfilePurchaseListItemData__Image{
+    width: 6rem;
+    padding: 0.5rem;
+  }
+
+  .ProfilePurchaseListItemData__Name{
+    width: auto;
+    padding: 0.5rem;
+  }
+
+  .ProfilePurchaseListItemData__Quantity {
+    float: right;
+    padding: 0.5rem;
+  }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .ProfilePurchaseListItemData__Row {
+    display: flex;
+  }
+
+  .ProfilePurchaseListItemData__Image{
+    width: 5rem;
+  }
+
+  .ProfilePurchaseListItemData__Name{
+    padding: 0.5rem;
+    flex: 3 2;
+  }
+
+  .ProfilePurchaseListItemData__Quantity {
+    float: right;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}

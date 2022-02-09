@@ -1,0 +1,10 @@
+@import '../theme.css';
+
+:root {
+    --tmb-primary-color: #ce5918;
+    --tmb-light-primary-color: #eb7401;
+	--tmb-lighter-color: #e78f3c;
+    
+    --tmb-primary-color-rgb: 206, 89, 24;
+    --tmb-logo-url: url("/file/general/logo-tambasa-evoluir.png");
+}

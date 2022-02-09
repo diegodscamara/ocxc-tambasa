@@ -1,0 +1,18 @@
+.GiftCardPaymentDetails {
+  display: flex;
+}
+.GiftCardPaymentDetails .Icon {
+  display: flex;
+  width: 3.5em;
+  height: 100%;
+  margin: 0.2rem 1rem auto 0;
+  color: var(--cc-icon-color);
+}
+.GiftCardPaymentDetails__CardDetails{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.GiftCardPaymentDetails__CardText {
+  margin-bottom: 0.2rem;
+} 

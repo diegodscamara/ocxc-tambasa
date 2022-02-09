@@ -1,0 +1,8 @@
+.Breadcrumbs__FiltersLabel {
+  font-weight: 500;
+}
+
+.Breadcrumbs__BreadcrumbsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}

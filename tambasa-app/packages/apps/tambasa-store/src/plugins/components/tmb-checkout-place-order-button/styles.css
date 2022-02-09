@@ -1,0 +1,19 @@
+.TmbCheckoutPlaceOrderButton button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--tmb-primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  background-color: var(--tmb-success-1);
+  width: 100%;
+}
+
+.TmbCheckoutPlaceOrderButton_Icon {
+  color: #fff;
+  margin-right: .75rem;
+  font-size: 1.5rem;
+}

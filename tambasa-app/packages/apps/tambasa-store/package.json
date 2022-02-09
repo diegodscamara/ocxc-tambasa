@@ -1,0 +1,43 @@
+{
+  "name": "@tambasa-store/tambasa-store",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Based on v2.26.1 of @oracle-cx-commerce/core-commerce-reference-store",
+  "dependencies": {
+    "@oracle-cx-commerce/actions": "2.30.1",
+    "@oracle-cx-commerce/endpoints": "2.30.1",
+    "@oracle-cx-commerce/occ-metadata": "2.30.1",
+    "@oracle-cx-commerce/react-app": "2.30.1",
+    "@oracle-cx-commerce/react-widgets": "2.30.1",
+    "@oracle-cx-commerce/subscribers": "2.30.1",
+    "@oracle-cx-commerce/commerce-utils": "2.30.1"
+  },
+  "devDependencies": {
+    "@oracle-cx-commerce/rollup-config": "2.30.1"
+  },
+  "occ": {
+    "namespace": "occ.react",
+    "plugins": {
+      "actions": "src/plugins/actions",
+      "components": "src/plugins/components",
+      "endpoints": "src/plugins/endpoints",
+      "subscribers": "src/plugins/subscribers"
+    },
+    "locales": [
+      "pt-BR",
+      "en"
+    ],
+    "defaultLocale": "pt-BR",
+    "aliases": {
+      "@oracle-cx-commerce/styles": "@tambasa-store/tambasa-store/src/plugins/components/substitution/styles",
+      "@oracle-cx-commerce/react-components/pagination/standard/styles.css": "@tambasa-store/tambasa-store/src/plugins/components/substitution/styles/components/StandardPagination.css",
+      "@oracle-cx-commerce/react-components/pagination/basic/styles.css": "@tambasa-store/tambasa-store/src/plugins/components/substitution/styles/components/pagination/basic/styles.css",
+      "@oracle-cx-commerce/react-widgets/category/collection-navigation/styles.css": "@tambasa-store/tambasa-store/src/plugins/components/substitution/styles/components/collection-navigation/styles.css",
+      "@oracle-cx-commerce/endpoints/factory": "@tambasa-store/tambasa-store/src/plugins/components/substitution/js/factory",
+      "@oracle-cx-commerce/react-widgets/category/collection-navigation/components/child-category": "@tambasa-store/tambasa-store/src/plugins/components/substitution/js/child-category",
+      "@oracle-cx-commerce/react-widgets/category/collection-navigation/components/child-collection-card": "@tambasa-store/tambasa-store/src/plugins/components/substitution/js/collection-navigation-card",
+      "@oracle-cx-commerce/react-widgets/profile/contact-registration-requests/components/search": "@tambasa-store/tambasa-store/src/plugins/components/substitution/js/purchase-list-search",
+      "@oracle-cx-commerce/react-app/server/middleware/app/html/style.html": "@tambasa-store/tambasa-store/src/plugins/components/substitution/js/app/html/style.html"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .TmbProductVideoDescription {
+    margin-top: var(--tmb-region-spacement-xxl-small);
+  }
+}

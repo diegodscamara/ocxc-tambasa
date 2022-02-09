@@ -1,0 +1,111 @@
+.CollectionNavigationDesktop__NavBar__Wrapper {
+  position: relative;
+}
+
+.CollectionNavigationDesktop__NavBar {
+  display: none;
+  flex-direction: column;
+  max-height: 290px;
+  overflow: auto;
+  position: absolute;
+  top: 50px;
+  padding: 15px 0 0 var(--tmb-region-spacement-large);
+  background-color: #fff;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.CollectionNavigationDesktop__NavBar a {
+  color: #1b1b1b;
+}
+
+.CollectionNavigationDesktop__NavBar:hover,
+.CollectionNavigationDesktop__NavBar:focus {
+  display: flex;
+}
+
+.TmbCollectionNavigationDesktop_AllCategories_Wrapper:hover .CollectionNavigationDesktop__Backdrop,
+.CollectionNavigationDesktop__NavBar:hover .CollectionNavigationDesktop__Backdrop,
+.CollectionNavigationDesktop__NavBar:focus-within .CollectionNavigationDesktop__Backdrop {
+  visibility: visible;
+  opacity: 1;
+}
+
+.CollectionNavigationDesktop__Backdrop {
+  background-color: var(--cc-modal-backdrop);
+  opacity: 0;
+  height: 100%;
+  pointer-events: none;
+  transition: all 0.3s var(--cc-transition);
+  transition-delay: .2s;
+  position: fixed;
+  top: auto;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  visibility: hidden;
+}
+
+.CollectionNavigationDesktop__NavItem {
+  display: block;
+  flex: 1;
+  font-family: var(--tmb-primary-font);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  max-width: 25%;
+
+  transition: all .5s ease-in-out;
+}
+
+.CollectionNavigationDesktop__NavItem:hover,
+.CollectionNavigationDesktop__NavItem:focus-within {
+  box-shadow: var(--cc-box-shadow);
+}
+
+.CollectionNavigationDesktop__NavItem:hover .CollectionNavigationDesktop__NavLink,
+.CollectionNavigationDesktop__NavItem:focus-within .CollectionNavigationDesktop__NavLink {
+  padding-left: .7rem;
+}
+
+.CollectionNavigationDesktop__NavItem:hover > .CollectionNavigationDesktop__DropDownMenu,
+.CollectionNavigationDesktop__NavItem:focus-within > .CollectionNavigationDesktop__DropDownMenu {
+  visibility: visible;
+  opacity: 1;
+  min-height: 100%;
+}
+
+.CollectionNavigationDesktop__NavItem:hover > .CollectionNavigationDesktop__DropDownMenu 
+.CollectionNavigationDesktop__MenuItems {
+  display: block;
+}
+
+.CollectionNavigationDesktop__NavLink {
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color .2s ease-in-out;
+  padding: .3rem 0;
+}
+
+.CollectionNavigationDesktop__NavLink a {
+  white-space: nowrap;
+}
+
+@media (max-width: 1600px) {
+  .CollectionNavigationDesktop__NavBar {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .CollectionNavigationDesktop__NavBar {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .CollectionNavigationDesktop__NavBar {
+    padding-left: 50px;
+  }
+}

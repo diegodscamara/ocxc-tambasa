@@ -1,0 +1,20 @@
+.TmbProductName {
+  margin-top: 0.5rem;
+  font: normal normal bold 24px/29px var(--tmb-primary-font);
+  color: var(--tmb-light-primary-color);
+  text-transform: uppercase;
+}
+
+/* Media queries */
+@media (max-width: 960px) {
+  .TmbProductName {
+    text-align: left;
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .TmbProductName {
+    font-size: var(--tmb-region-spacement-xs-small);
+  } 
+}
