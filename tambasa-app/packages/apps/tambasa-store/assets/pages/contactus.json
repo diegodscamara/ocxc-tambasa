@@ -1,0 +1,46 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-contact",
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-contact-us"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Contact Us"
+      }
+    }
+  },
+  "address": "contact-us",
+  "supportedDevices": [
+    "mobile",
+    "desktop"
+  ],
+  "allowCustomAddress": true,
+  "title": "Contact Us",
+  "shortName": "article",
+  "pageTypeDisplayName": {
+    
+  }
+}

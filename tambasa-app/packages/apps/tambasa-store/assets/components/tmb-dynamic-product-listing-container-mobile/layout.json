@@ -1,0 +1,27 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-search-terms-summary"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-results-and-filters-container-mobile",
+        "tmb-dynamic-product-list",
+        "tmb-show-more-products-button"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

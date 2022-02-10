@@ -1,0 +1,43 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-contact",
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-breadcrumb",
+        "tmb-trade-policy"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Política de Troca"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "trade-policy",
+  "title": "Trade Policy",
+  "shortName": "policy",
+  "pageTypeDisplayName": {
+    
+  }
+}

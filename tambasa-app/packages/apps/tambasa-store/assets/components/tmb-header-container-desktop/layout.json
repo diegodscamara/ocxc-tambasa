@@ -1,0 +1,25 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-header-sub-container"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-collection-desktop"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "unsaved-changes-message"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

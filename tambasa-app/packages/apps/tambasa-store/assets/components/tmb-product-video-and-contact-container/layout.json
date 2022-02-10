@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-product-video-description",
+        "tmb-product-long-description"
+      ],
+      "width": 5,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-product-contact"
+      ],
+      "width": 7,
+      "type": "main"
+    }
+  ]
+}

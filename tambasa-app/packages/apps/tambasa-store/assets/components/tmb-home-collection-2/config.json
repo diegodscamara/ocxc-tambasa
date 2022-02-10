@@ -1,0 +1,11 @@
+{
+  "noOfItemsToSlide": "1",
+  "directionBannerCarousel": "right",
+  "imageCarouselBanner": {
+    "src": "/file/v363893366117150378/general/campo.jpg",
+    "mediaName": "/general/campo.jpg"
+  },
+  "displayCollectionName": "true",
+  "itemsPerSlideDesktop": "6",
+  "categoryId": "2010"
+}

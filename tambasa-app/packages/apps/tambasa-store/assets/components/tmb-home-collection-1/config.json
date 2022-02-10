@@ -1,0 +1,11 @@
+{
+  "noOfItemsToSlide": "1",
+  "directionBannerCarousel": "left",
+  "imageCarouselBanner": {
+    "src": "/file/v2556331147612197845/general/serralheria.jpg",
+    "mediaName": "/general/serralheria.jpg"
+  },
+  "displayCollectionName": "true",
+  "itemsPerSlideDesktop": "6",
+  "categoryId": "1040"
+}

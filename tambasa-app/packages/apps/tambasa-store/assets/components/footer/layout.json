@@ -1,0 +1,14 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-footer-social",
+        "tmb-footer-menu",
+        "tmb-footer-payments",
+        "tmb-footer-copyright"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

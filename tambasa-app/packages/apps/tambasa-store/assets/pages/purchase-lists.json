@@ -1,0 +1,44 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-profile-purchase-list-details-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Detalhes da Lista de Compra"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "purchase-list-details",
+  "title": "Purchase List Details",
+  "shortName": "purchase",
+  "pageTypeDisplayName": {
+    "pt-BR": {
+      "pageTypeDisplayName": "listas-de-compra"
+    }
+  },
+  "secured": true
+}

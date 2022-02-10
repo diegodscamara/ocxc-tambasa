@@ -1,0 +1,44 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-breadcrumb",
+        "tmb-cart-container",
+        "tmb-product-recommendations-carousel",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Carrinho"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "cart",
+  "title": "Cart Page",
+  "shortName": "cart",
+  "pageTypeDisplayName": {
+    
+  }
+}

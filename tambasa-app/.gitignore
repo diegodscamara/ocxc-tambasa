@@ -4,8 +4,8 @@
 **/.stylelintcache
 **/build
 **/dist
-**/assets
-**/.occ
+# **/assets
+# **/.occ
 !**/__test__/**/dist
 **/node_modules
 **/test-results*

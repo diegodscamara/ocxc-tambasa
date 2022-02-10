@@ -1,0 +1,39 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-checkout-order-confirmation-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": true,
+  "address": "checkout-order-confirmation",
+  "title": "Checkout Order Confirmation",
+  "shortName": "checkout-order-confirmation",
+  "pageTypeDisplayName": {
+    
+  }
+}

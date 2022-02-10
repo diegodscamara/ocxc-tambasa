@@ -1,0 +1,25 @@
+{
+  "regions": [
+    {
+      "components": [
+        "product-image-viewer"
+      ],
+      "width": 7,
+      "type": "main"
+    },
+    {
+      "components": [
+        "product-name",
+        "product-price",
+        "product-quantity",
+        "product-variant-options",
+        "product-inventory-status",
+        "product-add-to-cart-button",
+        "product-social-sharing",
+        "product-long-description"
+      ],
+      "width": 5,
+      "type": "main"
+    }
+  ]
+}

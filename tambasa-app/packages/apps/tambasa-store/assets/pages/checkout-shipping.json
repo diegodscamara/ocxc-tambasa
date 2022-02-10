@@ -1,0 +1,40 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-checkout"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-checkout-progress-tracker",
+        "tmb-checkout-shipping-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": false,
+  "address": "checkout-shipping",
+  "allowCustomAddress": true,
+  "title": "Checkout Shipping",
+  "shortName": "checkout",
+  "pageTypeDisplayName": {
+    
+  }
+}

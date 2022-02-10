@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-header-logo"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

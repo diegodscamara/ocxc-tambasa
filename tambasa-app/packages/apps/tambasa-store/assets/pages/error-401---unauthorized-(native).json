@@ -1,0 +1,41 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re801417",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "login"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Error 401 - Unauthorized (Native)"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "401",
+  "title": "Error 401 - Unauthorized (Native)",
+  "shortName": "401",
+  "pageTypeDisplayName": {
+    "pt-BR": {
+      "pageTypeDisplayName": "401"
+    }
+  }
+}

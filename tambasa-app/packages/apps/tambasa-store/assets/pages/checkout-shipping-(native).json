@@ -1,0 +1,42 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re510026",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "checkout-progress-tracker",
+        "checkout-shipping-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Checkout Shipping (Native)"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "checkout-review-order-native",
+  "allowCustomAddress": true,
+  "title": "Checkout Shipping (Native)",
+  "shortName": "checkout",
+  "pageTypeDisplayName": {
+    
+  }
+}

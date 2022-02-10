@@ -1,0 +1,10 @@
+{
+  "mediaScreenTextPosition": "below",
+  "media": {
+    "src": "/file/v5051563359485935597/general/dummy-banner.jpg",
+    "mediaName": "/general/dummy-banner.jpg"
+  },
+  "mediaAlt": "ImageBanner1",
+  "mediaLinkBehavior": "_self",
+  "mediaLink": "/profile"
+}

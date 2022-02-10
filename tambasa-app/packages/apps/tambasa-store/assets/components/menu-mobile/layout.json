@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "user-profile-links-mobile",
+        "collection-navigation-mobile"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

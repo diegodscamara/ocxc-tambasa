@@ -1,0 +1,43 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-contact",
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-product-details-container",
+        "tmb-product-video-and-contact-container",
+        "tmb-product-recommendations-carousel",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": true,
+  "address": "product",
+  "title": "Product",
+  "shortName": "product",
+  "pageTypeDisplayName": {
+    
+  }
+}

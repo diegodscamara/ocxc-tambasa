@@ -1,0 +1,74 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re200633",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "image-banner-1"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "image-banner-2"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "image-spotlight-1"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "image-spotlight-2"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "image-spotlight-3"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Home Page - Clone"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "home",
+  "title": "Home Page - Clone",
+  "shortName": "home",
+  "pageTypeDisplayName": {
+    
+  }
+}

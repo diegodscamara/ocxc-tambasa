@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-continue-shopping-button",
+        "tmb-view-orders-button"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

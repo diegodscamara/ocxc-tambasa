@@ -1,0 +1,18 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-cart-item-details"
+      ],
+      "width": 8,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-cart-order-summary-container"
+      ],
+      "width": 4,
+      "type": "main"
+    }
+  ]
+}

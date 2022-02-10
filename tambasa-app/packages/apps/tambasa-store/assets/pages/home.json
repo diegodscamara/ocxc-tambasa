@@ -1,0 +1,67 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-contact",
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-home-main-carousel",
+        "tmb-home-banner-info",
+        "tmb-home-categories"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-home-collection-campo",
+        "tmb_home_collection_construcao",
+        "tmb-home-image-banner",
+        "tmb_home_collection_do_lar",
+        "tmb_home_collection_duas_quatro_rodas",
+        "tmb-home-image-banner",
+        "tmb_home_collection_eletro_eletronico",
+        "tmb_home_collection_pet_vet",
+        "tmb_home_collection_protecao_seguranca"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-cookie-control",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Home Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "home",
+  "title": "Home Page",
+  "shortName": "home",
+  "pageTypeDisplayName": {
+    
+  }
+}

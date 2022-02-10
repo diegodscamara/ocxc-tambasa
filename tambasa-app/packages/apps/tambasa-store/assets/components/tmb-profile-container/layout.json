@@ -1,0 +1,17 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-profile-order-history",
+        "tmb-profile-address-book-summary",
+        "tmb-profile-details-summary",
+        "tmb-email-marketing-preferences",
+        "tmb-profile-saved-cards",
+        "tmb-create-purchase-list",
+        "tmb-profile-purchase-lists"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

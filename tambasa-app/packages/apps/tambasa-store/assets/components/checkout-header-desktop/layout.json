@@ -1,0 +1,25 @@
+{
+  "regions": [
+    {
+      "components": [
+        
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "logo"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        
+      ],
+      "width": 4,
+      "type": "main"
+    }
+  ]
+}

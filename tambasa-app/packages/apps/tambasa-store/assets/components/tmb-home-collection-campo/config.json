@@ -1,0 +1,11 @@
+{
+  "noOfItemsToSlide": "1",
+  "directionBannerCarousel": "left",
+  "imageCarouselBanner": {
+    "src": "/file/v3303005398650247224/collections/campo_vertical.jpg",
+    "mediaName": "/collections/campo_vertical.jpg"
+  },
+  "displayCollectionName": "true",
+  "itemsPerSlideDesktop": "6",
+  "categoryId": "01000"
+}

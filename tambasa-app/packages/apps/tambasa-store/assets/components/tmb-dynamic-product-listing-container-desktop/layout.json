@@ -1,0 +1,34 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-search-terms-summary"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-faceted-navigation-desktop"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-results-and-filters-container-desktop",
+        "tmb-dynamic-product-list",
+        "tmb-show-more-products-navigation"
+      ],
+      "width": 9,
+      "type": "main"
+    },
+    {
+      "components": [
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

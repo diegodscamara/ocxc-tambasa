@@ -1,0 +1,40 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re506623",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "checkout-order-confirmation-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Checkout Order Confirmation (Native)"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "checkout-order-confirmation-native",
+  "title": "Checkout Order Confirmation (Native)",
+  "shortName": "checkout-order-confirmation",
+  "pageTypeDisplayName": {
+    
+  }
+}

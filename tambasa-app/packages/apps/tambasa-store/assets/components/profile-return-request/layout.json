@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "profile-create-return-request"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

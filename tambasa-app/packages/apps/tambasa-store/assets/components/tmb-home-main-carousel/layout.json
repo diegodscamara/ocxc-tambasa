@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-slide-1",
+        "tmb-slide-2"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-slide-3"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

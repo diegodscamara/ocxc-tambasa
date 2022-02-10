@@ -1,0 +1,18 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-product-listing-summary-information"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-sort-results"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-checkout-order-confirmation"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "tmb-checkout-order-confirmation-buttons-container"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-category-image",
+        "tmb-dynamic-product-listing-container-desktop",
+        "tmb-dynamic-product-listing-container-mobile"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": true,
+  "address": "category",
+  "title": "Collection Layout",
+  "shortName": "category",
+  "pageTypeDisplayName": {
+    
+  }
+}

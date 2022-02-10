@@ -1,0 +1,39 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "order-history-breadcrumb",
+        "profile-return-request",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": true,
+  "address": "create-return",
+  "title": "Return Request",
+  "shortName": "create-return",
+  "pageTypeDisplayName": {
+    
+  }
+}

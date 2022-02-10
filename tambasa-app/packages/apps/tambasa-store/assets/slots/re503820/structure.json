@@ -1,0 +1,21 @@
+{
+  "regions": [
+    {
+      "deviceType": "xs",
+      "components": [
+        "dynamic-product-listing-mobile"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "deviceType": "md",
+      "components": [
+        "category-content",
+        "dynamic-product-listing-desktop"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

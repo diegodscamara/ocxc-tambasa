@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-checkout-single-shipping-details",
+        "tmb-checkout-order-summary-container-first-step"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

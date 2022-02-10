@@ -1,0 +1,49 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "home-breadcrumb",
+        "profile-welcome",
+        "profile-recent-orders",
+        "profile",
+        "create-purchase-list",
+        "purchase-lists",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Profile (Native)"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "profile",
+  "allowCustomAddress": true,
+  "title": "Profile (Native)",
+  "shortName": "profile",
+  "pageTypeDisplayName": {
+    "pt-BR": {
+      "pageTypeDisplayName": "perfil"
+    }
+  },
+  "secured": true
+}

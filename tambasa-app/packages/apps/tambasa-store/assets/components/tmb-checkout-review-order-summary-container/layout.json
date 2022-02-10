@@ -1,0 +1,13 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-cart-order-summary",
+        "tmb-promotions-display",
+        "tmb-checkout-place-order-button"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

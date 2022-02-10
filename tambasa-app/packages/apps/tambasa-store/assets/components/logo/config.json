@@ -1,0 +1,10 @@
+{
+  "mediaScreenTextPosition": "below",
+  "media": {
+    "src": "/file/v1712842855043045460/general/logo-tambasa.png",
+    "mediaName": "/general/logo-tambasa.png"
+  },
+  "mediaAlt": "ImageLogo",
+  "mediaLinkBehavior": "_self",
+  "mediaLink": "/home"
+}

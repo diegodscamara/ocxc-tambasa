@@ -1,0 +1,41 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-navigation-breadcrumbs",
+        "tmb-login",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": true,
+  "address": "login",
+  "title": "Log in",
+  "shortName": "login",
+  "pageTypeDisplayName": {
+    
+  }
+}

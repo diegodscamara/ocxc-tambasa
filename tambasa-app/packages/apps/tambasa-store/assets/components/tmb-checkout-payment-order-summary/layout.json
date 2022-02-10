@@ -1,0 +1,15 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-cart-order-summary",
+        "tmb-promotions-display",
+        "tmb-checkout-payment-type-selector",
+        "tmb-checkout-continue-to-review-order-button",
+        "tmb-checkout-back-to-previous-button"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

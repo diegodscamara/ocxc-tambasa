@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "promotion-code-entry",
+        "promotions-display"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

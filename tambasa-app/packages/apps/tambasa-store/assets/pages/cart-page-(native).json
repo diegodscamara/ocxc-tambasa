@@ -1,0 +1,39 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re303527",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "home-breadcrumb",
+        "cart",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": false,
+  "address": "cart",
+  "title": "Cart Page (Native)",
+  "shortName": "cart",
+  "pageTypeDisplayName": {
+    
+  }
+}

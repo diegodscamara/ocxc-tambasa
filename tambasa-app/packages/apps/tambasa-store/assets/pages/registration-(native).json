@@ -1,0 +1,39 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re303539",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "home-breadcrumb",
+        "account-type-selector-responsive",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": false,
+  "address": "registration",
+  "title": "Registration (Native)",
+  "shortName": "registration",
+  "pageTypeDisplayName": {
+    
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "regions": [
+    {
+      "components": [
+        "product-result-image",
+        "tmb-product-result-sku",
+        "product-result-name",
+        "product-result-color-swatches",
+        "tmb-product-result-price",
+        "tmb-product-page-button"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

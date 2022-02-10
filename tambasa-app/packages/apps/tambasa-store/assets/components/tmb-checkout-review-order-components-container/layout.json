@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-shipping-information"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

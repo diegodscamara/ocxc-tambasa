@@ -1,0 +1,55 @@
+{
+  "regions": [
+    {
+      "components": [
+        "dynamic-breadcrumbs"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "search-terms-summary"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "product-listing-summary-information"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "sort-results"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "faceted-navigation-desktop"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "dynamic-product-list-quick-view",
+        "product-listing-summary-information",
+        "show-more-products-button"
+      ],
+      "width": 9,
+      "type": "main"
+    },
+    {
+      "components": [
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

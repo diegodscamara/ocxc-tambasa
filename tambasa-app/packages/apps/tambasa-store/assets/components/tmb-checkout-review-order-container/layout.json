@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-checkout-review-order-components-container",
+        "tmb-checkout-review-order-summary-container"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

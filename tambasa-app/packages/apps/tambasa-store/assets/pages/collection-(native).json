@@ -1,0 +1,39 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re503817",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "re503820",
+      "type": "main",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Collection (Native)"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "category",
+  "title": "Collection (Native)",
+  "shortName": "category",
+  "pageTypeDisplayName": {
+    
+  }
+}

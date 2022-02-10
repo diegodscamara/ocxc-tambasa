@@ -1,0 +1,43 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "your-account-breadcrumb",
+        "profile-add-credit-card",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": false,
+  "address": "profile-add-credit-card",
+  "allowCustomAddress": true,
+  "title": "Profile Add Credit Card",
+  "shortName": "profile",
+  "pageTypeDisplayName": {
+    "pt-BR": {
+      "pageTypeDisplayName": "perfil"
+    }
+  },
+  "secured": true
+}

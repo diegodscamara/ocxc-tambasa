@@ -1,0 +1,13 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-profile-purchase-list-summary-information",
+        "tmb-profile-purchase-list-information",
+        "tmb-profile-purchase-list-action-buttons"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

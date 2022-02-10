@@ -1,0 +1,6 @@
+{
+  "enableCreditCardType": false,
+  "enablePIXType": false,
+  "enableBilletType": true,
+  "enableInvoicedBillType": true
+}

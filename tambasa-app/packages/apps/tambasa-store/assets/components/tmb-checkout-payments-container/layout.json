@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-checkout-payment-methods-container",
+        "tmb-checkout-payment-order-summary"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-error-404"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      
+    }
+  },
+  "defaultPage": true,
+  "address": "404",
+  "title": "Error 404 - Not Found",
+  "shortName": "404",
+  "pageTypeDisplayName": {
+    "pt-BR": {
+      "pageTypeDisplayName": "404"
+    }
+  }
+}

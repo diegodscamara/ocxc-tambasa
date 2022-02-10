@@ -1,0 +1,43 @@
+{
+  "layout": [
+    {
+      "components": [
+        "tmb-header-container-desktop",
+        "tmb-header-container-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "tmb-login"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "pt-BR": {
+        "pageDisplayName": "Error 401 - Unauthorized"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "401",
+  "title": "Error 401 - Unauthorized",
+  "shortName": "401",
+  "pageTypeDisplayName": {
+    "pt-BR": {
+      "pageTypeDisplayName": "401"
+    }
+  }
+}

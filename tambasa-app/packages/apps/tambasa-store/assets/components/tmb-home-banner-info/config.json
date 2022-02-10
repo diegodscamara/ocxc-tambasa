@@ -1,0 +1,32 @@
+{
+  "firstTitleTop": "FRETE GRÁTIS",
+  "thirdImage": {
+    "src": "/file/v1516214544311695473/general/info.jpeg",
+    "mediaName": "/general/info.jpeg"
+  },
+  "fourthImage": {
+    "src": "/file/v6678984436735984037/general/codigo de barras.png",
+    "mediaName": "/general/codigo de barras.png"
+  },
+  "fifthImage": {
+    "src": "/file/v7818802810804791971/general/seguro.png",
+    "mediaName": "/general/seguro.png"
+  },
+  "secondTitleBottom": "Para todo o Brasil",
+  "secondTitleTop": "ENTREGAMOS",
+  "thirdTitleTop": "PEDIDO MÍNIMO",
+  "fifthTitleBottom": "Compras Seguras",
+  "thirdTitleBottom": "a partir de R$ 650,00",
+  "fourthTitleTop": "0,3% DE DESCONTO",
+  "firstImage": {
+    "src": "/file/v1434829370805616394/general/caminhao.png",
+    "mediaName": "/general/caminhao.png"
+  },
+  "firstTitleBottom": "Acima de R$ 650,00",
+  "fifthTitleTop": "100% SEGURO",
+  "secondImage": {
+    "src": "/file/v8437484103116696069/general/brasil.png",
+    "mediaName": "/general/brasil.png"
+  },
+  "fourthTitleBottom": "Boleto à vista ou PIX"
+}

@@ -1,0 +1,14 @@
+{
+  "layout": [
+    {
+      "components": [
+        "footer-links",
+        "web-content-copyright-and-social-links",
+        "progress-bar"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "FooterContainer",
+  "title": "Footer"
+}

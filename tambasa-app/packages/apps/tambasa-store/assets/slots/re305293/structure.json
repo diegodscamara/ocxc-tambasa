@@ -1,0 +1,24 @@
+{
+  "regions": [
+    {
+      "deviceType": "xs",
+      "components": [
+        "promotional-banner",
+        "header-mobile",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "deviceType": "md",
+      "components": [
+        "promotional-banner",
+        "header-desktop",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

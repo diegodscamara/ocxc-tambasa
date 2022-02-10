@@ -1,0 +1,16 @@
+{
+  "regions": [
+    {
+      "components": [
+        "tmb-header-logo",
+        "tmb-searchbox-desktop",
+        "tmb-header-whatsapp-contact",
+        "tmb-header-my-account",
+        "tmb-header-wishlist",
+        "tmb-header-mini-cart"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}
